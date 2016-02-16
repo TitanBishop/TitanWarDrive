@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="2012.GIT.R0" start-time="Sat Feb 13 12:56:05 2016">
+
+<card-source uuid="8272a67c-d283-11e5-8c56-dd04bc23e301">
+ <card-source>wlan1:</card-source>
+ <card-name>wlan1</card-name>
+ <card-interface>wlan1mon</card-interface>
+ <card-type>rt2800usb</card-type>
+ <card-packets>0</card-packets>
+ <card-hop>true</card-hop>
+ <card-channels>1,5,9,38,48,60,5755,161,2,6,10,40,52,5310,153,165,3,7,11,44,54,64,157,4,8,36,46,56,149,5795</card-channels>
+</card-source>
+</detection-run>

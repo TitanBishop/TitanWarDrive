@@ -1,0 +1,103 @@
+Version: 2012-GIT-R0
+
+Server: TITAN Kismet Server
+
+Log name: Kismet
+
+Start time: Sat Feb  6 14:13:30 2016
+End time: Sat Feb  6 14:17:04 2016
+
+Capture sources:
+ UUID: 1f21a43a-cd0e-11e5-8698-dd04bc23e301
+ Definition: wlan1:
+ Name: wlan1
+ Interface: wlan1mon
+ Type: rt2800usb
+ Packets: 1
+ Error packets: 0
+ Channels: 1,5,9,38,48,60,5755,161,2,6,10,40,52,5310,153,165,3,7,11,44,54,64,157,4,8,36,46,56,149,5795
+ Channel hopping: true
+
+Total devices: 1
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 1
+ Packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+
+Devices:
+ Device MAC: 48:F8:B3:C6:78:EF
+ Device phy: IEEE802.11
+ Device name: Wig&Pen Pizza
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 14:13:44 2016
+ Last seen: Sat Feb  6 14:13:44 2016
+
+ Seen by capture sources:
+  UUID: 1f21a43a-cd0e-11e5-8698-dd04bc23e301>
+  First seen: Sat Feb  6 14:13:44 2016
+  Last seen: Sat Feb  6 14:13:44 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+
+  GPS average latitude: 41.709492
+  GPS average longitude: -93.599785
+  GPS average altitude: 256.015900
+
+  GPS bounding minimum latitude: 41.709492
+  GPS bounding minimum longitude: -93.599785
+
+  GPS bounding maximum latitude: 41.709492
+  GPS bounding maximum longitude: -93.599785
+
+  GPS peak signal latitude: 41.709492
+  GPS peak signal longitude: -93.599785
+  GPS peak signal altitude: 256.015991
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -85
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Cisco-Li
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: Wig&Pen Pizza
+  First seen: Sat Feb  6 14:13:44 2016
+  Sat Feb  6 14:13:44 2016
+  SSID type: AP Probe Response
+  Encryption: WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+

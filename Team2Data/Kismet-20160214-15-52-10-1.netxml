@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="2012.GIT.R0" start-time="Sun Feb 14 15:52:10 2016">
+
+<card-source uuid="403cde5c-d365-11e5-9e8e-0f04751ce201">
+ <card-source>wlan0:</card-source>
+ <card-name>wlan0</card-name>
+ <card-interface>wlan0mon</card-interface>
+ <card-type>mac80211</card-type>
+ <card-packets>0</card-packets>
+ <card-hop>true</card-hop>
+ <card-channels>1,5,9,13,2,6,10,3,7,11,4,8,12</card-channels>
+</card-source>
+</detection-run>

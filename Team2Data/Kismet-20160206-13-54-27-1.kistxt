@@ -1,0 +1,4891 @@
+Version: 2012-GIT-R0
+
+Server: TITAN Kismet Server
+
+Log name: Kismet
+
+Start time: Sat Feb  6 13:54:27 2016
+End time: Sat Feb  6 13:59:52 2016
+
+Capture sources:
+ UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301
+ Definition: wlan1:
+ Name: wlan1
+ Interface: wlan1mon
+ Type: rt2800usb
+ Packets: 13125
+ Error packets: 76
+ Channels: 1,5,9,38,48,60,5755,161,2,6,10,40,52,5310,153,165,3,7,11,44,54,64,157,4,8,36,46,56,149,5795
+ Channel hopping: true
+
+Total devices: 65
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 65
+ Packets: 13049
+ Data packets: 2043
+ Filtered packets: 0
+ Error packets: 76
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+
+Devices:
+ Device MAC: 04:A1:51:D3:47:1E
+ Device phy: IEEE802.11
+ Device name: AnkenyDiem2
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:50 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Packets: 1100
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 3
+   Frequency (MHz): 2457
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 1094
+   Frequency (MHz): 5765
+   Packets: 2
+
+  GPS average latitude: 41.709571
+  GPS average longitude: -93.599722
+  GPS average altitude: 293.549800
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709942
+  GPS bounding maximum longitude: -93.599518
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 296.608002
+
+ Signal (in dBm)
+  Latest signal: -47
+  Minimum signal: -87
+  Maximum signal: -32
+
+ Total packets: 1100
+ Link-type packets: 192
+ Data packets: 908
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 594203
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: AnkenyDiem2
+  First seen: Sat Feb  6 13:54:42 2016
+  Sat Feb  6 13:59:50 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 499
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+ Clients: 
+  Client MAC: 44:00:10:E7:95:2C
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:58:32 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 2520
+  TX data (in bytes): 0
+
+  Client MAC: 48:D2:24:FF:91:F1
+  First seen: Sat Feb  6 13:54:49 2016
+  Last seen: Sat Feb  6 13:59:28 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: LiteonTe
+
+  TX data (in bytes): 306
+  TX data (in bytes): 13097
+
+  Client MAC: 80:E6:50:39:D3:91
+  First seen: Sat Feb  6 13:55:22 2016
+  Last seen: Sat Feb  6 13:57:35 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 160
+  TX data (in bytes): 0
+
+  Client MAC: C0:BD:D1:33:EC:37
+  First seen: Sat Feb  6 13:55:44 2016
+  Last seen: Sat Feb  6 13:58:44 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: SamsungE
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: F0:B4:79:13:24:C9
+  First seen: Sat Feb  6 13:55:11 2016
+  Last seen: Sat Feb  6 13:58:44 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 392
+  TX data (in bytes): 1042
+
+
+
+ Device MAC: 44:00:10:E7:95:2C
+ Device phy: IEEE802.11
+ Device name: 44:00:10:E7:95:2C
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:51 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:51 2016
+  Packets: 133
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 10
+   Frequency (MHz): 5745
+   Packets: 25
+   Frequency (MHz): 5765
+   Packets: 50
+   Frequency (MHz): 5785
+   Packets: 28
+   Frequency (MHz): 5805
+   Packets: 20
+
+  GPS average latitude: 41.709666
+  GPS average longitude: -93.599716
+  GPS average altitude: 272.032600
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709949
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709530
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 301.023010
+
+ Signal (in dBm)
+  Latest signal: -57
+  Minimum signal: -65
+  Maximum signal: -32
+
+ Total packets: 133
+ Link-type packets: 88
+ Data packets: 45
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 5442
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+
+ Device MAC: 20:76:00:83:63:75
+ Device phy: IEEE802.11
+ Device name: CenturyLink3880
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:39 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:39 2016
+  Packets: 37
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 37
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599735
+  GPS average altitude: 278.590000
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709942
+  GPS bounding maximum longitude: -93.599518
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 288.811005
+
+ Signal (in dBm)
+  Latest signal: -77
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 37
+ Link-type packets: 37
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: CenturyLink3880
+  First seen: Sat Feb  6 13:54:42 2016
+  Sat Feb  6 13:59:39 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 1
+
+
+ Device MAC: 40:8B:07:20:70:D5
+ Device phy: IEEE802.11
+ Device name: AnkenyDiem
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:50 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Packets: 460
+  Frequencies seen:
+   Frequency (MHz): 2457
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 459
+
+  GPS average latitude: 41.709577
+  GPS average longitude: -93.599760
+  GPS average altitude: 301.215300
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709942
+  GPS bounding maximum longitude: -93.599518
+
+  GPS peak signal latitude: 41.709686
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 276.950989
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -65
+  Maximum signal: -40
+
+ Total packets: 460
+ Link-type packets: 169
+ Data packets: 291
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 58250
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: AnkenyDiem
+  First seen: Sat Feb  6 13:54:42 2016
+  Sat Feb  6 13:59:50 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 34
+
+ Clients: 
+  Client MAC: 40:8B:07:20:70:D0
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Actionte
+
+  TX data (in bytes): 30389
+  TX data (in bytes): 0
+
+  Client MAC: B0:34:95:65:20:71
+  First seen: Sat Feb  6 13:54:49 2016
+  Last seen: Sat Feb  6 13:59:39 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 100
+
+  Client MAC: B8:76:3F:D2:A7:2D
+  First seen: Sat Feb  6 13:55:00 2016
+  Last seen: Sat Feb  6 13:57:01 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: HonHaiPr
+
+  TX data (in bytes): 212
+  TX data (in bytes): 21230
+
+  Client MAC: B8:E8:56:C7:B4:A2
+  First seen: Sat Feb  6 13:56:07 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Client type: Wireless
+  Observed TX encryption: TKIP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 60
+  TX data (in bytes): 2473
+
+  Client MAC: C8:85:50:71:32:B9
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:06 2016
+  Client type: Wireless
+  Observed TX encryption: TKIP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 56
+  TX data (in bytes): 3730
+
+
+
+ Device MAC: C8:85:50:71:32:B9
+ Device phy: IEEE802.11
+ Device name: C8:85:50:71:32:B9
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:06 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:06 2016
+  Packets: 82
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 82
+
+  GPS average latitude: 41.709598
+  GPS average longitude: -93.599804
+  GPS average altitude: 296.147000
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709667
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709522
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 301.768005
+
+ Signal (in dBm)
+  Latest signal: -63
+  Minimum signal: -63
+  Maximum signal: -51
+
+ Total packets: 82
+ Link-type packets: 37
+ Data packets: 45
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 3786
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 40:8B:07:20:70:D5
+
+
+ Device MAC: 40:8B:07:20:70:D0
+ Device phy: IEEE802.11
+ Device name: 40:8B:07:20:70:D0
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:42 2016
+ Last seen: Sat Feb  6 13:59:50 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:42 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Packets: 68
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 68
+
+  GPS average latitude: 41.709565
+  GPS average longitude: -93.599768
+  GPS average altitude: 302.966400
+
+  GPS bounding minimum latitude: 41.709381
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709686
+  GPS bounding maximum longitude: -93.599609
+
+  GPS peak signal latitude: 41.709526
+  GPS peak signal longitude: -93.599731
+  GPS peak signal altitude: 315.160004
+
+ Signal (in dBm)
+  Latest signal: -57
+  Minimum signal: -65
+  Maximum signal: -51
+
+ Total packets: 68
+ Link-type packets: 0
+ Data packets: 68
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 30389
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 40:8B:07:20:70:D5
+
+
+ Device MAC: 90:B6:86:B4:06:0B
+ Device phy: IEEE802.11
+ Device name: 90:B6:86:B4:06:0B
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:43 2016
+ Last seen: Sat Feb  6 13:54:43 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:43 2016
+  Last seen: Sat Feb  6 13:54:43 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2432
+   Packets: 1
+
+  GPS average latitude: 41.709595
+  GPS average longitude: -93.599747
+  GPS average altitude: 268.677000
+
+  GPS bounding minimum latitude: 41.709595
+  GPS bounding minimum longitude: -93.599747
+
+  GPS bounding maximum latitude: 41.709595
+  GPS bounding maximum longitude: -93.599747
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -87
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: MurataMa
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 4A:F8:B3:C6:78:E0
+
+
+ Device MAC: 4A:F8:B3:C6:78:E0
+ Device phy: IEEE802.11
+ Device name: Wig&Pen Pizza-guest
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:43 2016
+ Last seen: Sat Feb  6 13:59:33 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:43 2016
+  Last seen: Sat Feb  6 13:59:33 2016
+  Packets: 57
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 54
+   Frequency (MHz): 2417
+   Packets: 1
+   Frequency (MHz): 2432
+   Packets: 2
+
+  GPS average latitude: 41.709578
+  GPS average longitude: -93.599718
+  GPS average altitude: 297.134700
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599831
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709476
+  GPS peak signal longitude: -93.599724
+  GPS peak signal altitude: 318.299011
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 57
+ Link-type packets: 55
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: Wig&Pen Pizza-guest
+  First seen: Sat Feb  6 13:54:54 2016
+  Sat Feb  6 13:59:33 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 4
+
+ Clients: 
+  Client MAC: 90:B6:86:B4:06:0B
+  First seen: Sat Feb  6 13:54:43 2016
+  Last seen: Sat Feb  6 13:54:43 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: MurataMa
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+
+
+ Device MAC: 04:A1:51:D3:47:1D
+ Device phy: IEEE802.11
+ Device name: AnkenyDiem2
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:49 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Packets: 1338
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 358
+   Frequency (MHz): 5765
+   Packets: 479
+   Frequency (MHz): 5785
+   Packets: 254
+   Frequency (MHz): 5805
+   Packets: 247
+
+  GPS average latitude: 41.709603
+  GPS average longitude: -93.599695
+  GPS average altitude: 290.399200
+
+  GPS bounding minimum latitude: 41.709362
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709949
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -40
+  Minimum signal: -57
+  Maximum signal: -32
+
+ Total packets: 1338
+ Link-type packets: 1237
+ Data packets: 101
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 3832
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: AnkenyDiem2
+  First seen: Sat Feb  6 13:54:48 2016
+  Sat Feb  6 13:59:49 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 0
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 23
+
+ Clients: 
+  Client MAC: 04:A1:51:D3:47:1E
+  First seen: Sat Feb  6 13:55:21 2016
+  Last seen: Sat Feb  6 13:59:04 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Netgear
+
+  TX data (in bytes): 450
+  TX data (in bytes): 0
+
+  Client MAC: 24:E3:14:9C:AE:AD
+  First seen: Sat Feb  6 13:56:05 2016
+  Last seen: Sat Feb  6 13:58:53 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 44:00:10:E7:95:2C
+  First seen: Sat Feb  6 13:54:59 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 2922
+  TX data (in bytes): 0
+
+  Client MAC: 48:D2:24:FF:91:F1
+  First seen: Sat Feb  6 13:58:30 2016
+  Last seen: Sat Feb  6 13:59:15 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: LiteonTe
+
+  TX data (in bytes): 300
+  TX data (in bytes): 0
+
+  Client MAC: 80:E6:50:39:1E:A5
+  First seen: Sat Feb  6 13:54:48 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 80:E6:50:39:D3:91
+  First seen: Sat Feb  6 13:54:59 2016
+  Last seen: Sat Feb  6 13:57:11 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 160
+  TX data (in bytes): 0
+
+  Client MAC: 90:48:9A:06:13:2F
+  First seen: Sat Feb  6 13:54:48 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: HonHaiPr
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: A4:B8:05:C1:3B:43
+  First seen: Sat Feb  6 13:58:07 2016
+  Last seen: Sat Feb  6 13:59:38 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+
+
+ Device MAC: F4:31:C3:86:71:A0
+ Device phy: IEEE802.11
+ Device name: F4:31:C3:86:71:A0
+ Basic device type:
+  Generic device (No special characteristics detected)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:32 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:32 2016
+  Packets: 760
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 197
+   Frequency (MHz): 5765
+   Packets: 164
+   Frequency (MHz): 5785
+   Packets: 224
+   Frequency (MHz): 5805
+   Packets: 175
+
+  GPS average latitude: 41.709600
+  GPS average longitude: -93.599679
+  GPS average altitude: 291.340100
+
+  GPS bounding minimum latitude: 41.709362
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709949
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709900
+  GPS peak signal longitude: -93.599541
+  GPS peak signal altitude: 187.255997
+
+ Signal (in dBm)
+  Latest signal: -47
+  Minimum signal: -57
+  Maximum signal: -45
+
+ Total packets: 760
+ Link-type packets: 760
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+
+ Device MAC: 78:E8:B6:7D:10:24
+ Device phy: IEEE802.11
+ Device name: USCC-EuFi891-1024
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 279
+  Frequencies seen:
+   Frequency (MHz): 2417
+   Packets: 279
+
+  GPS average latitude: 41.709622
+  GPS average longitude: -93.599734
+  GPS average altitude: 291.277700
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709908
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -79
+  Maximum signal: -49
+
+ Total packets: 279
+ Link-type packets: 78
+ Data packets: 201
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 101775
+
+ Manufacturer: Zte
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: USCC-EuFi891-1024
+  First seen: Sat Feb  6 13:54:45 2016
+  Sat Feb  6 13:59:36 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 2
+  Encryption: WPS WPA WPA-PSK AES-CCMP  802.11d ranges
+   Range: 1 - 1
+   Power limit: 23
+
+   Range: 2 - 2
+   Power limit: 23
+
+   Range: 3 - 3
+   Power limit: 23
+
+   Range: 4 - 4
+   Power limit: 23
+
+   Range: 5 - 5
+   Power limit: 23
+
+   Range: 6 - 6
+   Power limit: 23
+
+   Range: 7 - 7
+   Power limit: 23
+
+   Range: 8 - 8
+   Power limit: 23
+
+   Range: 9 - 9
+   Power limit: 23
+
+   Range: 10 - 10
+   Power limit: 22
+
+   Range: 11 - 11
+   Power limit: 22
+
+  802.11d country: US
+
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 15
+
+ Clients: 
+  Client MAC: 60:57:18:20:C7:7C
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: IntelCor
+
+  TX data (in bytes): 0
+  TX data (in bytes): 21843
+
+
+
+ Device MAC: 60:57:18:20:C7:7C
+ Device phy: IEEE802.11
+ Device name: 60:57:18:20:C7:7C
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 113
+  Frequencies seen:
+   Frequency (MHz): 2417
+   Packets: 113
+
+  GPS average latitude: 41.709618
+  GPS average longitude: -93.599742
+  GPS average altitude: 294.274900
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709908
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709557
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 314.208008
+
+ Signal (in dBm)
+  Latest signal: -53
+  Minimum signal: -57
+  Maximum signal: -49
+
+ Total packets: 113
+ Link-type packets: 0
+ Data packets: 113
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 21843
+
+ Manufacturer: IntelCor
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 78:E8:B6:7D:10:24
+
+
+ Device MAC: 2C:59:E5:CB:CF:37
+ Device phy: IEEE802.11
+ Device name: HP-Print-37-Deskjet 3510 series
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:13 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:13 2016
+  Packets: 10
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 10
+
+  GPS average latitude: 41.709689
+  GPS average longitude: -93.599689
+  GPS average altitude: 257.438100
+
+  GPS bounding minimum latitude: 41.709511
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709915
+  GPS bounding maximum longitude: -93.599503
+
+  GPS peak signal latitude: 41.709557
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 314.208008
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 10
+ Link-type packets: 10
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: HP-Print-37-Deskjet 3510 series
+  First seen: Sat Feb  6 13:54:45 2016
+  Sat Feb  6 13:59:13 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 00:00:00:00:00:00
+ Device phy: IEEE802.11
+ Device name: <Hidden SSID>
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 468
+  Frequencies seen:
+   Frequency (MHz): 2422
+   Packets: 1
+   Frequency (MHz): 2432
+   Packets: 8
+   Frequency (MHz): 2437
+   Packets: 453
+   Frequency (MHz): 2442
+   Packets: 5
+   Frequency (MHz): 2452
+   Packets: 1
+
+  GPS average latitude: 41.709615
+  GPS average longitude: -93.599732
+  GPS average altitude: 289.948200
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709949
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709682
+  GPS peak signal longitude: -93.599693
+  GPS peak signal altitude: 284.936005
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -85
+  Maximum signal: -53
+
+ Total packets: 468
+ Link-type packets: 468
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:54:45 2016
+  Sat Feb  6 13:59:47 2016
+  SSID type: Access Point
+  SSID cloaked
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WEP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 00:24:7B:21:71:08
+ Device phy: IEEE802.11
+ Device name: DrMoss
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 91
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 91
+
+  GPS average latitude: 41.709626
+  GPS average longitude: -93.599734
+  GPS average altitude: 287.022000
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709915
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709599
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 299.738007
+
+ Signal (in dBm)
+  Latest signal: -57
+  Minimum signal: -67
+  Maximum signal: -53
+
+ Total packets: 91
+ Link-type packets: 84
+ Data packets: 7
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 556
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: DrMoss
+  First seen: Sat Feb  6 13:54:45 2016
+  Sat Feb  6 13:59:47 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 1
+
+ Clients: 
+  Client MAC: 00:24:7B:21:71:06
+  First seen: Sat Feb  6 13:59:03 2016
+  Last seen: Sat Feb  6 13:59:03 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Actionte
+
+  TX data (in bytes): 76
+  TX data (in bytes): 0
+
+  Client MAC: 5C:B9:01:6C:A5:02
+  First seen: Sat Feb  6 13:59:03 2016
+  Last seen: Sat Feb  6 13:59:03 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: HewlettP
+
+  TX data (in bytes): 0
+  TX data (in bytes): 150
+
+
+
+ Device MAC: AC:BC:32:B8:38:BF
+ Device phy: IEEE802.11
+ Device name: AC:BC:32:B8:38:BF
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:36 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:36 2016
+  Packets: 140
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 139
+   Frequency (MHz): 2457
+   Packets: 1
+
+  GPS average latitude: 41.709645
+  GPS average longitude: -93.599711
+  GPS average altitude: 276.278800
+
+  GPS bounding minimum latitude: 41.709499
+  GPS bounding minimum longitude: -93.599869
+
+  GPS bounding maximum latitude: 41.709713
+  GPS bounding maximum longitude: -93.599625
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -49
+  Minimum signal: -49
+  Maximum signal: -26
+
+ Total packets: 140
+ Link-type packets: 52
+ Data packets: 88
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 10023
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: D0:57:85:A7:77:8A
+ Device phy: IEEE802.11
+ Device name: Verizon-291LVW-778A
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:45 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 679
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 678
+   Frequency (MHz): 2457
+   Packets: 1
+
+  GPS average latitude: 41.709721
+  GPS average longitude: -93.599659
+  GPS average altitude: 255.447800
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709915
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -42
+  Minimum signal: -61
+  Maximum signal: -26
+
+ Total packets: 679
+ Link-type packets: 149
+ Data packets: 530
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 192019
+
+ Manufacturer: Pantech
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: Verizon-291LVW-778A
+  First seen: Sat Feb  6 13:54:46 2016
+  Sat Feb  6 13:59:47 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 117
+
+ Clients: 
+  Client MAC: 60:03:08:9E:FF:9C
+  First seen: Sat Feb  6 13:57:53 2016
+  Last seen: Sat Feb  6 13:57:53 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 74:DE:2B:F4:3B:ED
+  First seen: Sat Feb  6 13:58:40 2016
+  Last seen: Sat Feb  6 13:58:40 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: LiteonTe
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 74:E5:0B:1F:3E:2C
+  First seen: Sat Feb  6 13:55:19 2016
+  Last seen: Sat Feb  6 13:57:09 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: IntelCor
+
+  TX data (in bytes): 0
+  TX data (in bytes): 730
+
+  Client MAC: A8:66:7F:11:6A:E8
+  First seen: Sat Feb  6 13:55:08 2016
+  Last seen: Sat Feb  6 13:55:30 2016
+  Client type: Wireless
+  Observed TX encryption: TKIP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 336
+  TX data (in bytes): 16544
+
+  Client MAC: AC:BC:32:B8:38:BF
+  First seen: Sat Feb  6 13:54:45 2016
+  Last seen: Sat Feb  6 13:59:36 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 0
+  TX data (in bytes): 10023
+
+  Client MAC: D4:F4:6F:9F:01:90
+  First seen: Sat Feb  6 13:55:19 2016
+  Last seen: Sat Feb  6 13:56:04 2016
+  Client type: Wireless
+  Observed TX encryption: TKIP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 2033
+  TX data (in bytes): 16184
+
+
+
+ Device MAC: 00:24:7B:A5:07:F2
+ Device phy: IEEE802.11
+ Device name: TextbookOutlet
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:46 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:46 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 73
+  Frequencies seen:
+   Frequency (MHz): 2432
+   Packets: 1
+   Frequency (MHz): 2437
+   Packets: 72
+
+  GPS average latitude: 41.709621
+  GPS average longitude: -93.599732
+  GPS average altitude: 288.862700
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709915
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709496
+  GPS peak signal longitude: -93.599739
+  GPS peak signal altitude: 320.342010
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -85
+  Maximum signal: -67
+
+ Total packets: 73
+ Link-type packets: 73
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: TextbookOutlet
+  First seen: Sat Feb  6 13:54:46 2016
+  Sat Feb  6 13:59:47 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: AC:7F:3E:0E:46:2E
+ Device phy: IEEE802.11
+ Device name: AC:7F:3E:0E:46:2E
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:46 2016
+ Last seen: Sat Feb  6 13:55:28 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:46 2016
+  Last seen: Sat Feb  6 13:55:28 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2452
+   Packets: 2
+   Frequency (MHz): 2457
+   Packets: 1
+
+  GPS average latitude: 41.709640
+  GPS average longitude: -93.599681
+  GPS average altitude: 277.120300
+
+  GPS bounding minimum latitude: 41.709595
+  GPS bounding minimum longitude: -93.599747
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -53
+  Minimum signal: -53
+  Maximum signal: -51
+
+ Total packets: 3
+ Link-type packets: 3
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:54:46 2016
+  Sat Feb  6 13:55:28 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 90:48:9A:06:13:2F
+ Device phy: IEEE802.11
+ Device name: 90:48:9A:06:13:2F
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:48 2016
+ Last seen: Sat Feb  6 13:59:49 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:48 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Packets: 30
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 6
+   Frequency (MHz): 5765
+   Packets: 24
+
+  GPS average latitude: 41.709655
+  GPS average longitude: -93.599775
+  GPS average altitude: 285.416900
+
+  GPS bounding minimum latitude: 41.709595
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -38
+  Minimum signal: -40
+  Maximum signal: -32
+
+ Total packets: 30
+ Link-type packets: 19
+ Data packets: 11
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HonHaiPr
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+
+ Device MAC: 80:E6:50:39:1E:A5
+ Device phy: IEEE802.11
+ Device name: 80:E6:50:39:1E:A5
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:48 2016
+ Last seen: Sat Feb  6 13:59:49 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:48 2016
+  Last seen: Sat Feb  6 13:59:49 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 1
+   Frequency (MHz): 5765
+   Packets: 3
+
+  GPS average latitude: 41.709609
+  GPS average longitude: -93.599787
+  GPS average altitude: 278.665500
+
+  GPS bounding minimum latitude: 41.709595
+  GPS bounding minimum longitude: -93.599831
+
+  GPS bounding maximum latitude: 41.709637
+  GPS bounding maximum longitude: -93.599747
+
+  GPS peak signal latitude: 41.709595
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 268.677002
+
+ Signal (in dBm)
+  Latest signal: -42
+  Minimum signal: -49
+  Maximum signal: -42
+
+ Total packets: 4
+ Link-type packets: 1
+ Data packets: 3
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+
+ Device MAC: B0:34:95:65:20:71
+ Device phy: IEEE802.11
+ Device name: B0:34:95:65:20:71
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:49 2016
+ Last seen: Sat Feb  6 13:59:39 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:49 2016
+  Last seen: Sat Feb  6 13:59:39 2016
+  Packets: 7
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 7
+
+  GPS average latitude: 41.709598
+  GPS average longitude: -93.599742
+  GPS average altitude: 281.809200
+
+  GPS bounding minimum latitude: 41.709503
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709671
+  GPS bounding maximum longitude: -93.599609
+
+  GPS peak signal latitude: 41.709503
+  GPS peak signal longitude: -93.599609
+  GPS peak signal altitude: 268.053986
+
+ Signal (in dBm)
+  Latest signal: -57
+  Minimum signal: -59
+  Maximum signal: -49
+
+ Total packets: 7
+ Link-type packets: 0
+ Data packets: 7
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 100
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 40:8B:07:20:70:D5
+
+
+ Device MAC: 48:D2:24:FF:91:F1
+ Device phy: IEEE802.11
+ Device name: 48:D2:24:FF:91:F1
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:49 2016
+ Last seen: Sat Feb  6 13:59:28 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:49 2016
+  Last seen: Sat Feb  6 13:59:28 2016
+  Packets: 211
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 207
+   Frequency (MHz): 5765
+   Packets: 3
+
+  GPS average latitude: 41.709588
+  GPS average longitude: -93.599725
+  GPS average altitude: 300.660900
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709686
+  GPS bounding maximum longitude: -93.599609
+
+  GPS peak signal latitude: 41.709675
+  GPS peak signal longitude: -93.599777
+  GPS peak signal altitude: 287.419006
+
+ Signal (in dBm)
+  Latest signal: -55
+  Minimum signal: -67
+  Maximum signal: -32
+
+ Total packets: 211
+ Link-type packets: 69
+ Data packets: 142
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 13703
+
+ Manufacturer: LiteonTe
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1E
+
+
+ Device MAC: 40:55:39:E8:EE:10
+ Device phy: IEEE802.11
+ Device name: Iowa CPAP
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:51 2016
+ Last seen: Sat Feb  6 13:59:41 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:51 2016
+  Last seen: Sat Feb  6 13:59:41 2016
+  Packets: 89
+  Frequencies seen:
+   Frequency (MHz): 2427
+   Packets: 88
+   Frequency (MHz): 2432
+   Packets: 1
+
+  GPS average latitude: 41.709608
+  GPS average longitude: -93.599734
+  GPS average altitude: 293.235800
+
+  GPS bounding minimum latitude: 41.709427
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709915
+  GPS bounding maximum longitude: -93.599533
+
+  GPS peak signal latitude: 41.709648
+  GPS peak signal longitude: -93.599831
+  GPS peak signal altitude: 289.222992
+
+ Signal (in dBm)
+  Latest signal: -55
+  Minimum signal: -73
+  Maximum signal: -53
+
+ Total packets: 89
+ Link-type packets: 89
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Cisco
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: Iowa CPAP
+  First seen: Sat Feb  6 13:54:51 2016
+  Sat Feb  6 13:59:41 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 4
+  Encryption: WPA WPA-PSK TKIP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 11
+
+
+ Device MAC: A4:B8:05:C1:3B:43
+ Device phy: IEEE802.11
+ Device name: A4:B8:05:C1:3B:43
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:53 2016
+ Last seen: Sat Feb  6 13:59:38 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:53 2016
+  Last seen: Sat Feb  6 13:59:38 2016
+  Packets: 21
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 3
+   Frequency (MHz): 5765
+   Packets: 4
+   Frequency (MHz): 5785
+   Packets: 2
+   Frequency (MHz): 5805
+   Packets: 12
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599696
+  GPS average altitude: 290.345500
+
+  GPS bounding minimum latitude: 41.709427
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709766
+  GPS bounding maximum longitude: -93.599571
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599846
+  GPS peak signal altitude: 288.764008
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -61
+  Maximum signal: -49
+
+ Total packets: 21
+ Link-type packets: 17
+ Data packets: 4
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+
+ Device MAC: 48:F8:B3:C6:78:EF
+ Device phy: IEEE802.11
+ Device name: Wig&Pen Pizza
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:54 2016
+ Last seen: Sat Feb  6 13:59:47 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:54 2016
+  Last seen: Sat Feb  6 13:59:47 2016
+  Packets: 68
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 64
+   Frequency (MHz): 2417
+   Packets: 4
+
+  GPS average latitude: 41.709595
+  GPS average longitude: -93.599738
+  GPS average altitude: 295.667700
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709511
+  GPS peak signal longitude: -93.599701
+  GPS peak signal altitude: 315.145996
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -87
+  Maximum signal: -79
+
+ Total packets: 68
+ Link-type packets: 68
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Cisco-Li
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: Wig&Pen Pizza
+  First seen: Sat Feb  6 13:54:54 2016
+  Sat Feb  6 13:59:47 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 4
+
+
+ Device MAC: 10:5F:06:96:F5:05
+ Device phy: IEEE802.11
+ Device name: CenturyLink3199
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:54 2016
+ Last seen: Sat Feb  6 13:59:44 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:54 2016
+  Last seen: Sat Feb  6 13:59:44 2016
+  Packets: 73
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 73
+
+  GPS average latitude: 41.709609
+  GPS average longitude: -93.599731
+  GPS average altitude: 292.541000
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709454
+  GPS peak signal longitude: -93.599770
+  GPS peak signal altitude: 340.593994
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 73
+ Link-type packets: 68
+ Data packets: 5
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 962
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: CenturyLink3199
+  First seen: Sat Feb  6 13:54:54 2016
+  Sat Feb  6 13:59:44 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 6
+
+ Clients: 
+  Client MAC: 00:60:EF:18:A8:DD
+  First seen: Sat Feb  6 13:55:16 2016
+  Last seen: Sat Feb  6 13:58:02 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: FlytechT
+
+  TX data (in bytes): 740
+  TX data (in bytes): 0
+
+  Client MAC: F8:BC:12:9A:16:61
+  First seen: Sat Feb  6 13:57:39 2016
+  Last seen: Sat Feb  6 13:57:39 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Dell
+
+  TX data (in bytes): 222
+  TX data (in bytes): 0
+
+
+
+ Device MAC: B0:10:41:64:28:91
+ Device phy: IEEE802.11
+ Device name: B0:10:41:64:28:91
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:54:57 2016
+ Last seen: Sat Feb  6 13:54:57 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:57 2016
+  Last seen: Sat Feb  6 13:54:57 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2417
+   Packets: 1
+
+  GPS average latitude: 41.709907
+  GPS average longitude: -93.599495
+  GPS average altitude: 196.940900
+
+  GPS bounding minimum latitude: 41.709908
+  GPS bounding minimum longitude: -93.599495
+
+  GPS bounding maximum latitude: 41.709908
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709908
+  GPS peak signal longitude: -93.599495
+  GPS peak signal altitude: 196.940994
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -79
+  Maximum signal: -79
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HonHaiPr
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:54:57 2016
+  Sat Feb  6 13:54:57 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 80:E6:50:39:D3:91
+ Device phy: IEEE802.11
+ Device name: 80:E6:50:39:D3:91
+ Device type: Wired
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:54:59 2016
+ Last seen: Sat Feb  6 13:59:05 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:54:59 2016
+  Last seen: Sat Feb  6 13:59:05 2016
+  Packets: 24
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 2
+   Frequency (MHz): 5745
+   Packets: 11
+   Frequency (MHz): 5765
+   Packets: 11
+
+  GPS average latitude: 41.709548
+  GPS average longitude: -93.599741
+  GPS average altitude: 310.531400
+
+  GPS bounding minimum latitude: 41.709362
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709949
+  GPS bounding maximum longitude: -93.599495
+
+  GPS peak signal latitude: 41.709949
+  GPS peak signal longitude: -93.599495
+  GPS peak signal altitude: 167.623001
+
+ Signal (in dBm)
+  Latest signal: -44
+  Minimum signal: -47
+  Maximum signal: -36
+
+ Total packets: 24
+ Link-type packets: 15
+ Data packets: 9
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 320
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1E
+
+
+ Device MAC: B8:76:3F:D2:A7:2D
+ Device phy: IEEE802.11
+ Device name: B8:76:3F:D2:A7:2D
+ Device type: Wired
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:00 2016
+ Last seen: Sat Feb  6 13:57:01 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:00 2016
+  Last seen: Sat Feb  6 13:57:01 2016
+  Packets: 53
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 53
+
+  GPS average latitude: 41.709533
+  GPS average longitude: -93.599730
+  GPS average altitude: 314.964500
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599792
+
+  GPS bounding maximum latitude: 41.709942
+  GPS bounding maximum longitude: -93.599518
+
+  GPS peak signal latitude: 41.709686
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 276.950989
+
+ Signal (in dBm)
+  Latest signal: -59
+  Minimum signal: -59
+  Maximum signal: -40
+
+ Total packets: 53
+ Link-type packets: 0
+ Data packets: 53
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 21442
+
+ Manufacturer: HonHaiPr
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 40:8B:07:20:70:D5
+
+
+ Device MAC: C4:34:6B:13:1D:FA
+ Device phy: IEEE802.11
+ Device name: HP-Print-FA-Officejet Pro 8630
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:05 2016
+ Last seen: Sat Feb  6 13:59:35 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:05 2016
+  Last seen: Sat Feb  6 13:59:35 2016
+  Packets: 31
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 30
+   Frequency (MHz): 2417
+   Packets: 1
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599752
+  GPS average altitude: 289.347300
+
+  GPS bounding minimum latitude: 41.709499
+  GPS bounding minimum longitude: -93.599861
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709507
+  GPS peak signal longitude: -93.599739
+  GPS peak signal altitude: 320.261993
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -89
+  Maximum signal: -79
+
+ Total packets: 31
+ Link-type packets: 31
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: HP-Print-FA-Officejet Pro 8630
+  First seen: Sat Feb  6 13:55:05 2016
+  Sat Feb  6 13:59:35 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 3
+
+
+ Device MAC: A8:66:7F:11:6A:E8
+ Device phy: IEEE802.11
+ Device name: A8:66:7F:11:6A:E8
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:08 2016
+ Last seen: Sat Feb  6 13:55:30 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:08 2016
+  Last seen: Sat Feb  6 13:55:30 2016
+  Packets: 166
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 166
+
+  GPS average latitude: 41.709894
+  GPS average longitude: -93.599543
+  GPS average altitude: 189.439300
+
+  GPS bounding minimum latitude: 41.709663
+  GPS bounding minimum longitude: -93.599648
+
+  GPS bounding maximum latitude: 41.709900
+  GPS bounding maximum longitude: -93.599541
+
+  GPS peak signal latitude: 41.709900
+  GPS peak signal longitude: -93.599541
+  GPS peak signal altitude: 187.255997
+
+ Signal (in dBm)
+  Latest signal: -44
+  Minimum signal: -46
+  Maximum signal: -26
+
+ Total packets: 166
+ Link-type packets: 71
+ Data packets: 95
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 16880
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: 00:C0:CA:58:13:F9
+ Device phy: IEEE802.11
+ Device name: 00:C0:CA:58:13:F9
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:11 2016
+ Last seen: Sat Feb  6 13:58:20 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:11 2016
+  Last seen: Sat Feb  6 13:58:20 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2422
+   Packets: 1
+   Frequency (MHz): 2442
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 1
+
+  GPS average latitude: 41.709721
+  GPS average longitude: -93.599701
+  GPS average altitude: 266.747300
+
+  GPS bounding minimum latitude: 41.709694
+  GPS bounding minimum longitude: -93.599770
+
+  GPS bounding maximum latitude: 41.709774
+  GPS bounding maximum longitude: -93.599564
+
+  GPS peak signal latitude: 41.709694
+  GPS peak signal longitude: -93.599770
+  GPS peak signal altitude: 286.548004
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -53
+  Maximum signal: -51
+
+ Total packets: 3
+ Link-type packets: 3
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Alfa
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:55:11 2016
+  Sat Feb  6 13:58:20 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: F0:B4:79:13:24:C9
+ Device phy: IEEE802.11
+ Device name: F0:B4:79:13:24:C9
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:11 2016
+ Last seen: Sat Feb  6 13:58:44 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:11 2016
+  Last seen: Sat Feb  6 13:58:44 2016
+  Packets: 92
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 92
+
+  GPS average latitude: 41.709547
+  GPS average longitude: -93.599714
+  GPS average altitude: 306.237100
+
+  GPS bounding minimum latitude: 41.709469
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709774
+  GPS bounding maximum longitude: -93.599564
+
+  GPS peak signal latitude: 41.709526
+  GPS peak signal longitude: -93.599731
+  GPS peak signal altitude: 315.160004
+
+ Signal (in dBm)
+  Latest signal: -49
+  Minimum signal: -55
+  Maximum signal: -46
+
+ Total packets: 92
+ Link-type packets: 68
+ Data packets: 24
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 1434
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1E
+
+
+ Device MAC: 00:60:EF:18:A8:DD
+ Device phy: IEEE802.11
+ Device name: 00:60:EF:18:A8:DD
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:16 2016
+ Last seen: Sat Feb  6 13:58:02 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:16 2016
+  Last seen: Sat Feb  6 13:58:02 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 4
+
+  GPS average latitude: 41.709640
+  GPS average longitude: -93.599663
+  GPS average altitude: 285.275900
+
+  GPS bounding minimum latitude: 41.709507
+  GPS bounding minimum longitude: -93.599709
+
+  GPS bounding maximum latitude: 41.709751
+  GPS bounding maximum longitude: -93.599594
+
+  GPS peak signal latitude: 41.709641
+  GPS peak signal longitude: -93.599709
+  GPS peak signal altitude: 293.066010
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -83
+  Maximum signal: -81
+
+ Total packets: 4
+ Link-type packets: 0
+ Data packets: 4
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 740
+
+ Manufacturer: FlytechT
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 10:5F:06:96:F5:05
+
+
+ Device MAC: D4:F4:6F:9F:01:90
+ Device phy: IEEE802.11
+ Device name: D4:F4:6F:9F:01:90
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:19 2016
+ Last seen: Sat Feb  6 13:56:04 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:19 2016
+  Last seen: Sat Feb  6 13:56:04 2016
+  Packets: 167
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 167
+
+  GPS average latitude: 41.709680
+  GPS average longitude: -93.599640
+  GPS average altitude: 276.598300
+
+  GPS bounding minimum latitude: 41.709663
+  GPS bounding minimum longitude: -93.599648
+
+  GPS bounding maximum latitude: 41.709713
+  GPS bounding maximum longitude: -93.599625
+
+  GPS peak signal latitude: 41.709713
+  GPS peak signal longitude: -93.599625
+  GPS peak signal altitude: 267.444000
+
+ Signal (in dBm)
+  Latest signal: -40
+  Minimum signal: -48
+  Maximum signal: -36
+
+ Total packets: 167
+ Link-type packets: 59
+ Data packets: 108
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 18217
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: 74:E5:0B:1F:3E:2C
+ Device phy: IEEE802.11
+ Device name: 74:E5:0B:1F:3E:2C
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:55:19 2016
+ Last seen: Sat Feb  6 13:57:09 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:19 2016
+  Last seen: Sat Feb  6 13:57:09 2016
+  Packets: 8
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 8
+
+  GPS average latitude: 41.709686
+  GPS average longitude: -93.599636
+  GPS average altitude: 273.422500
+
+  GPS bounding minimum latitude: 41.709499
+  GPS bounding minimum longitude: -93.599716
+
+  GPS bounding maximum latitude: 41.709713
+  GPS bounding maximum longitude: -93.599625
+
+  GPS peak signal latitude: 41.709499
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 315.272003
+
+ Signal (in dBm)
+  Latest signal: -38
+  Minimum signal: -42
+  Maximum signal: -38
+
+ Total packets: 8
+ Link-type packets: 0
+ Data packets: 8
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 730
+
+ Manufacturer: IntelCor
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: DA:7C:49:8A:2D:73
+ Device phy: IEEE802.11
+ Device name: DA:7C:49:8A:2D:73
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:24 2016
+ Last seen: Sat Feb  6 13:55:24 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:24 2016
+  Last seen: Sat Feb  6 13:55:24 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2427
+   Packets: 2
+
+  GPS average latitude: 41.709663
+  GPS average longitude: -93.599648
+  GPS average altitude: 281.342000
+
+  GPS bounding minimum latitude: 41.709663
+  GPS bounding minimum longitude: -93.599648
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709663
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 281.342010
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -85
+  Maximum signal: -83
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:55:24 2016
+  Sat Feb  6 13:55:24 2016
+  SSID type: Client Probe Request
+  Encryption: none
+  ESSID: baron
+  First seen: Sat Feb  6 13:55:24 2016
+  Sat Feb  6 13:55:24 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 1E:A2:08:71:11:C1
+ Device phy: IEEE802.11
+ Device name: 1E:A2:08:71:11:C1
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:33 2016
+ Last seen: Sat Feb  6 13:55:33 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:33 2016
+  Last seen: Sat Feb  6 13:55:33 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 1
+
+  GPS average latitude: 41.709663
+  GPS average longitude: -93.599648
+  GPS average altitude: 281.342000
+
+  GPS bounding minimum latitude: 41.709663
+  GPS bounding minimum longitude: -93.599648
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709663
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 281.342010
+
+ Signal (in dBm)
+  Latest signal: -42
+  Minimum signal: -42
+  Maximum signal: -42
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:55:33 2016
+  Sat Feb  6 13:55:33 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: C2:92:A0:72:E0:2E
+ Device phy: IEEE802.11
+ Device name: C2:92:A0:72:E0:2E
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:35 2016
+ Last seen: Sat Feb  6 13:55:35 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:35 2016
+  Last seen: Sat Feb  6 13:55:35 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2427
+   Packets: 1
+
+  GPS average latitude: 41.709663
+  GPS average longitude: -93.599648
+  GPS average altitude: 281.342000
+
+  GPS bounding minimum latitude: 41.709663
+  GPS bounding minimum longitude: -93.599648
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709663
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 281.342010
+
+ Signal (in dBm)
+  Latest signal: -89
+  Minimum signal: -89
+  Maximum signal: -89
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:55:35 2016
+  Sat Feb  6 13:55:35 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 24:E3:14:9C:AE:AD
+ Device phy: IEEE802.11
+ Device name: 24:E3:14:9C:AE:AD
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:37 2016
+ Last seen: Sat Feb  6 13:58:53 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:37 2016
+  Last seen: Sat Feb  6 13:58:53 2016
+  Packets: 36
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 5
+   Frequency (MHz): 5765
+   Packets: 31
+
+  GPS average latitude: 41.709574
+  GPS average longitude: -93.599742
+  GPS average altitude: 304.805400
+
+  GPS bounding minimum latitude: 41.709362
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709469
+  GPS peak signal longitude: -93.599731
+  GPS peak signal altitude: 319.091003
+
+ Signal (in dBm)
+  Latest signal: -40
+  Minimum signal: -47
+  Maximum signal: -30
+
+ Total packets: 36
+ Link-type packets: 24
+ Data packets: 12
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1D
+
+
+ Device MAC: C0:BD:D1:33:EC:37
+ Device phy: IEEE802.11
+ Device name: C0:BD:D1:33:EC:37
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:44 2016
+ Last seen: Sat Feb  6 13:59:00 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:44 2016
+  Last seen: Sat Feb  6 13:59:00 2016
+  Packets: 15
+  Frequencies seen:
+   Frequency (MHz): 2432
+   Packets: 2
+   Frequency (MHz): 2462
+   Packets: 13
+
+  GPS average latitude: 41.709589
+  GPS average longitude: -93.599745
+  GPS average altitude: 302.176300
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709671
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709663
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 281.342010
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -87
+  Maximum signal: -67
+
+ Total packets: 15
+ Link-type packets: 2
+ Data packets: 13
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: SamsungE
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:59:00 2016
+  Sat Feb  6 13:59:00 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 04:A1:51:D3:47:1E
+
+
+ Device MAC: 00:61:71:E2:B6:60
+ Device phy: IEEE802.11
+ Device name: 00:61:71:E2:B6:60
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:55:52 2016
+ Last seen: Sat Feb  6 13:58:37 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:55:52 2016
+  Last seen: Sat Feb  6 13:58:37 2016
+  Packets: 9
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 3
+   Frequency (MHz): 2417
+   Packets: 3
+   Frequency (MHz): 2432
+   Packets: 2
+   Frequency (MHz): 5825
+   Packets: 1
+
+  GPS average latitude: 41.709570
+  GPS average longitude: -93.599731
+  GPS average altitude: 301.872600
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599808
+
+  GPS bounding maximum latitude: 41.709663
+  GPS bounding maximum longitude: -93.599648
+
+  GPS peak signal latitude: 41.709663
+  GPS peak signal longitude: -93.599648
+  GPS peak signal altitude: 281.342010
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -85
+  Maximum signal: -73
+
+ Total packets: 9
+ Link-type packets: 9
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:55:52 2016
+  Sat Feb  6 13:58:37 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: B8:E8:56:C7:B4:A2
+ Device phy: IEEE802.11
+ Device name: B8:E8:56:C7:B4:A2
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:56:07 2016
+ Last seen: Sat Feb  6 13:59:50 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:07 2016
+  Last seen: Sat Feb  6 13:59:50 2016
+  Packets: 127
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 127
+
+  GPS average latitude: 41.709567
+  GPS average longitude: -93.599758
+  GPS average altitude: 306.477200
+
+  GPS bounding minimum latitude: 41.709454
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709694
+  GPS bounding maximum longitude: -93.599709
+
+  GPS peak signal latitude: 41.709526
+  GPS peak signal longitude: -93.599731
+  GPS peak signal altitude: 315.160004
+
+ Signal (in dBm)
+  Latest signal: -47
+  Minimum signal: -53
+  Maximum signal: -38
+
+ Total packets: 127
+ Link-type packets: 15
+ Data packets: 112
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 2533
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 40:8B:07:20:70:D5
+
+
+ Device MAC: C4:9A:02:3D:EE:3C
+ Device phy: IEEE802.11
+ Device name: C4:9A:02:3D:EE:3C
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:56:17 2016
+ Last seen: Sat Feb  6 13:59:33 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:17 2016
+  Last seen: Sat Feb  6 13:59:33 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+   Frequency (MHz): 2422
+   Packets: 1
+   Frequency (MHz): 5765
+   Packets: 1
+
+  GPS average latitude: 41.709618
+  GPS average longitude: -93.599802
+  GPS average altitude: 294.978700
+
+  GPS bounding minimum latitude: 41.709572
+  GPS bounding minimum longitude: -93.599846
+
+  GPS bounding maximum latitude: 41.709637
+  GPS bounding maximum longitude: -93.599701
+
+  GPS peak signal latitude: 41.709625
+  GPS peak signal longitude: -93.599846
+  GPS peak signal altitude: 292.251007
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -83
+  Maximum signal: -69
+
+ Total packets: 4
+ Link-type packets: 4
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: LgElectr
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:56:17 2016
+  Sat Feb  6 13:58:42 2016
+  SSID type: Client Probe Request
+  Encryption: none
+  ESSID: Wig&Pen Pizza-guest
+  First seen: Sat Feb  6 13:59:33 2016
+  Sat Feb  6 13:59:33 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 9C:D9:17:53:E5:EF
+ Device phy: IEEE802.11
+ Device name: 9C:D9:17:53:E5:EF
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:56:18 2016
+ Last seen: Sat Feb  6 13:56:18 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:18 2016
+  Last seen: Sat Feb  6 13:56:18 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 2
+
+  GPS average latitude: 41.709572
+  GPS average longitude: -93.599701
+  GPS average altitude: 309.058000
+
+  GPS bounding minimum latitude: 41.709572
+  GPS bounding minimum longitude: -93.599701
+
+  GPS bounding maximum latitude: 41.709572
+  GPS bounding maximum longitude: -93.599701
+
+  GPS peak signal latitude: 41.709572
+  GPS peak signal longitude: -93.599701
+  GPS peak signal altitude: 309.058014
+
+ Signal (in dBm)
+  Latest signal: -53
+  Minimum signal: -53
+  Maximum signal: -51
+
+ Total packets: 3
+ Link-type packets: 3
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Motorola
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: GrubbsPub-guest
+  First seen: Sat Feb  6 13:56:18 2016
+  Sat Feb  6 13:56:18 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: A8:88:08:DF:CB:EE
+ Device phy: IEEE802.11
+ Device name: A8:88:08:DF:CB:EE
+ Basic device type:
+  Generic device (No special characteristics detected)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:56:33 2016
+ Last seen: Sat Feb  6 13:56:33 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:33 2016
+  Last seen: Sat Feb  6 13:56:33 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 2
+
+  GPS average latitude: 41.709507
+  GPS average longitude: -93.599739
+  GPS average altitude: 318.851900
+
+  GPS bounding minimum latitude: 41.709507
+  GPS bounding minimum longitude: -93.599739
+
+  GPS bounding maximum latitude: 41.709507
+  GPS bounding maximum longitude: -93.599739
+
+  GPS peak signal latitude: 41.709507
+  GPS peak signal longitude: -93.599739
+  GPS peak signal altitude: 318.851990
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -51
+  Maximum signal: -51
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+
+ Device MAC: 56:84:38:DF:65:BD
+ Device phy: IEEE802.11
+ Device name: 56:84:38:DF:65:BD
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:56:47 2016
+ Last seen: Sat Feb  6 13:58:11 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:47 2016
+  Last seen: Sat Feb  6 13:58:11 2016
+  Packets: 16
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2417
+   Packets: 2
+   Frequency (MHz): 2427
+   Packets: 5
+   Frequency (MHz): 2432
+   Packets: 1
+   Frequency (MHz): 2452
+   Packets: 1
+   Frequency (MHz): 5220
+   Packets: 2
+   Frequency (MHz): 5825
+   Packets: 4
+
+  GPS average latitude: 41.709527
+  GPS average longitude: -93.599711
+  GPS average altitude: 310.554900
+
+  GPS bounding minimum latitude: 41.709473
+  GPS bounding minimum longitude: -93.599724
+
+  GPS bounding maximum latitude: 41.709690
+  GPS bounding maximum longitude: -93.599693
+
+  GPS peak signal latitude: 41.709492
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 316.016998
+
+ Signal (in dBm)
+  Latest signal: -53
+  Minimum signal: -55
+  Maximum signal: -33
+
+ Total packets: 16
+ Link-type packets: 16
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:56:47 2016
+  Sat Feb  6 13:58:11 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: CC:29:F5:4C:CA:09
+ Device phy: IEEE802.11
+ Device name: CC:29:F5:4C:CA:09
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:56:47 2016
+ Last seen: Sat Feb  6 13:57:37 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:47 2016
+  Last seen: Sat Feb  6 13:57:37 2016
+  Packets: 5
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+   Frequency (MHz): 2417
+   Packets: 1
+   Frequency (MHz): 2427
+   Packets: 2
+
+  GPS average latitude: 41.709505
+  GPS average longitude: -93.599710
+  GPS average altitude: 313.221700
+
+  GPS bounding minimum latitude: 41.709476
+  GPS bounding minimum longitude: -93.599739
+
+  GPS bounding maximum latitude: 41.709522
+  GPS bounding maximum longitude: -93.599693
+
+  GPS peak signal latitude: 41.709511
+  GPS peak signal longitude: -93.599693
+  GPS peak signal altitude: 315.098999
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -83
+
+ Total packets: 5
+ Link-type packets: 5
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:56:47 2016
+  Sat Feb  6 13:57:37 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: E8:CC:18:F2:C0:38
+ Device phy: IEEE802.11
+ Device name: dlink-C038
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:56:55 2016
+ Last seen: Sat Feb  6 13:57:05 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:56:55 2016
+  Last seen: Sat Feb  6 13:57:05 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+
+  GPS average latitude: 41.709509
+  GPS average longitude: -93.599697
+  GPS average altitude: 315.494900
+
+  GPS bounding minimum latitude: 41.709507
+  GPS bounding minimum longitude: -93.599701
+
+  GPS bounding maximum latitude: 41.709511
+  GPS bounding maximum longitude: -93.599693
+
+  GPS peak signal latitude: 41.709511
+  GPS peak signal longitude: -93.599693
+  GPS peak signal altitude: 315.098999
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -87
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: D-LinkIn
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: dlink-C038
+  First seen: Sat Feb  6 13:56:55 2016
+  Sat Feb  6 13:57:05 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 0A:95:3F:4E:ED:10
+ Device phy: IEEE802.11
+ Device name: 0A:95:3F:4E:ED:10
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:57:12 2016
+ Last seen: Sat Feb  6 13:57:17 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:12 2016
+  Last seen: Sat Feb  6 13:57:17 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2422
+   Packets: 1
+
+  GPS average latitude: 41.709499
+  GPS average longitude: -93.599716
+  GPS average altitude: 315.272000
+
+  GPS bounding minimum latitude: 41.709499
+  GPS bounding minimum longitude: -93.599716
+
+  GPS bounding maximum latitude: 41.709499
+  GPS bounding maximum longitude: -93.599716
+
+  GPS peak signal latitude: 41.709499
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 315.272003
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -85
+  Maximum signal: -83
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:57:12 2016
+  Sat Feb  6 13:57:17 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: BE:56:E1:A4:E2:5B
+ Device phy: IEEE802.11
+ Device name: BE:56:E1:A4:E2:5B
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:57:20 2016
+ Last seen: Sat Feb  6 13:57:20 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:20 2016
+  Last seen: Sat Feb  6 13:57:20 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+  GPS average latitude: 41.709507
+  GPS average longitude: -93.599693
+  GPS average altitude: 313.023000
+
+  GPS bounding minimum latitude: 41.709507
+  GPS bounding minimum longitude: -93.599693
+
+  GPS bounding maximum latitude: 41.709507
+  GPS bounding maximum longitude: -93.599693
+
+  GPS peak signal latitude: 41.709507
+  GPS peak signal longitude: -93.599693
+  GPS peak signal altitude: 313.023010
+
+ Signal (in dBm)
+  Latest signal: -69
+  Minimum signal: -69
+  Maximum signal: -69
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:57:20 2016
+  Sat Feb  6 13:57:20 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 2C:F0:EE:A6:5C:D2
+ Device phy: IEEE802.11
+ Device name: 2C:F0:EE:A6:5C:D2
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:57:29 2016
+ Last seen: Sat Feb  6 13:57:29 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:29 2016
+  Last seen: Sat Feb  6 13:57:29 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2452
+   Packets: 1
+
+  GPS average latitude: 41.709518
+  GPS average longitude: -93.599739
+  GPS average altitude: 301.054900
+
+  GPS bounding minimum latitude: 41.709518
+  GPS bounding minimum longitude: -93.599739
+
+  GPS bounding maximum latitude: 41.709518
+  GPS bounding maximum longitude: -93.599739
+
+  GPS peak signal latitude: 41.709518
+  GPS peak signal longitude: -93.599739
+  GPS peak signal altitude: 301.054993
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -87
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: AnkenyDiem2
+  First seen: Sat Feb  6 13:57:29 2016
+  Sat Feb  6 13:57:29 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 78:61:7C:12:A6:AE
+ Device phy: IEEE802.11
+ Device name: georgecolorado
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:57:31 2016
+ Last seen: Sat Feb  6 13:57:32 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:31 2016
+  Last seen: Sat Feb  6 13:57:32 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 3
+
+  GPS average latitude: 41.709522
+  GPS average longitude: -93.599747
+  GPS average altitude: 300.356900
+
+  GPS bounding minimum latitude: 41.709522
+  GPS bounding minimum longitude: -93.599747
+
+  GPS bounding maximum latitude: 41.709522
+  GPS bounding maximum longitude: -93.599747
+
+  GPS peak signal latitude: 41.709522
+  GPS peak signal longitude: -93.599747
+  GPS peak signal altitude: 300.356995
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -89
+  Maximum signal: -87
+
+ Total packets: 3
+ Link-type packets: 3
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: MitsumiE
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: georgecolorado
+  First seen: Sat Feb  6 13:57:31 2016
+  Sat Feb  6 13:57:32 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: F8:BC:12:9A:16:61
+ Device phy: IEEE802.11
+ Device name: F8:BC:12:9A:16:61
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:57:39 2016
+ Last seen: Sat Feb  6 13:57:39 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:39 2016
+  Last seen: Sat Feb  6 13:57:39 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+
+  GPS average latitude: 41.709541
+  GPS average longitude: -93.599739
+  GPS average altitude: 300.895900
+
+  GPS bounding minimum latitude: 41.709541
+  GPS bounding minimum longitude: -93.599739
+
+  GPS bounding maximum latitude: 41.709541
+  GPS bounding maximum longitude: -93.599739
+
+  GPS peak signal latitude: 41.709541
+  GPS peak signal longitude: -93.599739
+  GPS peak signal altitude: 300.895996
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -79
+  Maximum signal: -79
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 222
+
+ Manufacturer: Dell
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 10:5F:06:96:F5:05
+
+
+ Device MAC: 60:03:08:9E:FF:9C
+ Device phy: IEEE802.11
+ Device name: 60:03:08:9E:FF:9C
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:57:53 2016
+ Last seen: Sat Feb  6 13:57:53 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:57:53 2016
+  Last seen: Sat Feb  6 13:57:53 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+  GPS average latitude: 41.709598
+  GPS average longitude: -93.599716
+  GPS average altitude: 299.738000
+
+  GPS bounding minimum latitude: 41.709599
+  GPS bounding minimum longitude: -93.599716
+
+  GPS bounding maximum latitude: 41.709599
+  GPS bounding maximum longitude: -93.599716
+
+  GPS peak signal latitude: 41.709599
+  GPS peak signal longitude: -93.599716
+  GPS peak signal altitude: 299.738007
+
+ Signal (in dBm)
+  Latest signal: -42
+  Minimum signal: -42
+  Maximum signal: -42
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: 12:E3:D0:43:36:E6
+ Device phy: IEEE802.11
+ Device name: 12:E3:D0:43:36:E6
+ Device type: Ad-Hoc
+ Basic device type:
+  Client (Network client)
+  Peer (Ad-hoc or peerless client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:58:24 2016
+ Last seen: Sat Feb  6 13:59:20 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:58:24 2016
+  Last seen: Sat Feb  6 13:59:20 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 2
+
+  GPS average latitude: 41.709671
+  GPS average longitude: -93.599823
+  GPS average altitude: 290.094900
+
+  GPS bounding minimum latitude: 41.709648
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709694
+  GPS bounding maximum longitude: -93.599770
+
+  GPS peak signal latitude: 41.709694
+  GPS peak signal longitude: -93.599770
+  GPS peak signal altitude: 286.548004
+
+ Signal (in dBm)
+  Latest signal: -20
+  Minimum signal: -20
+  Maximum signal: -20
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 462
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Ad-hoc peer
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 00:25:00:FF:94:73
+
+
+ Device MAC: 00:25:00:FF:94:73
+ Device phy: IEEE802.11
+ Device name: 00:25:00:FF:94:73
+ Device type: Ad-Hoc
+ Basic device type:
+  AP (Central network controller)
+  Peer (Ad-hoc or peerless client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:58:24 2016
+ Last seen: Sat Feb  6 13:59:20 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:58:24 2016
+  Last seen: Sat Feb  6 13:59:20 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 5745
+   Packets: 3
+
+  GPS average latitude: 41.709679
+  GPS average longitude: -93.599805
+  GPS average altitude: 288.912600
+
+  GPS bounding minimum latitude: 41.709648
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709694
+  GPS bounding maximum longitude: -93.599770
+
+  GPS peak signal latitude: 41.709694
+  GPS peak signal longitude: -93.599770
+  GPS peak signal altitude: 286.548004
+
+ Signal (in dBm)
+  Latest signal: -20
+  Minimum signal: -20
+  Maximum signal: -20
+
+ Total packets: 3
+ Link-type packets: 0
+ Data packets: 3
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 779
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Ad-hoc peer
+  Inferred (destination with no traffic)
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 12:E3:D0:43:36:E6
+  First seen: Sat Feb  6 13:58:24 2016
+  Last seen: Sat Feb  6 13:59:20 2016
+  Client type: Ad-Hoc peer
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 462
+  TX data (in bytes): 462
+
+
+
+ Device MAC: 74:DE:2B:F4:3B:ED
+ Device phy: IEEE802.11
+ Device name: 74:DE:2B:F4:3B:ED
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:58:40 2016
+ Last seen: Sat Feb  6 13:58:40 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:58:40 2016
+  Last seen: Sat Feb  6 13:58:40 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 2
+
+  GPS average latitude: 41.709629
+  GPS average longitude: -93.599831
+  GPS average altitude: 291.459000
+
+  GPS bounding minimum latitude: 41.709629
+  GPS bounding minimum longitude: -93.599831
+
+  GPS bounding maximum latitude: 41.709629
+  GPS bounding maximum longitude: -93.599831
+
+  GPS peak signal latitude: 41.709629
+  GPS peak signal longitude: -93.599831
+  GPS peak signal altitude: 291.459015
+
+ Signal (in dBm)
+  Latest signal: -38
+  Minimum signal: -40
+  Maximum signal: -38
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: LiteonTe
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: D0:57:85:A7:77:8A
+
+
+ Device MAC: 10:41:7F:BA:41:EB
+ Device phy: IEEE802.11
+ Device name: 10:41:7F:BA:41:EB
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:58:43 2016
+ Last seen: Sat Feb  6 13:59:06 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:58:43 2016
+  Last seen: Sat Feb  6 13:59:06 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 1
+
+  GPS average latitude: 41.709616
+  GPS average longitude: -93.599853
+  GPS average altitude: 294.824900
+
+  GPS bounding minimum latitude: 41.709614
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709618
+  GPS bounding maximum longitude: -93.599854
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 296.608002
+
+ Signal (in dBm)
+  Latest signal: -55
+  Minimum signal: -59
+  Maximum signal: -55
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:58:43 2016
+  Sat Feb  6 13:59:06 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 90:B6:86:7E:7B:D4
+ Device phy: IEEE802.11
+ Device name: 90:B6:86:7E:7B:D4
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:58:48 2016
+ Last seen: Sat Feb  6 13:58:49 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:58:48 2016
+  Last seen: Sat Feb  6 13:58:49 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2452
+   Packets: 1
+
+  GPS average latitude: 41.709606
+  GPS average longitude: -93.599861
+  GPS average altitude: 294.579000
+
+  GPS bounding minimum latitude: 41.709606
+  GPS bounding minimum longitude: -93.599861
+
+  GPS bounding maximum latitude: 41.709606
+  GPS bounding maximum longitude: -93.599861
+
+  GPS peak signal latitude: 41.709606
+  GPS peak signal longitude: -93.599861
+  GPS peak signal altitude: 294.579010
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -83
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: MurataMa
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:58:48 2016
+  Sat Feb  6 13:58:49 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 5C:B9:01:6C:A5:02
+ Device phy: IEEE802.11
+ Device name: 5C:B9:01:6C:A5:02
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:59:03 2016
+ Last seen: Sat Feb  6 13:59:03 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:59:03 2016
+  Last seen: Sat Feb  6 13:59:03 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599853
+  GPS average altitude: 296.608000
+
+  GPS bounding minimum latitude: 41.709614
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709614
+  GPS bounding maximum longitude: -93.599854
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 296.608002
+
+ Signal (in dBm)
+  Latest signal: -67
+  Minimum signal: -67
+  Maximum signal: -67
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 150
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 00:24:7B:21:71:08
+
+
+ Device MAC: 00:24:7B:21:71:06
+ Device phy: IEEE802.11
+ Device name: 00:24:7B:21:71:06
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Sat Feb  6 13:59:03 2016
+ Last seen: Sat Feb  6 13:59:03 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:59:03 2016
+  Last seen: Sat Feb  6 13:59:03 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599853
+  GPS average altitude: 296.608000
+
+  GPS bounding minimum latitude: 41.709614
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709614
+  GPS bounding maximum longitude: -93.599854
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 296.608002
+
+ Signal (in dBm)
+  Latest signal: -61
+  Minimum signal: -61
+  Maximum signal: -61
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 76
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 00:24:7B:21:71:08
+
+
+ Device MAC: A2:45:D6:E0:52:BD
+ Device phy: IEEE802.11
+ Device name: A2:45:D6:E0:52:BD
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:59:05 2016
+ Last seen: Sat Feb  6 13:59:05 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:59:05 2016
+  Last seen: Sat Feb  6 13:59:05 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2422
+   Packets: 1
+
+  GPS average latitude: 41.709614
+  GPS average longitude: -93.599853
+  GPS average altitude: 296.608000
+
+  GPS bounding minimum latitude: 41.709614
+  GPS bounding minimum longitude: -93.599854
+
+  GPS bounding maximum latitude: 41.709614
+  GPS bounding maximum longitude: -93.599854
+
+  GPS peak signal latitude: 41.709614
+  GPS peak signal longitude: -93.599854
+  GPS peak signal altitude: 296.608002
+
+ Signal (in dBm)
+  Latest signal: -89
+  Minimum signal: -89
+  Maximum signal: -89
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:59:05 2016
+  Sat Feb  6 13:59:05 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: F0:25:B7:7C:F4:20
+ Device phy: IEEE802.11
+ Device name: F0:25:B7:7C:F4:20
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Sat Feb  6 13:59:21 2016
+ Last seen: Sat Feb  6 13:59:21 2016
+
+ Seen by capture sources:
+  UUID: 768e4636-cd0b-11e5-a168-dd04bc23e301>
+  First seen: Sat Feb  6 13:59:21 2016
+  Last seen: Sat Feb  6 13:59:21 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+
+  GPS average latitude: 41.709648
+  GPS average longitude: -93.599876
+  GPS average altitude: 293.641900
+
+  GPS bounding minimum latitude: 41.709648
+  GPS bounding minimum longitude: -93.599876
+
+  GPS bounding maximum latitude: 41.709648
+  GPS bounding maximum longitude: -93.599876
+
+  GPS peak signal latitude: 41.709648
+  GPS peak signal longitude: -93.599876
+  GPS peak signal altitude: 293.641998
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -85
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: SamsungE
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Sat Feb  6 13:59:21 2016
+  Sat Feb  6 13:59:21 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+

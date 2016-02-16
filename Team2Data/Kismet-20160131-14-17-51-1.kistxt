@@ -1,0 +1,23 @@
+Version: 2012-GIT-R0
+
+Server: kali
+
+Log name: Kismet
+
+Start time: Sun Jan 31 14:17:51 2016
+End time: Sun Jan 31 14:18:19 2016
+
+Capture sources:
+Total devices: 0
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 0
+ Packets: 0
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="2012.GIT.R0" start-time="Sat Feb  6 14:13:30 2016">
+
+<card-source uuid="1f21a43a-cd0e-11e5-8698-dd04bc23e301">
+ <card-source>wlan1:</card-source>
+ <card-name>wlan1</card-name>
+ <card-interface>wlan1mon</card-interface>
+ <card-type>rt2800usb</card-type>
+ <card-packets>1</card-packets>
+ <card-hop>true</card-hop>
+ <card-channels>1,5,9,38,48,60,5755,161,2,6,10,40,52,5310,153,165,3,7,11,44,54,64,157,4,8,36,46,56,149,5795</card-channels>
+</card-source>
+  <wireless-network number="1" type="infrastructure" first-time="Sat Feb  6 14:13:44 2016" last-time="Sat Feb  6 14:13:44 2016">
+    <SSID first-time="Sat Feb  6 14:13:44 2016" last-time="Sat Feb  6 14:13:44 2016">
+        <type>Probe Response</type>
+        <max-rate>54.000000</max-rate>
+        <packets>1</packets>
+        <encryption>WPA+TKIP</encryption>
+        <encryption>WPA+PSK</encryption>
+        <encryption>WPA+AES-CCM</encryption>
+        <essid cloaked="false">Wig&amp;Pen Pizza</essid>
+    </SSID>
+    <BSSID>48:F8:B3:C6:78:EF</BSSID>
+    <manuf>Cisco-Li</manuf>
+    <channel>0</channel>
+    <freqmhz>2412 1</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>1</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>1</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-85</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>1024</last_signal_rssi>
+      <last_noise_rssi>1024</last_noise_rssi>
+      <min_signal_dbm>-85</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-85</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.709492</min-lat>
+      <min-lon>-93.599785</min-lon>
+      <min-alt>-100000.000000</min-alt>
+      <min-spd>-100000.000000</min-spd>
+      <max-lat>41.709492</max-lat>
+      <max-lon>-93.599785</max-lon>
+      <max-alt>100000.000000</max-alt>
+      <max-spd>100000.000000</max-spd>
+      <peak-lat>41.709492</peak-lat>
+      <peak-lon>-93.599785</peak-lon>
+      <peak-alt>256.015991</peak-alt>
+      <avg-lat>41.709492</avg-lat>
+      <avg-lon>-93.599785</avg-lon>
+      <avg-alt>256.015900</avg-alt>
+    </gps-info>
+    <bsstimestamp>1650548782868</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>1f21a43a-cd0e-11e5-8698-dd04bc23e301</seen-uuid>
+     <seen-time>Sat Feb  6 14:13:44 2016</seen-time>
+     <seen-packets>1</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="unknown" first-time="Sat Feb  6 14:13:44 2016" last-time="Sat Feb  6 14:13:44 2016">
+      <client-mac>48:F8:B3:C6:78:EF</client-mac>
+      <client-manuf>Cisco-Li</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2412 1</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>1</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>1</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-85</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>1024</last_signal_rssi>
+        <last_noise_rssi>1024</last_noise_rssi>
+        <min_signal_dbm>-85</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-85</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.709492</min-lat>
+        <min-lon>-93.599785</min-lon>
+        <min-alt>-100000.000000</min-alt>
+        <min-spd>-100000.000000</min-spd>
+        <max-lat>41.709492</max-lat>
+        <max-lon>-93.599785</max-lon>
+        <max-alt>100000.000000</max-alt>
+        <max-spd>100000.000000</max-spd>
+        <peak-lat>41.709492</peak-lat>
+        <peak-lon>-93.599785</peak-lon>
+        <peak-alt>256.015991</peak-alt>
+        <avg-lat>41.709492</avg-lat>
+        <avg-lon>-93.599785</avg-lon>
+        <avg-alt>256.015900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>1f21a43a-cd0e-11e5-8698-dd04bc23e301</seen-uuid>
+       <seen-time>Sat Feb  6 14:13:44 2016</seen-time>
+       <seen-packets>1</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+</detection-run>

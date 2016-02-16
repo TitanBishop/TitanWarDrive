@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<k:run xmlns:k="http://www.kismetwireless.net/xml"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.kismetwireless.net/xml kismet.xsd"
+
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211">
+
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://xmlns.myexample.com/version3"
+targetNamespace="http://www.kismetwireless.net/xml"
+xmlns:common="http://www.kismetwireless.net/xml/common"
+xmlns:device="http://www.kismetwireless.net/xml/device"
+xmlns:gps="http://www.kismetwireless.net/xml/gps"
+xmlns:run="http://www.kismetwireless.net/xml/run"
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211"
+elementFormDefault="unqualified"
+attributeFromDefault="unqualified">
+<xs:import namespace="http://www.kismetwireless.net/xml/common" schemaLocation="http://www.kismetwireless.net/xml/common.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/device" schemaLocation="http://www.kismetwireless.net/xml/device.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/gps" schemaLocation="http://www.kismetwireless.net/xml/gps.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/run" schemaLocation="http://www.kismetwireless.net/xml/run.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/phy80211" schemaLocation="http://www.kismetwireless.net/xml/phy80211.xsd"/>
+<xs:element name="run"/>
+</xs:schema>
+<version>2012-GIT-R0</version>
+<server>TITAN Kismet Server</server>
+<logname>Kismet</logname>
+<startTime>Sat Feb  6 14:13:30 2016</startTime>
+<endTime>Sat Feb  6 14:17:04 2016</endTime>
+<captureSources>
+<captureSource>
+<uuid>1f21a43a-cd0e-11e5-8698-dd04bc23e301</uuid>
+<definition>wlan1:</definition>
+<name>wlan1</name>
+<interface>wlan1mon</interface>
+<type>rt2800usb</type>
+<packets>1</packets>
+<errorPackets>0</errorPackets>
+<channels>1,5,9,38,48,60,5755,161,2,6,10,40,52,5310,153,165,3,7,11,44,54,64,157,4,8,36,46,56,149,5795</channels>
+<channelhop>true</channelhop>
+</captureSource>
+</captureSources>
+<totalDevices>1</totalDevices>
+<phyTypes>
+<phyType>
+<name>IEEE802.11</name>
+<devices>1</devices>
+<packets>1</packets>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+</phyType>
+</phyTypes>
+<gpsDevices>
+<gpsDevice>
+<device>tcp://localhost:2947</device>
+<type>gpsd</type>
+</gpsDevice>
+</gpsDevices>
+<devices>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>48:F8:B3:C6:78:EF</deviceMac>
+<name>Wig&amp;Pen Pizza</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Sat Feb  6 14:13:44 2016</firstSeen>
+<lastSeen>Sat Feb  6 14:13:44 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1f21a43a-cd0e-11e5-8698-dd04bc23e301</uuid>
+<firstSeen>Sat Feb  6 14:13:44 2016</firstSeen>
+<lastSeen>Sat Feb  6 14:13:44 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.709492</latitude>
+<longitude>-93.599785</longitude>
+<altitude>256.015900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.709492</latitude>
+<longitude>-93.599785</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.709492</latitude>
+<longitude>-93.599785</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.709492</latitude>
+<longitude>-93.599785</longitude>
+<altitude>256.015991</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-85</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Sat Feb  6 14:13:44 2016</firstTime>
+<lastTime>Sat Feb  6 14:13:44 2016</lastTime>
+<type>AP Probe Response</type>
+<essid>Wig&amp;Pen Pizza</essid>
+<encryption>WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+</devices>
+</k:run>

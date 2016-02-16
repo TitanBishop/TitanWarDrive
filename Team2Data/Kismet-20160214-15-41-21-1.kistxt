@@ -1,0 +1,33 @@
+Version: 2012-GIT-R0
+
+Server: TITAN Kismet Server
+
+Log name: Kismet
+
+Start time: Sun Feb 14 15:41:21 2016
+End time: Sun Feb 14 15:44:03 2016
+
+Capture sources:
+ UUID: bb684316-d363-11e5-9d71-dd04bc23e301
+ Definition: wlan1:
+ Name: wlan1
+ Interface: wlan1mon
+ Type: rt2800usb
+ Packets: 0
+ Error packets: 0
+ Channels: 1,5,9,13,40,52,5310,5520,2,6,10,14,44,54,64,5540,3,7,11,36,46,56,5500,5550,4,8,12,38,48,60,5510,5560
+ Channel hopping: true
+
+Total devices: 0
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 0
+ Packets: 0
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+

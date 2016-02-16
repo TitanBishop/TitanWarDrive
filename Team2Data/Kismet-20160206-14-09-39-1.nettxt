@@ -1,0 +1,1389 @@
+Kismet (http://www.kismetwireless.net)
+Sat Feb  6 14:09:39 2016 - Kismet 2012.GIT.R0
+-----------------
+
+Network 1: BSSID 00:00:00:00:00:00
+ Manuf      : Unknown
+ First      : Sat Feb  6 14:10:13 2016
+ Last       : Sat Feb  6 14:10:27 2016
+ Type       : infrastructure
+ BSSID      : 00:00:00:00:00:00
+   SSID 1
+    Type       : Beacon
+    SSID       : "" (Cloaked)
+    First      : Sat Feb  6 14:10:13 2016
+    Last       : Sat Feb  6 14:10:27 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 29
+    Encryption : None
+ Channel    : 6
+ Frequency  : 2432 - 1 packets, 3.45%
+ Frequency  : 2437 - 27 packets, 93.10%
+ Frequency  : 2442 - 1 packets, 3.45%
+ Max Seen   : 1000
+ LLC        : 29
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 29
+ Datasize   : 0
+ Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+ Avg Pos    : AvgLat 41.709492 AvgLon -93.599904 AvgAlt 273.503400
+ Last BSSTS : 1313154049293
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 29 packets
+              Sat Feb  6 14:10:27 2016
+ Alert      : Sat Feb  6 14:10:16 2016 CRYPTODROP IEEE80211 Access Point BSSID 00:00:00:00:00:00 SSID "" changed advertised encryption from WEP to Open which may indicate AP spoofing/impersonation
+ Alert      : Sat Feb  6 14:10:16 2016 ADVCRYPTCHANGE IEEE80211 Access Point BSSID 00:00:00:00:00:00 SSID "" changed advertised encryption from none to WEP which may indicate AP spoofing/impersonation
+ Alert      : Sat Feb  6 14:10:16 2016 BSSTIMESTAMP Network BSSID 00:00:00:00:00:00 BSS timestamp fluctuating, which may indicate a spoofed network cloning the MAC address (BSSTS 327311158524 vs 1313157122113)
+ Alert      : Sat Feb  6 14:10:27 2016 CRYPTODROP IEEE80211 Access Point BSSID 00:00:00:00:00:00 SSID "" changed advertised encryption from WEP to Open which may indicate AP spoofing/impersonation
+ Alert      : Sat Feb  6 14:10:27 2016 BSSTIMESTAMP Network BSSID 00:00:00:00:00:00 BSS timestamp fluctuating, which may indicate a spoofed network cloning the MAC address (BSSTS 327322317405 vs 1313168282929)
+ Alert      : Sat Feb  6 14:10:27 2016 ADVCRYPTCHANGE IEEE80211 Access Point BSSID 00:00:00:00:00:00 SSID "" changed advertised encryption from none to WEP which may indicate AP spoofing/impersonation
+ Client 1: MAC 00:00:00:00:00:00
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:13 2016
+  Last       : Sat Feb  6 14:10:27 2016
+  Type       : From Distribution
+  MAC        : 00:00:00:00:00:00
+  Channel    : 6
+  Frequency  : 2432 - 1 packets, 3.45%
+  Frequency  : 2437 - 27 packets, 93.10%
+  Frequency  : 2442 - 1 packets, 3.45%
+  Max Seen   : 1000
+  LLC        : 29
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 29
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599904 AvgAlt 273.503400
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 29 packets
+               Sat Feb  6 14:10:27 2016
+Network 2: BSSID 00:24:7B:21:71:08
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:16 2016
+ Last       : Sat Feb  6 14:10:27 2016
+ Type       : infrastructure
+ BSSID      : 00:24:7B:21:71:08
+   SSID 1
+    Type       : Beacon
+    SSID       : "DrMoss" 
+    First      : Sat Feb  6 14:10:16 2016
+    Last       : Sat Feb  6 14:10:27 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 6
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 6 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 6
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 6
+ Datasize   : 0
+ Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+ Avg Pos    : AvgLat 41.709492 AvgLon -93.599906 AvgAlt 273.488600
+ Last BSSTS : 327310952899
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 6 packets
+              Sat Feb  6 14:10:27 2016
+ Client 1: MAC 00:24:7B:21:71:08
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:16 2016
+  Last       : Sat Feb  6 14:10:27 2016
+  Type       : From Distribution
+  MAC        : 00:24:7B:21:71:08
+  Channel    : 6
+  Frequency  : 2437 - 6 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 6
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599906 AvgAlt 273.488600
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 6 packets
+               Sat Feb  6 14:10:27 2016
+Network 3: BSSID 00:24:7B:A5:07:F2
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:16 2016
+ Last       : Sat Feb  6 14:10:27 2016
+ Type       : infrastructure
+ BSSID      : 00:24:7B:A5:07:F2
+   SSID 1
+    Type       : Beacon
+    SSID       : "TextbookOutlet" 
+    First      : Sat Feb  6 14:10:16 2016
+    Last       : Sat Feb  6 14:10:27 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 3
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 3 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 3
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 3
+ Datasize   : 0
+ Min Pos    : Lat 41.709484 Lon -93.599945 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+ Avg Pos    : AvgLat 41.709494 AvgLon -93.599889 AvgAlt 273.405000
+ Last BSSTS : 1313156918820
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+              Sat Feb  6 14:10:27 2016
+ Client 1: MAC 00:24:7B:A5:07:F2
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:16 2016
+  Last       : Sat Feb  6 14:10:27 2016
+  Type       : From Distribution
+  MAC        : 00:24:7B:A5:07:F2
+  Channel    : 6
+  Frequency  : 2437 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 3
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599945 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709494 AvgLon -93.599889 AvgAlt 273.405000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+               Sat Feb  6 14:10:27 2016
+Network 4: BSSID 00:26:B8:D8:F5:D5
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:30 2016
+ Last       : Sat Feb  6 14:10:30 2016
+ Type       : infrastructure
+ BSSID      : 00:26:B8:D8:F5:D5
+   SSID 1
+    Type       : Beacon
+    SSID       : "CarXAnkeny" 
+    First      : Sat Feb  6 14:10:30 2016
+    Last       : Sat Feb  6 14:10:30 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 1
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709476 Lon -93.599968 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709476 Lon -93.599968 Alt 273.105011
+ Avg Pos    : AvgLat 41.709476 AvgLon -93.599968 AvgAlt 273.105000
+ Last BSSTS : 180513587616
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+              Sat Feb  6 14:10:30 2016
+ Client 1: MAC 00:26:B8:D8:F5:D5
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:30 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : From Distribution
+  MAC        : 00:26:B8:D8:F5:D5
+  Channel    : 11
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709476 Lon -93.599968 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709476 Lon -93.599968 Alt 273.105011
+  Avg Pos    : AvgLat 41.709476 AvgLon -93.599968 AvgAlt 273.105000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:30 2016
+Network 5: BSSID 04:A1:51:D3:47:1D
+ Manuf      : Netgear
+ First      : Sat Feb  6 14:10:17 2016
+ Last       : Sat Feb  6 14:10:29 2016
+ Type       : infrastructure
+ BSSID      : 04:A1:51:D3:47:1D
+   SSID 1
+    Type       : Beacon
+    SSID       : "AnkenyDiem2" 
+    First      : Sat Feb  6 14:10:17 2016
+    Last       : Sat Feb  6 14:10:29 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 4
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 153
+ Frequency  : 5765 - 26 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b
+ Encoding   : CCK
+ LLC        : 4
+ Data       : 22
+ Crypt      : 3
+ Fragments  : 0
+ Retries    : 0
+ Total      : 26
+ Datasize   : 699
+ Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709492 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709492 Lon -93.599869 Alt 274.061005
+ Avg Pos    : AvgLat 41.709491 AvgLon -93.599875 AvgAlt 274.035000
+ Last BSSTS : 98342912058
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 26 packets
+              Sat Feb  6 14:10:29 2016
+ Client 1: MAC 04:A1:51:D3:47:1D
+  Manuf      : Netgear
+  First      : Sat Feb  6 14:10:17 2016
+  Last       : Sat Feb  6 14:10:29 2016
+  Type       : From Distribution
+  MAC        : 04:A1:51:D3:47:1D
+  Channel    : 153
+  Frequency  : 5765 - 18 packets, 100.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 4
+  Data       : 14
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 18
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709492 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709492 Lon -93.599869 Alt 274.061005
+  Avg Pos    : AvgLat 41.709491 AvgLon -93.599878 AvgAlt 274.023500
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 18 packets
+               Sat Feb  6 14:10:29 2016
+ Client 2: MAC 04:A1:51:D3:47:1E
+  Manuf      : Netgear
+  First      : Sat Feb  6 14:10:18 2016
+  Last       : Sat Feb  6 14:10:18 2016
+  Type       : From Distribution
+  MAC        : 04:A1:51:D3:47:1E
+  Channel    : 0
+  Frequency  : 5765 - 1 packets, 100.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 225
+  Min Pos    : Lat 41.709492 Lon -93.599869 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709492 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709492 Lon -93.599869 Alt 274.061005
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599869 AvgAlt 274.061000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:18 2016
+ Client 3: MAC 44:00:10:E7:95:2C
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:17 2016
+  Last       : Sat Feb  6 14:10:18 2016
+  Type       : Established
+  MAC        : 44:00:10:E7:95:2C
+  Channel    : 0
+  Frequency  : 5765 - 4 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 4
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 474
+  Min Pos    : Lat 41.709492 Lon -93.599869 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709492 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709492 Lon -93.599869 Alt 274.061005
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599869 AvgAlt 274.061000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 4 packets
+               Sat Feb  6 14:10:18 2016
+ Client 4: MAC F4:31:C3:86:71:A0
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:17 2016
+  Last       : Sat Feb  6 14:10:18 2016
+  Type       : To Distribution
+  MAC        : F4:31:C3:86:71:A0
+  Channel    : 0
+  Frequency  : 5765 - 3 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 3
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+  Min Pos    : Lat 41.709492 Lon -93.599869 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709492 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709492 Lon -93.599869 Alt 274.061005
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599869 AvgAlt 274.061000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+               Sat Feb  6 14:10:18 2016
+Network 6: BSSID 04:A1:51:D3:47:1E
+ Manuf      : Netgear
+ First      : Sat Feb  6 14:10:19 2016
+ Last       : Sat Feb  6 14:10:30 2016
+ Type       : infrastructure
+ BSSID      : 04:A1:51:D3:47:1E
+   SSID 1
+    Type       : Beacon
+    SSID       : "AnkenyDiem2" 
+    First      : Sat Feb  6 14:10:19 2016
+    Last       : Sat Feb  6 14:10:30 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 9
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 15 packets, 100.00%
+ Max Seen   : 1000
+ Carrier    : IEEE 802.11b+
+ Encoding   : PBCC
+ LLC        : 9
+ Data       : 6
+ Crypt      : 5
+ Fragments  : 0
+ Retries    : 0
+ Total      : 15
+ Datasize   : 584
+ Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+ Avg Pos    : AvgLat 41.709490 AvgLon -93.599918 AvgAlt 273.262900
+ Last BSSTS : 0
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 15 packets
+              Sat Feb  6 14:10:30 2016
+ Client 1: MAC 04:A1:51:D3:47:1E
+  Manuf      : Netgear
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : From Distribution
+  MAC        : 04:A1:51:D3:47:1E
+  Channel    : 11
+  Frequency  : 2462 - 12 packets, 100.00%
+  Max Seen   : 1000
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 9
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 12
+  Datasize   : 192
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+  Avg Pos    : AvgLat 41.709493 AvgLon -93.599906 AvgAlt 273.302400
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 12 packets
+               Sat Feb  6 14:10:30 2016
+ Client 2: MAC F0:B4:79:13:24:C9
+  Manuf      : Apple
+  First      : Sat Feb  6 14:10:30 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : Established
+  MAC        : F0:B4:79:13:24:C9
+  Channel    : 0
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 1000
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 3
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 392
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709476 Lon -93.599968 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709476 Lon -93.599968 Alt 273.105011
+  Avg Pos    : AvgLat 41.709476 AvgLon -93.599968 AvgAlt 273.105000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+               Sat Feb  6 14:10:30 2016
+Network 7: BSSID 10:5F:06:96:F5:05
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:12 2016
+ Last       : Sat Feb  6 14:10:24 2016
+ Type       : infrastructure
+ BSSID      : 10:5F:06:96:F5:05
+   SSID 1
+    Type       : Beacon
+    SSID       : "CenturyLink3199" 
+    First      : Sat Feb  6 14:10:12 2016
+    Last       : Sat Feb  6 14:10:24 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 4
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 1
+ Frequency  : 2412 - 6 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 4
+ Data       : 2
+ Crypt      : 1
+ Fragments  : 0
+ Retries    : 0
+ Total      : 6
+ Datasize   : 222
+ Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+ Avg Pos    : AvgLat 41.709501 AvgLon -93.599884 AvgAlt 273.694900
+ Last BSSTS : 2846739661194
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 6 packets
+              Sat Feb  6 14:10:24 2016
+ Client 1: MAC 10:5F:06:96:F5:05
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:12 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : From Distribution
+  MAC        : 10:5F:06:96:F5:05
+  Channel    : 1
+  Frequency  : 2412 - 4 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 4
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+  Avg Pos    : AvgLat 41.709501 AvgLon -93.599884 AvgAlt 273.694900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 4 packets
+               Sat Feb  6 14:10:24 2016
+ Client 2: MAC 78:31:C1:71:CE:D8
+  Manuf      : Apple
+  First      : Sat Feb  6 14:10:24 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : To Distribution
+  MAC        : 78:31:C1:71:CE:D8
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599922 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+  Avg Pos    : AvgLat 41.709496 AvgLon -93.599922 AvgAlt 273.502900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:24 2016
+ Client 3: MAC F8:BC:12:9A:16:61
+  Manuf      : Dell
+  First      : Sat Feb  6 14:10:12 2016
+  Last       : Sat Feb  6 14:10:12 2016
+  Type       : From Distribution
+  MAC        : F8:BC:12:9A:16:61
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 222
+  Min Pos    : Lat 41.709507 Lon -93.599846 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709507 Lon -93.599846 Alt 273.886993
+  Avg Pos    : AvgLat 41.709507 AvgLon -93.599846 AvgAlt 273.886900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:12 2016
+Network 8: BSSID 20:76:00:83:63:75
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:19 2016
+ Last       : Sat Feb  6 14:10:30 2016
+ Type       : infrastructure
+ BSSID      : 20:76:00:83:63:75
+   SSID 1
+    Type       : Beacon
+    SSID       : "CenturyLink3880" 
+    First      : Sat Feb  6 14:10:19 2016
+    Last       : Sat Feb  6 14:10:30 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 3
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 3 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 3
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 3
+ Datasize   : 0
+ Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709496 Lon -93.599892 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709496 Lon -93.599892 Alt 273.410004
+ Avg Pos    : AvgLat 41.709483 AvgLon -93.599942 AvgAlt 273.206600
+ Last BSSTS : 302953165206
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+              Sat Feb  6 14:10:30 2016
+ Client 1: MAC 20:76:00:83:63:75
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : From Distribution
+  MAC        : 20:76:00:83:63:75
+  Channel    : 11
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 3
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599892 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599892 Alt 273.410004
+  Avg Pos    : AvgLat 41.709483 AvgLon -93.599942 AvgAlt 273.206600
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+               Sat Feb  6 14:10:30 2016
+Network 9: BSSID 40:55:39:E8:EE:10
+ Manuf      : Cisco
+ First      : Sat Feb  6 14:10:21 2016
+ Last       : Sat Feb  6 14:10:21 2016
+ Type       : infrastructure
+ BSSID      : 40:55:39:E8:EE:10
+   SSID 1
+    Type       : Beacon
+    SSID       : "Iowa CPAP" 
+    Info       : ap
+    First      : Sat Feb  6 14:10:21 2016
+    Last       : Sat Feb  6 14:10:21 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 2
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+ Channel    : 4
+ Frequency  : 2427 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Min Pos    : Lat 41.709496 Lon -93.599907 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709496 Lon -93.599907 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709496 Lon -93.599907 Alt 273.455994
+ Avg Pos    : AvgLat 41.709496 AvgLon -93.599907 AvgAlt 273.455900
+ Last BSSTS : 2083144754232
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+              Sat Feb  6 14:10:21 2016
+ Client 1: MAC 40:55:39:E8:EE:10
+  Manuf      : Cisco
+  First      : Sat Feb  6 14:10:21 2016
+  Last       : Sat Feb  6 14:10:21 2016
+  Type       : From Distribution
+  MAC        : 40:55:39:E8:EE:10
+  Channel    : 4
+  Frequency  : 2427 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599907 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599907 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599907 Alt 273.455994
+  Avg Pos    : AvgLat 41.709496 AvgLon -93.599907 AvgAlt 273.455900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:21 2016
+Network 10: BSSID 40:8B:07:20:70:D5
+ Manuf      : Actionte
+ First      : Sat Feb  6 14:10:19 2016
+ Last       : Sat Feb  6 14:10:30 2016
+ Type       : infrastructure
+ BSSID      : 40:8B:07:20:70:D5
+   SSID 1
+    Type       : Beacon
+    SSID       : "AnkenyDiem" 
+    First      : Sat Feb  6 14:10:19 2016
+    Last       : Sat Feb  6 14:10:30 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 22
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 28 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 22
+ Data       : 6
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 28
+ Datasize   : 0
+ Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+ Avg Pos    : AvgLat 41.709495 AvgLon -93.599898 AvgAlt 273.337800
+ Last BSSTS : 709190246794
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 28 packets
+              Sat Feb  6 14:10:30 2016
+ Client 1: MAC 40:8B:07:20:70:D5
+  Manuf      : Actionte
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : From Distribution
+  MAC        : 40:8B:07:20:70:D5
+  Channel    : 11
+  Frequency  : 2462 - 22 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 22
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 22
+  Datasize   : 0
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+  Avg Pos    : AvgLat 41.709495 AvgLon -93.599897 AvgAlt 273.336300
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 22 packets
+               Sat Feb  6 14:10:30 2016
+ Client 2: MAC B8:E8:56:C7:B4:A2
+  Manuf      : Apple
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:19 2016
+  Type       : To Distribution
+  MAC        : B8:E8:56:C7:B4:A2
+  Channel    : 0
+  Frequency  : 2462 - 2 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599892 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599892 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599892 Alt 273.410004
+  Avg Pos    : AvgLat 41.709496 AvgLon -93.599892 AvgAlt 273.410000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:19 2016
+ Client 3: MAC C8:69:CD:97:3B:B6
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:19 2016
+  Type       : To Distribution
+  MAC        : C8:69:CD:97:3B:B6
+  Channel    : 0
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 3
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599892 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+  Avg Pos    : AvgLat 41.709498 AvgLon -93.599887 AvgAlt 273.378600
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 3 packets
+               Sat Feb  6 14:10:19 2016
+ Client 4: MAC C8:85:50:71:32:B9
+  Manuf      : Apple
+  First      : Sat Feb  6 14:10:30 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : To Distribution
+  MAC        : C8:85:50:71:32:B9
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709476 Lon -93.599968 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709476 Lon -93.599968 Alt 273.105011
+  Avg Pos    : AvgLat 41.709476 AvgLon -93.599968 AvgAlt 273.105000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:30 2016
+Network 11: BSSID 48:F8:B3:C6:78:EF
+ Manuf      : Cisco-Li
+ First      : Sat Feb  6 14:10:24 2016
+ Last       : Sat Feb  6 14:10:24 2016
+ Type       : infrastructure
+ BSSID      : 48:F8:B3:C6:78:EF
+   SSID 1
+    Type       : Probe Response
+    SSID       : "Wig&Pen Pizza" 
+    First      : Sat Feb  6 14:10:24 2016
+    Last       : Sat Feb  6 14:10:24 2016
+    Max Rate   : 54.0
+    Packets    : 2
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 0
+ Frequency  : 2412 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709496 Lon -93.599922 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+ Avg Pos    : AvgLat 41.709496 AvgLon -93.599922 AvgAlt 273.502900
+ Last BSSTS : 1650349196526
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+              Sat Feb  6 14:10:24 2016
+ Client 1: MAC 48:F8:B3:C6:78:EF
+  Manuf      : Cisco-Li
+  First      : Sat Feb  6 14:10:24 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : Unknown
+  MAC        : 48:F8:B3:C6:78:EF
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599922 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+  Avg Pos    : AvgLat 41.709496 AvgLon -93.599922 AvgAlt 273.502900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:24 2016
+Network 12: BSSID 4A:F8:B3:C6:78:E0
+ Manuf      : Unknown
+ First      : Sat Feb  6 14:10:12 2016
+ Last       : Sat Feb  6 14:10:24 2016
+ Type       : infrastructure
+ BSSID      : 4A:F8:B3:C6:78:E0
+   SSID 1
+    Type       : Probe Response
+    SSID       : "Wig&Pen Pizza-guest" 
+    First      : Sat Feb  6 14:10:24 2016
+    Last       : Sat Feb  6 14:10:24 2016
+    Max Rate   : 54.0
+    Packets    : 2
+    Encryption : None
+ Channel    : 0
+ Frequency  : 2412 - 4 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 2
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 4
+ Datasize   : 0
+ Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+ Avg Pos    : AvgLat 41.709501 AvgLon -93.599884 AvgAlt 273.694900
+ Last BSSTS : 0
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 4 packets
+              Sat Feb  6 14:10:24 2016
+ Client 1: MAC 4A:F8:B3:C6:78:E0
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:24 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : Unknown
+  MAC        : 4A:F8:B3:C6:78:E0
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599922 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599922 Alt 273.502991
+  Avg Pos    : AvgLat 41.709496 AvgLon -93.599922 AvgAlt 273.502900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:24 2016
+ Client 2: MAC FC:DB:B3:44:C2:4C
+  Manuf      : MurataMa
+  First      : Sat Feb  6 14:10:12 2016
+  Last       : Sat Feb  6 14:10:12 2016
+  Type       : To Distribution
+  MAC        : FC:DB:B3:44:C2:4C
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709507 Lon -93.599846 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709507 Lon -93.599846 Alt 273.886993
+  Avg Pos    : AvgLat 41.709507 AvgLon -93.599846 AvgAlt 273.886900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:12 2016
+Network 13: BSSID 78:E8:B6:7D:10:24
+ Manuf      : Zte
+ First      : Sat Feb  6 14:10:15 2016
+ Last       : Sat Feb  6 14:10:27 2016
+ Type       : infrastructure
+ BSSID      : 78:E8:B6:7D:10:24
+   SSID 1
+    Type       : Beacon
+    SSID       : "USCC-EuFi891-1024" 
+    First      : Sat Feb  6 14:10:15 2016
+    Last       : Sat Feb  6 14:10:27 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 6
+    Country    : US
+     Chan Range: 1-1 23 dBm
+     Chan Range: 2-2 23 dBm
+     Chan Range: 3-3 23 dBm
+     Chan Range: 4-4 23 dBm
+     Chan Range: 5-5 23 dBm
+     Chan Range: 6-6 23 dBm
+     Chan Range: 7-7 23 dBm
+     Chan Range: 8-8 23 dBm
+     Chan Range: 9-9 23 dBm
+     Chan Range: 10-10 22 dBm
+     Chan Range: 11-11 22 dBm
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 2
+ Frequency  : 2417 - 8 packets, 100.00%
+ Max Seen   : 1000
+ Carrier    : IEEE 802.11b+
+ Encoding   : PBCC
+ LLC        : 6
+ Data       : 2
+ Crypt      : 2
+ Fragments  : 0
+ Retries    : 0
+ Total      : 8
+ Datasize   : 128
+ Min Pos    : Lat 41.709484 Lon -93.599945 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+ Avg Pos    : AvgLat 41.709492 AvgLon -93.599903 AvgAlt 273.473000
+ Last BSSTS : 15108813196
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 8 packets
+              Sat Feb  6 14:10:27 2016
+ Client 1: MAC 60:57:18:20:C7:7C
+  Manuf      : IntelCor
+  First      : Sat Feb  6 14:10:27 2016
+  Last       : Sat Feb  6 14:10:27 2016
+  Type       : To Distribution
+  MAC        : 60:57:18:20:C7:7C
+  Channel    : 0
+  Frequency  : 2417 - 1 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 64
+  Min Pos    : Lat 41.709484 Lon -93.599945 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709484 Lon -93.599945 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709484 Lon -93.599945 Alt 273.677002
+  Avg Pos    : AvgLat 41.709484 AvgLon -93.599945 AvgAlt 273.677000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 1 packets
+               Sat Feb  6 14:10:27 2016
+ Client 2: MAC 78:E8:B6:7D:10:24
+  Manuf      : Zte
+  First      : Sat Feb  6 14:10:15 2016
+  Last       : Sat Feb  6 14:10:27 2016
+  Type       : From Distribution
+  MAC        : 78:E8:B6:7D:10:24
+  Channel    : 2
+  Frequency  : 2417 - 7 packets, 100.00%
+  Max Seen   : 1000
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 6
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 64
+  Min Pos    : Lat 41.709484 Lon -93.599945 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709493 AvgLon -93.599897 AvgAlt 273.443800
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 7 packets
+               Sat Feb  6 14:10:27 2016
+Network 14: BSSID C4:34:6B:13:1D:FA
+ Manuf      : HewlettP
+ First      : Sat Feb  6 14:10:12 2016
+ Last       : Sat Feb  6 14:10:24 2016
+ Type       : infrastructure
+ BSSID      : C4:34:6B:13:1D:FA
+   SSID 1
+    Type       : Beacon
+    SSID       : "HP-Print-FA-Officejet Pro 8630" 
+    First      : Sat Feb  6 14:10:12 2016
+    Last       : Sat Feb  6 14:10:24 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 5
+    Encryption : None
+ Channel    : 1
+ Frequency  : 2412 - 5 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 5
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 5
+ Datasize   : 0
+ Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709507 Lon -93.599846 Alt 273.886993
+ Avg Pos    : AvgLat 41.709502 AvgLon -93.599876 AvgAlt 273.733300
+ Last BSSTS : 671526502722
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 5 packets
+              Sat Feb  6 14:10:24 2016
+ Client 1: MAC C4:34:6B:13:1D:FA
+  Manuf      : HewlettP
+  First      : Sat Feb  6 14:10:12 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : From Distribution
+  MAC        : C4:34:6B:13:1D:FA
+  Channel    : 1
+  Frequency  : 2412 - 5 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 5
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 5
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599922 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599846 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709507 Lon -93.599846 Alt 273.886993
+  Avg Pos    : AvgLat 41.709502 AvgLon -93.599876 AvgAlt 273.733300
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 5 packets
+               Sat Feb  6 14:10:24 2016
+Network 15: BSSID D0:57:85:A7:77:8A
+ Manuf      : Pantech
+ First      : Sat Feb  6 14:10:16 2016
+ Last       : Sat Feb  6 14:10:30 2016
+ Type       : infrastructure
+ BSSID      : D0:57:85:A7:77:8A
+   SSID 1
+    Type       : Probe Response
+    SSID       : "Verizon-291LVW-778A" 
+    First      : Sat Feb  6 14:10:16 2016
+    Last       : Sat Feb  6 14:10:30 2016
+    Max Rate   : 54.0
+    Packets    : 22
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 39 packets, 92.86%
+ Frequency  : 2442 - 3 packets, 7.14%
+ Max Seen   : 54000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 22
+ Data       : 20
+ Crypt      : 20
+ Fragments  : 0
+ Retries    : 0
+ Total      : 42
+ Datasize   : 2080
+ Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+ Avg Pos    : AvgLat 41.709496 AvgLon -93.599881 AvgAlt 273.351700
+ Last BSSTS : 6808085055
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 42 packets
+              Sat Feb  6 14:10:30 2016
+ Client 1: MAC 00:24:2B:AB:15:DD
+  Manuf      : HonHaiPr
+  First      : Sat Feb  6 14:10:16 2016
+  Last       : Sat Feb  6 14:10:16 2016
+  Type       : To Distribution
+  MAC        : 00:24:2B:AB:15:DD
+  Channel    : 0
+  Frequency  : 2437 - 20 packets, 100.00%
+  Max Seen   : 54000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 20
+  Crypt      : 20
+  Fragments  : 0
+  Retries    : 0
+  Total      : 20
+  Datasize   : 2080
+  Min Pos    : Lat 41.709499 Lon -93.599861 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709499 AvgLon -93.599861 AvgAlt 273.269000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 20 packets
+               Sat Feb  6 14:10:16 2016
+ Client 2: MAC D0:57:85:A7:77:8A
+  Manuf      : Pantech
+  First      : Sat Feb  6 14:10:16 2016
+  Last       : Sat Feb  6 14:10:30 2016
+  Type       : Unknown
+  MAC        : D0:57:85:A7:77:8A
+  Channel    : 6
+  Frequency  : 2437 - 19 packets, 86.36%
+  Frequency  : 2442 - 3 packets, 13.64%
+  Max Seen   : 1000
+  LLC        : 22
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 22
+  Datasize   : 0
+  Min Pos    : Lat 41.709476 Lon -93.599968 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599861 Alt 273.269012
+  Avg Pos    : AvgLat 41.709493 AvgLon -93.599899 AvgAlt 273.426900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 22 packets
+               Sat Feb  6 14:10:30 2016
+Network 16: BSSID FF:FF:FF:FF:FF:FF
+ Manuf      : Unknown
+ First      : Sat Feb  6 14:10:15 2016
+ Last       : Sat Feb  6 14:10:28 2016
+ Type       : probe
+ BSSID      : FF:FF:FF:FF:FF:FF
+ Channel    : 0
+ Frequency  : 2422 - 2 packets, 7.41%
+ Frequency  : 2432 - 2 packets, 7.41%
+ Frequency  : 2442 - 3 packets, 11.11%
+ Frequency  : 2457 - 2 packets, 7.41%
+ Frequency  : 2462 - 4 packets, 14.81%
+ Frequency  : 5180 - 2 packets, 7.41%
+ Frequency  : 5200 - 4 packets, 14.81%
+ Frequency  : 5805 - 6 packets, 22.22%
+ Frequency  : 5825 - 2 packets, 7.41%
+ Max Seen   : 6000
+ Carrier    : IEEE 802.11b
+ Encoding   : CCK
+ LLC        : 27
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 27
+ Datasize   : 0
+ Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709507 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709499 Lon -93.599869 Alt 273.316010
+ Avg Pos    : AvgLat 41.709495 AvgLon -93.599896 AvgAlt 273.489500
+ Last BSSTS : 0
+    Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 27 packets
+              Sat Feb  6 14:10:28 2016
+ Client 1: MAC 64:89:9A:7A:0A:26
+  Manuf      : LgElectr
+  First      : Sat Feb  6 14:10:28 2016
+  Last       : Sat Feb  6 14:10:28 2016
+  Type       : To Distribution
+  MAC        : 64:89:9A:7A:0A:26
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:28 2016
+    Last       : Sat Feb  6 14:10:28 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2457 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599953 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709484 Lon -93.599953 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709484 Lon -93.599953 Alt 273.723999
+  Avg Pos    : AvgLat 41.709484 AvgLon -93.599953 AvgAlt 273.723900
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:28 2016
+ Client 2: MAC 88:C9:D0:BB:E8:51
+  Manuf      : LgElectr
+  First      : Sat Feb  6 14:10:24 2016
+  Last       : Sat Feb  6 14:10:24 2016
+  Type       : To Distribution
+  MAC        : 88:C9:D0:BB:E8:51
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:24 2016
+    Last       : Sat Feb  6 14:10:24 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2432 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+  Min Pos    : Lat 41.709488 Lon -93.599930 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709488 Lon -93.599930 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709488 Lon -93.599930 Alt 272.885010
+  Avg Pos    : AvgLat 41.709488 AvgLon -93.599930 AvgAlt 272.885000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 2 packets
+               Sat Feb  6 14:10:24 2016
+ Client 3: MAC 9C:D9:17:53:E5:EF
+  Manuf      : Motorola
+  First      : Sat Feb  6 14:10:19 2016
+  Last       : Sat Feb  6 14:10:19 2016
+  Type       : To Distribution
+  MAC        : 9C:D9:17:53:E5:EF
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:19 2016
+    Last       : Sat Feb  6 14:10:19 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2442 - 3 packets, 42.86%
+  Frequency  : 2462 - 4 packets, 57.14%
+  Max Seen   : 1000
+  LLC        : 7
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 0
+  Min Pos    : Lat 41.709496 Lon -93.599892 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599884 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599884 Alt 273.363007
+  Avg Pos    : AvgLat 41.709499 AvgLon -93.599885 AvgAlt 273.369700
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 7 packets
+               Sat Feb  6 14:10:19 2016
+ Client 4: MAC BA:29:2C:5A:48:91
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:15 2016
+  Last       : Sat Feb  6 14:10:18 2016
+  Type       : To Distribution
+  MAC        : BA:29:2C:5A:48:91
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:18 2016
+    Last       : Sat Feb  6 14:10:18 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2422 - 2 packets, 50.00%
+  Frequency  : 5805 - 2 packets, 50.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 4
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 0
+  Min Pos    : Lat 41.709499 Lon -93.599884 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709507 Lon -93.599861 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709507 Lon -93.599861 Alt 273.933990
+  Avg Pos    : AvgLat 41.709503 AvgLon -93.599873 AvgAlt 273.648400
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 4 packets
+               Sat Feb  6 14:10:18 2016
+ Client 5: MAC C8:69:CD:97:3B:B6
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:16 2016
+  Last       : Sat Feb  6 14:10:26 2016
+  Type       : To Distribution
+  MAC        : C8:69:CD:97:3B:B6
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:26 2016
+    Last       : Sat Feb  6 14:10:26 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+   SSID 2
+    Type       : Probe Request
+    SSID       : Unknown
+    First      : Sat Feb  6 14:10:26 2016
+    Last       : Sat Feb  6 14:10:26 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 5200 - 4 packets, 50.00%
+  Frequency  : 5805 - 4 packets, 50.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 8
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 8
+  Datasize   : 0
+  Min Pos    : Lat 41.709484 Lon -93.599930 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709499 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709499 Lon -93.599869 Alt 273.316010
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599899 AvgAlt 273.473000
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 8 packets
+               Sat Feb  6 14:10:26 2016
+ Client 6: MAC DE:B2:56:D4:2C:CB
+  Manuf      : Unknown
+  First      : Sat Feb  6 14:10:18 2016
+  Last       : Sat Feb  6 14:10:21 2016
+  Type       : To Distribution
+  MAC        : DE:B2:56:D4:2C:CB
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Sat Feb  6 14:10:21 2016
+    Last       : Sat Feb  6 14:10:21 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 5180 - 2 packets, 50.00%
+  Frequency  : 5825 - 2 packets, 50.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 4
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 0
+  Min Pos    : Lat 41.709492 Lon -93.599907 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709496 Lon -93.599869 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709496 Lon -93.599907 Alt 273.455994
+  Avg Pos    : AvgLat 41.709494 AvgLon -93.599888 AvgAlt 273.758400
+     Seen By : wlan1 (wlan1mon) a0d22c76-cd0d-11e5-9315-dd04bc23e301 4 packets
+               Sat Feb  6 14:10:21 2016

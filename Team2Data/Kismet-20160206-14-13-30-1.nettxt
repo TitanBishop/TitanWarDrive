@@ -1,0 +1,59 @@
+Kismet (http://www.kismetwireless.net)
+Sat Feb  6 14:13:30 2016 - Kismet 2012.GIT.R0
+-----------------
+
+Network 1: BSSID 48:F8:B3:C6:78:EF
+ Manuf      : Cisco-Li
+ First      : Sat Feb  6 14:13:44 2016
+ Last       : Sat Feb  6 14:13:44 2016
+ Type       : infrastructure
+ BSSID      : 48:F8:B3:C6:78:EF
+   SSID 1
+    Type       : Probe Response
+    SSID       : "Wig&Pen Pizza" 
+    First      : Sat Feb  6 14:13:44 2016
+    Last       : Sat Feb  6 14:13:44 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 0
+ Frequency  : 2412 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Min Pos    : Lat 41.709492 Lon -93.599785 Alt -100000.000000 Spd -100000.000000
+ Max Pos    : Lat 41.709492 Lon -93.599785 Alt 100000.000000 Spd 100000.000000
+ Peak Pos   : Lat 41.709492 Lon -93.599785 Alt 256.015991
+ Avg Pos    : AvgLat 41.709492 AvgLon -93.599785 AvgAlt 256.015900
+ Last BSSTS : 1650548782868
+    Seen By : wlan1 (wlan1mon) 1f21a43a-cd0e-11e5-8698-dd04bc23e301 1 packets
+              Sat Feb  6 14:13:44 2016
+ Client 1: MAC 48:F8:B3:C6:78:EF
+  Manuf      : Cisco-Li
+  First      : Sat Feb  6 14:13:44 2016
+  Last       : Sat Feb  6 14:13:44 2016
+  Type       : Unknown
+  MAC        : 48:F8:B3:C6:78:EF
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.709492 Lon -93.599785 Alt -100000.000000 Spd -100000.000000
+  Max Pos    : Lat 41.709492 Lon -93.599785 Alt 100000.000000 Spd 100000.000000
+  Peak Pos   : Lat 41.709492 Lon -93.599785 Alt 256.015991
+  Avg Pos    : AvgLat 41.709492 AvgLon -93.599785 AvgAlt 256.015900
+     Seen By : wlan1 (wlan1mon) 1f21a43a-cd0e-11e5-8698-dd04bc23e301 1 packets
+               Sat Feb  6 14:13:44 2016

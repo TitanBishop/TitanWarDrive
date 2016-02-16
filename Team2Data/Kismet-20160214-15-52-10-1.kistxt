@@ -1,0 +1,33 @@
+Version: 2012-GIT-R0
+
+Server: TITAN Kismet Server
+
+Log name: Kismet
+
+Start time: Sun Feb 14 15:52:10 2016
+End time: Sun Feb 14 15:53:00 2016
+
+Capture sources:
+ UUID: 403cde5c-d365-11e5-9e8e-0f04751ce201
+ Definition: wlan0:
+ Name: wlan0
+ Interface: wlan0mon
+ Type: mac80211
+ Packets: 0
+ Error packets: 0
+ Channels: 1,5,9,13,2,6,10,3,7,11,4,8,12
+ Channel hopping: true
+
+Total devices: 0
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 0
+ Packets: 0
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+
