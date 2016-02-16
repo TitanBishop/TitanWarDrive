@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE gps-run SYSTEM "http://kismetwireless.net/kismet-gps-2.9.1.dtd">
+
+<gps-run gps-version="5" start-time="Sat Feb  6 21:14:52 2016">
+
+    <network-file>/var/log/kismet/Kismet-20160206-21-14-52-1.netxml</network-file>
+
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811298" time-usec="715755" lat="41.723618" lon="-93.659180" spd="0.000000" heading="0.000000" fix="3" alt="303.980988"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811299" time-usec="801340" lat="41.723568" lon="-93.659210" spd="0.000000" heading="0.000000" fix="3" alt="322.157990"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811300" time-usec="844534" lat="41.723598" lon="-93.659187" spd="0.491000" heading="353.470001" fix="3" alt="309.084015"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811301" time-usec="932118" lat="41.723610" lon="-93.659126" spd="0.074000" heading="347.630005" fix="3" alt="301.714996"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811303" time-usec="14976" lat="41.723629" lon="-93.659134" spd="0.216000" heading="32.736801" fix="3" alt="298.070007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811304" time-usec="93226" lat="41.723629" lon="-93.659134" spd="0.167000" heading="354.511414" fix="3" alt="298.070007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811305" time-usec="150240" lat="41.723629" lon="-93.659134" spd="0.176000" heading="357.409393" fix="3" alt="298.070007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811306" time-usec="196626" lat="41.723629" lon="-93.659134" spd="0.146000" heading="232.893295" fix="3" alt="298.070007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811307" time-usec="249786" lat="41.723621" lon="-93.659134" spd="0.216000" heading="212.736801" fix="3" alt="297.403992"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811308" time-usec="257037" lat="41.723621" lon="-93.659134" spd="0.167000" heading="174.511398" fix="3" alt="297.403992"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811309" time-usec="304802" lat="41.723621" lon="-93.659149" spd="0.154000" heading="300.350311" fix="3" alt="296.041992"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811310" time-usec="354068" lat="41.723621" lon="-93.659149" spd="0.318000" heading="231.675400" fix="3" alt="296.041992"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811311" time-usec="355981" lat="41.723618" lon="-93.659149" spd="0.000000" heading="0.000000" fix="3" alt="294.631012"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811312" time-usec="400545" lat="41.723618" lon="-93.659126" spd="0.000000" heading="0.000000" fix="3" alt="288.894989"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811313" time-usec="457465" lat="41.723618" lon="-93.659126" spd="0.000000" heading="0.000000" fix="3" alt="288.894989"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811314" time-usec="463320" lat="41.723618" lon="-93.659126" spd="0.000000" heading="0.000000" fix="3" alt="288.894989"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811315" time-usec="503864" lat="41.723610" lon="-93.659126" spd="0.125000" heading="267.562897" fix="3" alt="289.639008"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811316" time-usec="552764" lat="41.723610" lon="-93.659126" spd="0.000000" heading="0.000000" fix="3" alt="289.639008"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1454811317" time-usec="558619" lat="41.723610" lon="-93.659126" spd="0.000000" heading="0.000000" fix="3" alt="289.639008"/>
+</gps-run>

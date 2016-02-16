@@ -1,0 +1,1653 @@
+Kismet (http://www.kismetwireless.net)
+Mon Feb  8 20:00:03 2016 - Kismet 2012.GIT.R0
+-----------------
+
+Network 1: BSSID 00:00:00:00:00:00
+ Manuf      : Unknown
+ First      : Mon Feb  8 20:00:04 2016
+ Last       : Mon Feb  8 20:00:04 2016
+ Type       : infrastructure
+ BSSID      : 00:00:00:00:00:00
+ Channel    : 0
+ Frequency  : 2412 - 3 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 3
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 3
+ Datasize   : 0
+ Last BSSTS : 0
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+              Mon Feb  8 20:00:04 2016
+ Client 1: MAC CC:20:E8:2F:64:03
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:04 2016
+  Last       : Mon Feb  8 20:00:04 2016
+  Type       : Unknown
+  MAC        : CC:20:E8:2F:64:03
+  Channel    : 0
+  Frequency  : 2412 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 3
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:00:04 2016
+Network 2: BSSID 00:23:69:8C:68:81
+ Manuf      : Cisco-Li
+ First      : Mon Feb  8 20:00:26 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : 00:23:69:8C:68:81
+   SSID 1
+    Type       : Beacon
+    SSID       : "" (Cloaked)
+    First      : Mon Feb  8 20:00:26 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 21
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 21 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 21
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 21
+ Datasize   : 0
+ Last BSSTS : 97750630787
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 21 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 00:23:69:8C:68:81
+  Manuf      : Cisco-Li
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : 00:23:69:8C:68:81
+  Channel    : 11
+  Frequency  : 2462 - 21 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 21
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 21
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 21 packets
+               Mon Feb  8 20:03:01 2016
+Network 3: BSSID 00:26:B8:F3:01:BC
+ Manuf      : Actionte
+ First      : Mon Feb  8 20:00:09 2016
+ Last       : Mon Feb  8 20:02:44 2016
+ Type       : infrastructure
+ BSSID      : 00:26:B8:F3:01:BC
+   SSID 1
+    Type       : Beacon
+    SSID       : "myqwest9107" 
+    First      : Mon Feb  8 20:00:09 2016
+    Last       : Mon Feb  8 20:02:44 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 13
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 19 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 13
+ Data       : 6
+ Crypt      : 6
+ Fragments  : 0
+ Retries    : 0
+ Total      : 19
+ Datasize   : 1809
+ Last BSSTS : 1929664000412
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 19 packets
+              Mon Feb  8 20:02:44 2016
+ Client 1: MAC 00:26:B8:F3:01:BC
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:02:44 2016
+  Type       : From Distribution
+  MAC        : 00:26:B8:F3:01:BC
+  Channel    : 6
+  Frequency  : 2437 - 15 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 13
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 15
+  Datasize   : 672
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 15 packets
+               Mon Feb  8 20:02:44 2016
+ Client 2: MAC 02:0F:B5:44:C7:9D
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:02:02 2016
+  Last       : Mon Feb  8 20:02:02 2016
+  Type       : From Distribution
+  MAC        : 02:0F:B5:44:C7:9D
+  Channel    : 0
+  Frequency  : 2437 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 537
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:02:02 2016
+ Client 3: MAC 02:0F:B5:70:57:01
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:00:09 2016
+  Type       : From Distribution
+  MAC        : 02:0F:B5:70:57:01
+  Channel    : 0
+  Frequency  : 2437 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 600
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:09 2016
+Network 4: BSSID 08:95:2A:B4:15:D2
+ Manuf      : Technico
+ First      : Mon Feb  8 20:00:09 2016
+ Last       : Mon Feb  8 20:02:58 2016
+ Type       : infrastructure
+ BSSID      : 08:95:2A:B4:15:D2
+   SSID 1
+    Type       : Beacon
+    SSID       : "graham" 
+    First      : Mon Feb  8 20:00:09 2016
+    Last       : Mon Feb  8 20:02:58 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 19
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 24 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 19
+ Data       : 5
+ Crypt      : 5
+ Fragments  : 0
+ Retries    : 0
+ Total      : 24
+ Datasize   : 458
+ Last BSSTS : 55596339639
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 24 packets
+              Mon Feb  8 20:02:58 2016
+ Client 1: MAC 00:24:14:63:E8:D9
+  Manuf      : CiscoInc
+  First      : Mon Feb  8 20:00:22 2016
+  Last       : Mon Feb  8 20:02:44 2016
+  Type       : From Distribution
+  MAC        : 00:24:14:63:E8:D9
+  Channel    : 0
+  Frequency  : 2437 - 4 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 4
+  Crypt      : 4
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 384
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 4 packets
+               Mon Feb  8 20:02:44 2016
+ Client 2: MAC 08:95:2A:B4:15:D1
+  Manuf      : Technico
+  First      : Mon Feb  8 20:01:19 2016
+  Last       : Mon Feb  8 20:01:19 2016
+  Type       : From Distribution
+  MAC        : 08:95:2A:B4:15:D1
+  Channel    : 0
+  Frequency  : 2437 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 74
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:19 2016
+ Client 3: MAC 08:95:2A:B4:15:D2
+  Manuf      : Technico
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:02:58 2016
+  Type       : From Distribution
+  MAC        : 08:95:2A:B4:15:D2
+  Channel    : 6
+  Frequency  : 2437 - 19 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 19
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 19
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 19 packets
+               Mon Feb  8 20:02:58 2016
+Network 5: BSSID 0C:47:3D:E3:CF:E8
+ Manuf      : HitronTe
+ First      : Mon Feb  8 20:00:56 2016
+ Last       : Mon Feb  8 20:02:48 2016
+ Type       : infrastructure
+ BSSID      : 0C:47:3D:E3:CF:E8
+   SSID 1
+    Type       : Beacon
+    SSID       : "thorpe0" 
+    First      : Mon Feb  8 20:00:56 2016
+    Last       : Mon Feb  8 20:02:48 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 2
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Last BSSTS : 1213318963576
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+              Mon Feb  8 20:02:48 2016
+ Client 1: MAC 0C:47:3D:E3:CF:E8
+  Manuf      : HitronTe
+  First      : Mon Feb  8 20:00:56 2016
+  Last       : Mon Feb  8 20:02:48 2016
+  Type       : From Distribution
+  MAC        : 0C:47:3D:E3:CF:E8
+  Channel    : 11
+  Frequency  : 2462 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:02:48 2016
+Network 6: BSSID 10:5F:06:53:00:D5
+ Manuf      : Actionte
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : 10:5F:06:53:00:D5
+   SSID 1
+    Type       : Beacon
+    SSID       : "Strong" 
+    First      : Mon Feb  8 20:00:12 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 21
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 34 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 21
+ Data       : 13
+ Crypt      : 13
+ Fragments  : 0
+ Retries    : 0
+ Total      : 34
+ Datasize   : 3261
+ Last BSSTS : 2687991922607
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 34 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 00:10:75:2C:F4:03
+  Manuf      : SegateTe
+  First      : Mon Feb  8 20:01:52 2016
+  Last       : Mon Feb  8 20:01:52 2016
+  Type       : From Distribution
+  MAC        : 00:10:75:2C:F4:03
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 255
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:52 2016
+ Client 2: MAC 00:11:F6:A0:91:A9
+  Manuf      : AsiaPaci
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:00:26 2016
+  Type       : From Distribution
+  MAC        : 00:11:F6:A0:91:A9
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 198
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:26 2016
+ Client 3: MAC 0C:60:76:72:09:5D
+  Manuf      : HonHaiPr
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:00:26 2016
+  Type       : From Distribution
+  MAC        : 0C:60:76:72:09:5D
+  Channel    : 0
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 1243
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:00:26 2016
+ Client 4: MAC 10:5F:06:53:00:D0
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:02:20 2016
+  Last       : Mon Feb  8 20:02:48 2016
+  Type       : From Distribution
+  MAC        : 10:5F:06:53:00:D0
+  Channel    : 0
+  Frequency  : 2462 - 4 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 4
+  Crypt      : 4
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 304
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 4 packets
+               Mon Feb  8 20:02:48 2016
+ Client 5: MAC 10:5F:06:53:00:D5
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : 10:5F:06:53:00:D5
+  Channel    : 11
+  Frequency  : 2462 - 21 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 21
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 21
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 21 packets
+               Mon Feb  8 20:03:01 2016
+ Client 6: MAC 68:64:4B:3B:00:01
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:00:12 2016
+  Type       : From Distribution
+  MAC        : 68:64:4B:3B:00:01
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 1087
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:12 2016
+ Client 7: MAC BC:30:7D:87:B1:5C
+  Manuf      : WistronN
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : BC:30:7D:87:B1:5C
+  Channel    : 0
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 174
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:03:01 2016
+Network 7: BSSID 20:76:00:0A:7F:64
+ Manuf      : Actionte
+ First      : Mon Feb  8 20:00:09 2016
+ Last       : Mon Feb  8 20:02:58 2016
+ Type       : infrastructure
+ BSSID      : 20:76:00:0A:7F:64
+   SSID 1
+    Type       : Beacon
+    SSID       : "home" 
+    First      : Mon Feb  8 20:00:09 2016
+    Last       : Mon Feb  8 20:02:58 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 18
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 24 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 18
+ Data       : 6
+ Crypt      : 4
+ Fragments  : 0
+ Retries    : 0
+ Total      : 24
+ Datasize   : 570
+ Last BSSTS : 1118772941199
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 24 packets
+              Mon Feb  8 20:02:58 2016
+ Client 1: MAC 20:76:00:0A:7F:64
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:02:58 2016
+  Type       : From Distribution
+  MAC        : 20:76:00:0A:7F:64
+  Channel    : 6
+  Frequency  : 2437 - 20 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 18
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 20
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 20 packets
+               Mon Feb  8 20:02:58 2016
+ Client 2: MAC 60:02:B4:6E:E8:E0
+  Manuf      : WistronN
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:00:09 2016
+  Type       : From Distribution
+  MAC        : 60:02:B4:6E:E8:E0
+  Channel    : 0
+  Frequency  : 2437 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 58
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:09 2016
+ Client 3: MAC C0:FF:D4:CB:9D:D1
+  Manuf      : Netgear
+  First      : Mon Feb  8 20:00:22 2016
+  Last       : Mon Feb  8 20:02:02 2016
+  Type       : From Distribution
+  MAC        : C0:FF:D4:CB:9D:D1
+  Channel    : 0
+  Frequency  : 2437 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 512
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:02:02 2016
+Network 8: BSSID 54:A0:50:D4:72:40
+ Manuf      : AsustekC
+ First      : Mon Feb  8 20:01:20 2016
+ Last       : Mon Feb  8 20:01:48 2016
+ Type       : infrastructure
+ BSSID      : 54:A0:50:D4:72:40
+   SSID 1
+    Type       : Beacon
+    SSID       : "Wise_Gray_Dragon" 
+    First      : Mon Feb  8 20:01:20 2016
+    Last       : Mon Feb  8 20:01:48 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 2
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Last BSSTS : 906505523602
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+              Mon Feb  8 20:01:48 2016
+ Client 1: MAC 54:A0:50:D4:72:40
+  Manuf      : AsustekC
+  First      : Mon Feb  8 20:01:20 2016
+  Last       : Mon Feb  8 20:01:48 2016
+  Type       : From Distribution
+  MAC        : 54:A0:50:D4:72:40
+  Channel    : 6
+  Frequency  : 2437 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:01:48 2016
+Network 9: BSSID 68:7F:74:BD:1E:30
+ Manuf      : Cisco-Li
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : 68:7F:74:BD:1E:30
+   SSID 1
+    Type       : Beacon
+    SSID       : "DDWireless" 
+    First      : Mon Feb  8 20:00:26 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 20
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 26 packets, 100.00%
+ Max Seen   : 6000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ Encoding   : PBCC
+ LLC        : 20
+ Data       : 6
+ Crypt      : 6
+ Fragments  : 0
+ Retries    : 0
+ Total      : 26
+ Datasize   : 1384
+ Last BSSTS : 0
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 26 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 02:0F:B5:02:3D:B3
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:01:37 2016
+  Last       : Mon Feb  8 20:01:37 2016
+  Type       : From Distribution
+  MAC        : 02:0F:B5:02:3D:B3
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 1040
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:37 2016
+ Client 2: MAC 02:0F:B5:02:81:67
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:01:10 2016
+  Last       : Mon Feb  8 20:01:10 2016
+  Type       : To Distribution
+  MAC        : 02:0F:B5:02:81:67
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 52
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:10 2016
+ Client 3: MAC 02:0F:B5:C5:E6:C7
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:00:12 2016
+  Type       : To Distribution
+  MAC        : 02:0F:B5:C5:E6:C7
+  Channel    : 0
+  Frequency  : 2462 - 3 packets, 100.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 228
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:00:12 2016
+ Client 4: MAC 68:7F:74:BD:1E:2E
+  Manuf      : Cisco-Li
+  First      : Mon Feb  8 20:02:34 2016
+  Last       : Mon Feb  8 20:02:34 2016
+  Type       : From Distribution
+  MAC        : 68:7F:74:BD:1E:2E
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 64
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:02:34 2016
+ Client 5: MAC 68:7F:74:BD:1E:30
+  Manuf      : Cisco-Li
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : 68:7F:74:BD:1E:30
+  Channel    : 11
+  Frequency  : 2462 - 20 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 20
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 20
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 20 packets
+               Mon Feb  8 20:03:01 2016
+Network 10: BSSID 6C:3B:E5:4A:A5:52
+ Manuf      : HewlettP
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : 6C:3B:E5:4A:A5:52
+   SSID 1
+    Type       : Beacon
+    SSID       : "HP-Print-52-Photosmart 5520" 
+    First      : Mon Feb  8 20:00:12 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 17
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 17 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 17
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 17
+ Datasize   : 0
+ Last BSSTS : 2688061645122
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 17 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 6C:3B:E5:4A:A5:52
+  Manuf      : HewlettP
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : 6C:3B:E5:4A:A5:52
+  Channel    : 11
+  Frequency  : 2462 - 17 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 17
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 17
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 17 packets
+               Mon Feb  8 20:03:01 2016
+Network 11: BSSID A0:63:91:45:7F:3F
+ Manuf      : Netgear
+ First      : Mon Feb  8 20:00:09 2016
+ Last       : Mon Feb  8 20:02:57 2016
+ Type       : infrastructure
+ BSSID      : A0:63:91:45:7F:3F
+   SSID 1
+    Type       : Beacon
+    SSID       : "myqwest9107_2GEXT" 
+    First      : Mon Feb  8 20:00:09 2016
+    Last       : Mon Feb  8 20:02:57 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 7
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 7 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 7
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 7
+ Datasize   : 0
+ Last BSSTS : 1929663953056
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 7 packets
+              Mon Feb  8 20:02:57 2016
+ Client 1: MAC A0:63:91:45:7F:3F
+  Manuf      : Netgear
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:02:57 2016
+  Type       : From Distribution
+  MAC        : A0:63:91:45:7F:3F
+  Channel    : 6
+  Frequency  : 2437 - 7 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 7
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 7 packets
+               Mon Feb  8 20:02:57 2016
+Network 12: BSSID A0:63:91:A9:E7:75
+ Manuf      : Netgear
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : A0:63:91:A9:E7:75
+   SSID 1
+    Type       : Beacon
+    SSID       : "NETGEAR51" 
+    First      : Mon Feb  8 20:00:12 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 32
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 7
+ Frequency  : 2442 - 34 packets, 97.14%
+ Frequency  : 2447 - 1 packets, 2.86%
+ Max Seen   : 1000
+ LLC        : 32
+ Data       : 3
+ Crypt      : 3
+ Fragments  : 0
+ Retries    : 0
+ Total      : 35
+ Datasize   : 178
+ Last BSSTS : 2346958336410
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 35 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 5C:F6:DC:38:37:83
+  Manuf      : SamsungE
+  First      : Mon Feb  8 20:00:26 2016
+  Last       : Mon Feb  8 20:00:26 2016
+  Type       : From Distribution
+  MAC        : 5C:F6:DC:38:37:83
+  Channel    : 0
+  Frequency  : 2442 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 70
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:26 2016
+ Client 2: MAC A0:63:91:A9:E7:75
+  Manuf      : Netgear
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : A0:63:91:A9:E7:75
+  Channel    : 7
+  Frequency  : 2442 - 31 packets, 96.88%
+  Frequency  : 2447 - 1 packets, 3.12%
+  Max Seen   : 1000
+  LLC        : 32
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 32
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 32 packets
+               Mon Feb  8 20:03:01 2016
+ Client 3: MAC BC:30:7D:21:13:B6
+  Manuf      : WistronN
+  First      : Mon Feb  8 20:00:41 2016
+  Last       : Mon Feb  8 20:00:55 2016
+  Type       : From Distribution
+  MAC        : BC:30:7D:21:13:B6
+  Channel    : 0
+  Frequency  : 2442 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 108
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:00:55 2016
+Network 13: BSSID A0:A3:E2:29:03:55
+ Manuf      : Actionte
+ First      : Mon Feb  8 20:00:05 2016
+ Last       : Mon Feb  8 20:02:40 2016
+ Type       : infrastructure
+ BSSID      : A0:A3:E2:29:03:55
+   SSID 1
+    Type       : Beacon
+    SSID       : "CenturyLink5775" 
+    First      : Mon Feb  8 20:00:05 2016
+    Last       : Mon Feb  8 20:02:40 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 3
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 1
+ Frequency  : 2412 - 3 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 3
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 3
+ Datasize   : 0
+ Last BSSTS : 2509925683610
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+              Mon Feb  8 20:02:40 2016
+ Client 1: MAC A0:A3:E2:29:03:55
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:00:05 2016
+  Last       : Mon Feb  8 20:02:40 2016
+  Type       : From Distribution
+  MAC        : A0:A3:E2:29:03:55
+  Channel    : 1
+  Frequency  : 2412 - 3 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 3
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 3
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 3 packets
+               Mon Feb  8 20:02:40 2016
+Network 14: BSSID A8:39:44:55:CC:BC
+ Manuf      : Actionte
+ First      : Mon Feb  8 20:00:09 2016
+ Last       : Mon Feb  8 20:02:58 2016
+ Type       : infrastructure
+ BSSID      : A8:39:44:55:CC:BC
+   SSID 1
+    Type       : Beacon
+    SSID       : "myqwest4724" 
+    First      : Mon Feb  8 20:00:09 2016
+    Last       : Mon Feb  8 20:02:58 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 21
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 6
+ Frequency  : 2437 - 24 packets, 100.00%
+ Max Seen   : 1000
+ Carrier    : IEEE 802.11b+
+ Encoding   : PBCC
+ LLC        : 21
+ Data       : 3
+ Crypt      : 3
+ Fragments  : 0
+ Retries    : 0
+ Total      : 24
+ Datasize   : 666
+ Last BSSTS : 1525582131609
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 24 packets
+              Mon Feb  8 20:02:58 2016
+ Client 1: MAC A8:39:44:39:27:10
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:01:20 2016
+  Last       : Mon Feb  8 20:01:33 2016
+  Type       : From Distribution
+  MAC        : A8:39:44:39:27:10
+  Channel    : 0
+  Frequency  : 2437 - 2 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 596
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:01:33 2016
+ Client 2: MAC A8:39:44:55:CC:BC
+  Manuf      : Actionte
+  First      : Mon Feb  8 20:00:09 2016
+  Last       : Mon Feb  8 20:02:58 2016
+  Type       : From Distribution
+  MAC        : A8:39:44:55:CC:BC
+  Channel    : 6
+  Frequency  : 2437 - 21 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 21
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 21
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 21 packets
+               Mon Feb  8 20:02:58 2016
+ Client 3: MAC FC:8F:90:18:D0:8B
+  Manuf      : SamsungE
+  First      : Mon Feb  8 20:01:33 2016
+  Last       : Mon Feb  8 20:01:33 2016
+  Type       : From Distribution
+  MAC        : FC:8F:90:18:D0:8B
+  Channel    : 0
+  Frequency  : 2437 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 70
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:33 2016
+Network 15: BSSID C0:FF:D4:A1:12:A1
+ Manuf      : Netgear
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:01 2016
+ Type       : infrastructure
+ BSSID      : C0:FF:D4:A1:12:A1
+   SSID 1
+    Type       : Beacon
+    SSID       : "DDWireless_2GEXT" 
+    First      : Mon Feb  8 20:00:12 2016
+    Last       : Mon Feb  8 20:03:01 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 12
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 11
+ Frequency  : 2462 - 13 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 12
+ Data       : 1
+ Crypt      : 1
+ Fragments  : 0
+ Retries    : 0
+ Total      : 13
+ Datasize   : 146
+ Last BSSTS : 2688028365405
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 13 packets
+              Mon Feb  8 20:03:01 2016
+ Client 1: MAC 6C:3B:E5:4A:A5:52
+  Manuf      : HewlettP
+  First      : Mon Feb  8 20:01:23 2016
+  Last       : Mon Feb  8 20:01:23 2016
+  Type       : From Distribution
+  MAC        : 6C:3B:E5:4A:A5:52
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 146
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:23 2016
+ Client 2: MAC C0:FF:D4:A1:12:A1
+  Manuf      : Netgear
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:03:01 2016
+  Type       : From Distribution
+  MAC        : C0:FF:D4:A1:12:A1
+  Channel    : 11
+  Frequency  : 2462 - 12 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 12
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 12
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 12 packets
+               Mon Feb  8 20:03:01 2016
+Network 16: BSSID C8:60:00:95:38:B6
+ Manuf      : AsustekC
+ First      : Mon Feb  8 20:00:04 2016
+ Last       : Mon Feb  8 20:02:54 2016
+ Type       : infrastructure
+ BSSID      : C8:60:00:95:38:B6
+   SSID 1
+    Type       : Beacon
+    SSID       : "Unknown" 
+    First      : Mon Feb  8 20:00:04 2016
+    Last       : Mon Feb  8 20:02:54 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 28
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 1
+ Frequency  : 2412 - 1195 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ Encoding   : PBCC
+ LLC        : 30
+ Data       : 1165
+ Crypt      : 1121
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1195
+ Datasize   : 1202809
+ Last BSSTS : 0
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1195 packets
+              Mon Feb  8 20:02:54 2016
+ Client 1: MAC 30:3A:64:83:13:50
+  Manuf      : IntelCor
+  First      : Mon Feb  8 20:01:29 2016
+  Last       : Mon Feb  8 20:01:29 2016
+  Type       : To Distribution
+  MAC        : 30:3A:64:83:13:50
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 2
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 64
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:01:29 2016
+ Client 2: MAC 54:26:96:72:A8:44
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:33 2016
+  Last       : Mon Feb  8 20:00:33 2016
+  Type       : To Distribution
+  MAC        : 54:26:96:72:A8:44
+  Channel    : 0
+  Frequency  : 2412 - 7 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 7
+  Crypt      : 6
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 456
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 7 packets
+               Mon Feb  8 20:00:33 2016
+ Client 3: MAC 9C:E6:35:2F:C2:F6
+  Manuf      : Nintendo
+  First      : Mon Feb  8 20:00:04 2016
+  Last       : Mon Feb  8 20:02:54 2016
+  Type       : To Distribution
+  MAC        : 9C:E6:35:2F:C2:F6
+  Channel    : 0
+  Frequency  : 2412 - 263 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 263
+  Crypt      : 233
+  Fragments  : 0
+  Retries    : 0
+  Total      : 263
+  Datasize   : 14920
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 263 packets
+               Mon Feb  8 20:02:54 2016
+ Client 4: MAC AC:BC:32:B8:38:BF
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:04 2016
+  Last       : Mon Feb  8 20:02:26 2016
+  Type       : To Distribution
+  MAC        : AC:BC:32:B8:38:BF
+  Channel    : 0
+  Frequency  : 2412 - 7 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 7
+  Crypt      : 4
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 538
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 7 packets
+               Mon Feb  8 20:02:26 2016
+ Client 5: MAC B8:E8:56:C7:B4:A2
+  Manuf      : Apple
+  First      : Mon Feb  8 20:02:26 2016
+  Last       : Mon Feb  8 20:02:26 2016
+  Type       : To Distribution
+  MAC        : B8:E8:56:C7:B4:A2
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:02:26 2016
+ Client 6: MAC C8:60:00:95:38:B6
+  Manuf      : AsustekC
+  First      : Mon Feb  8 20:00:04 2016
+  Last       : Mon Feb  8 20:02:54 2016
+  Type       : From Distribution
+  MAC        : C8:60:00:95:38:B6
+  Channel    : 1
+  Frequency  : 2412 - 33 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 29
+  Data       : 4
+  Crypt      : 4
+  Fragments  : 0
+  Retries    : 0
+  Total      : 33
+  Datasize   : 216
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 33 packets
+               Mon Feb  8 20:02:54 2016
+ Client 7: MAC C8:60:00:95:38:B7
+  Manuf      : AsustekC
+  First      : Mon Feb  8 20:00:18 2016
+  Last       : Mon Feb  8 20:02:40 2016
+  Type       : From Distribution
+  MAC        : C8:60:00:95:38:B7
+  Channel    : 0
+  Frequency  : 2412 - 858 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 858
+  Crypt      : 858
+  Fragments  : 0
+  Retries    : 0
+  Total      : 858
+  Datasize   : 1184553
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 858 packets
+               Mon Feb  8 20:02:40 2016
+ Client 8: MAC C8:69:CD:97:3B:B6
+  Manuf      : Apple
+  First      : Mon Feb  8 20:02:12 2016
+  Last       : Mon Feb  8 20:02:12 2016
+  Type       : To Distribution
+  MAC        : C8:69:CD:97:3B:B6
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:02:12 2016
+ Client 9: MAC CC:20:E8:2F:64:03
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:04 2016
+  Last       : Mon Feb  8 20:00:33 2016
+  Type       : Unknown
+  MAC        : CC:20:E8:2F:64:03
+  Channel    : 0
+  Frequency  : 2412 - 20 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  Encoding   : PBCC
+  LLC        : 1
+  Data       : 19
+  Crypt      : 15
+  Fragments  : 0
+  Retries    : 0
+  Total      : 20
+  Datasize   : 2062
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 20 packets
+               Mon Feb  8 20:00:33 2016
+ Client 10: MAC DC:9B:9C:2B:76:42
+  Manuf      : Apple
+  First      : Mon Feb  8 20:01:02 2016
+  Last       : Mon Feb  8 20:01:02 2016
+  Type       : To Distribution
+  MAC        : DC:9B:9C:2B:76:42
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:01:02 2016
+Network 17: BSSID C8:60:00:95:38:B7
+ Manuf      : AsustekC
+ First      : Mon Feb  8 20:00:12 2016
+ Last       : Mon Feb  8 20:03:02 2016
+ Type       : infrastructure
+ BSSID      : C8:60:00:95:38:B7
+   SSID 1
+    Type       : Beacon
+    SSID       : "Unknown_5G" 
+    First      : Mon Feb  8 20:00:12 2016
+    Last       : Mon Feb  8 20:03:02 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 39
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+ Channel    : 36
+ Frequency  : 5180 - 49 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b
+ Encoding   : CCK
+ LLC        : 39
+ Data       : 10
+ Crypt      : 9
+ Fragments  : 0
+ Retries    : 0
+ Total      : 49
+ Datasize   : 702
+ Last BSSTS : 95239475256
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 49 packets
+              Mon Feb  8 20:03:02 2016
+ Client 1: MAC 30:3A:64:83:13:50
+  Manuf      : IntelCor
+  First      : Mon Feb  8 20:00:42 2016
+  Last       : Mon Feb  8 20:00:42 2016
+  Type       : From Distribution
+  MAC        : 30:3A:64:83:13:50
+  Channel    : 0
+  Frequency  : 5180 - 5 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 5
+  Crypt      : 5
+  Fragments  : 0
+  Retries    : 0
+  Total      : 5
+  Datasize   : 438
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 5 packets
+               Mon Feb  8 20:00:42 2016
+ Client 2: MAC 34:E2:FD:9B:84:78
+  Manuf      : Apple
+  First      : Mon Feb  8 20:01:10 2016
+  Last       : Mon Feb  8 20:01:10 2016
+  Type       : To Distribution
+  MAC        : 34:E2:FD:9B:84:78
+  Channel    : 0
+  Frequency  : 5180 - 1 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:10 2016
+ Client 3: MAC AC:BC:32:B8:38:BF
+  Manuf      : Apple
+  First      : Mon Feb  8 20:00:42 2016
+  Last       : Mon Feb  8 20:00:42 2016
+  Type       : From Distribution
+  MAC        : AC:BC:32:B8:38:BF
+  Channel    : 0
+  Frequency  : 5180 - 1 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 102
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:00:42 2016
+ Client 4: MAC C8:60:00:95:38:B7
+  Manuf      : AsustekC
+  First      : Mon Feb  8 20:00:12 2016
+  Last       : Mon Feb  8 20:03:02 2016
+  Type       : From Distribution
+  MAC        : C8:60:00:95:38:B7
+  Channel    : 36
+  Frequency  : 5180 - 42 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b
+  Encoding   : CCK
+  LLC        : 39
+  Data       : 3
+  Crypt      : 3
+  Fragments  : 0
+  Retries    : 0
+  Total      : 42
+  Datasize   : 162
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 42 packets
+               Mon Feb  8 20:03:02 2016
+Network 18: BSSID C8:BE:19:73:79:70
+ Manuf      : D-LinkIn
+ First      : Mon Feb  8 20:00:37 2016
+ Last       : Mon Feb  8 20:02:02 2016
+ Type       : infrastructure
+ BSSID      : C8:BE:19:73:79:70
+   SSID 1
+    Type       : Beacon
+    SSID       : "dlink-7970" 
+    First      : Mon Feb  8 20:00:37 2016
+    Last       : Mon Feb  8 20:02:02 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 2
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+ Channel    : 10
+ Frequency  : 2457 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Last BSSTS : 2688045977929
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+              Mon Feb  8 20:02:02 2016
+ Client 1: MAC C8:BE:19:73:79:70
+  Manuf      : D-LinkIn
+  First      : Mon Feb  8 20:00:37 2016
+  Last       : Mon Feb  8 20:02:02 2016
+  Type       : From Distribution
+  MAC        : C8:BE:19:73:79:70
+  Channel    : 10
+  Frequency  : 2457 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:02:02 2016
+Network 19: BSSID FA:8F:CA:80:1C:37
+ Manuf      : Unknown
+ First      : Mon Feb  8 20:01:09 2016
+ Last       : Mon Feb  8 20:01:09 2016
+ Type       : infrastructure
+ BSSID      : FA:8F:CA:80:1C:37
+   SSID 1
+    Type       : Beacon
+    SSID       : "" (Cloaked)
+    First      : Mon Feb  8 20:01:09 2016
+    Last       : Mon Feb  8 20:01:09 2016
+    Max Rate   : 54.0
+    Beacon     : 10
+    Packets    : 1
+    Encryption : None
+ Channel    : 7
+ Frequency  : 2442 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : 2347015782722
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+              Mon Feb  8 20:01:09 2016
+ Client 1: MAC FA:8F:CA:80:1C:37
+  Manuf      : Unknown
+  First      : Mon Feb  8 20:01:09 2016
+  Last       : Mon Feb  8 20:01:09 2016
+  Type       : From Distribution
+  MAC        : FA:8F:CA:80:1C:37
+  Channel    : 7
+  Frequency  : 2442 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:09 2016
+Network 20: BSSID FF:FF:FF:FF:FF:FF
+ Manuf      : Unknown
+ First      : Mon Feb  8 20:00:22 2016
+ Last       : Mon Feb  8 20:02:54 2016
+ Type       : probe
+ BSSID      : FF:FF:FF:FF:FF:FF
+ Channel    : 0
+ Frequency  : 2412 - 6 packets, 35.29%
+ Frequency  : 2417 - 5 packets, 29.41%
+ Frequency  : 2427 - 1 packets, 5.88%
+ Frequency  : 2432 - 1 packets, 5.88%
+ Frequency  : 2437 - 1 packets, 5.88%
+ Frequency  : 2442 - 1 packets, 5.88%
+ Frequency  : 2457 - 1 packets, 5.88%
+ Frequency  : 2462 - 1 packets, 5.88%
+ Max Seen   : 6000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 17
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 17
+ Datasize   : 0
+ Last BSSTS : 0
+    Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 17 packets
+              Mon Feb  8 20:02:54 2016
+ Client 1: MAC 00:00:85:F1:18:DD
+  Manuf      : Canon
+  First      : Mon Feb  8 20:01:10 2016
+  Last       : Mon Feb  8 20:01:10 2016
+  Type       : To Distribution
+  MAC        : 00:00:85:F1:18:DD
+   SSID 1
+    Type       : Probe Request
+    SSID       : myqwest1604
+    First      : Mon Feb  8 20:01:10 2016
+    Last       : Mon Feb  8 20:01:10 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 1 packets
+               Mon Feb  8 20:01:10 2016
+ Client 2: MAC 10:40:F3:E8:E9:90
+  Manuf      : Apple
+  First      : Mon Feb  8 20:01:12 2016
+  Last       : Mon Feb  8 20:02:27 2016
+  Type       : To Distribution
+  MAC        : 10:40:F3:E8:E9:90
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon Feb  8 20:02:27 2016
+    Last       : Mon Feb  8 20:02:27 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2427 - 1 packets, 50.00%
+  Frequency  : 2432 - 1 packets, 50.00%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 2 packets
+               Mon Feb  8 20:02:27 2016
+ Client 3: MAC 68:B5:99:03:DA:FF
+  Manuf      : HewlettP
+  First      : Mon Feb  8 20:00:22 2016
+  Last       : Mon Feb  8 20:02:54 2016
+  Type       : To Distribution
+  MAC        : 68:B5:99:03:DA:FF
+   SSID 1
+    Type       : Probe Request
+    SSID       : NETGEAR00
+    First      : Mon Feb  8 20:02:54 2016
+    Last       : Mon Feb  8 20:02:54 2016
+    Max Rate   : 54.0
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2412 - 6 packets, 42.86%
+  Frequency  : 2417 - 5 packets, 35.71%
+  Frequency  : 2437 - 1 packets, 7.14%
+  Frequency  : 2442 - 1 packets, 7.14%
+  Frequency  : 2457 - 1 packets, 7.14%
+  Max Seen   : 1000
+  LLC        : 14
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 14
+  Datasize   : 0
+     Seen By : wlan0 (wlan0mon) 7393a462-cec8-11e5-9040-dc04bb23e201 14 packets
+               Mon Feb  8 20:02:54 2016

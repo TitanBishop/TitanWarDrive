@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE gps-run SYSTEM "http://kismetwireless.net/kismet-gps-2.9.1.dtd">
+
+<gps-run gps-version="5" start-time="Wed Feb 10 19:28:40 2016">
+
+    <network-file>/var/log/kismet/Kismet-20160210-19-28-40-1.netxml</network-file>
+
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150527" time-usec="31111" lat="41.723579" lon="-93.659187" spd="0.000000" heading="0.000000" fix="3" alt="305.799988"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150528" time-usec="199414" lat="41.723579" lon="-93.659187" spd="0.000000" heading="198.240005" fix="3" alt="305.799988"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150529" time-usec="285263" lat="41.723583" lon="-93.659187" spd="0.000000" heading="0.000000" fix="3" alt="304.932007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150530" time-usec="289962" lat="41.723583" lon="-93.659187" spd="0.000000" heading="0.000000" fix="3" alt="304.932007"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150531" time-usec="329303" lat="41.723778" lon="-93.659035" spd="0.139000" heading="66.650002" fix="3" alt="330.399994"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150532" time-usec="340240" lat="41.723644" lon="-93.659157" spd="0.082000" heading="66.650002" fix="3" alt="334.000000"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455150533" time-usec="342862" lat="41.723644" lon="-93.659157" spd="0.082000" heading="66.650002" fix="3" alt="334.000000"/>
+</gps-run>

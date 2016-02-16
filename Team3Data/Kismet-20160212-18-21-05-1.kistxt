@@ -1,0 +1,2918 @@
+Version: 2012-GIT-R0
+
+Server: kali
+
+Log name: Kismet
+
+Start time: Fri Feb 12 18:21:05 2016
+End time: Fri Feb 12 18:25:59 2016
+
+Capture sources:
+ UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201
+ Definition: wlan0
+ Name: wlan0
+ Interface: wlan0mon
+ Type: rt2800usb
+ Packets: 1434
+ Error packets: 201
+ Channels: 1,5,9,13,40,52,5310,5520,2,6,10,14,44,54,64,5540,3,7,11,36,46,56,5500,5550,4,8,12,38,48,60,5510,5560
+ Channel hopping: true
+
+Total devices: 47
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 47
+ Packets: 1233
+ Data packets: 172
+ Filtered packets: 0
+ Error packets: 201
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+
+Devices:
+ Device MAC: A8:39:44:55:CC:BC
+ Device phy: IEEE802.11
+ Device name: myqwest4724
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:25:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Packets: 128
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 128
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 128
+ Link-type packets: 90
+ Data packets: 38
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 8187
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: myqwest4724
+  First seen: Fri Feb 12 18:21:07 2016
+  Fri Feb 12 18:25:50 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 25
+
+ Clients: 
+  Client MAC: 14:1A:A3:9C:07:8D
+  First seen: Fri Feb 12 18:24:24 2016
+  Last seen: Fri Feb 12 18:24:25 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Motorola
+
+  TX data (in bytes): 0
+  TX data (in bytes): 6420
+
+  Client MAC: 1C:3E:84:69:45:5E
+  First seen: Fri Feb 12 18:24:10 2016
+  Last seen: Fri Feb 12 18:24:10 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: HonHaiPr
+
+  TX data (in bytes): 52
+  TX data (in bytes): 0
+
+  Client MAC: A8:39:44:39:27:10
+  First seen: Fri Feb 12 18:21:20 2016
+  Last seen: Fri Feb 12 18:25:06 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Actionte
+
+  TX data (in bytes): 335
+  TX data (in bytes): 0
+
+  Client MAC: FC:8F:90:18:D0:8B
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: SamsungE
+
+  TX data (in bytes): 1380
+  TX data (in bytes): 0
+
+
+
+ Device MAC: C8:60:00:95:38:B6
+ Device phy: IEEE802.11
+ Device name: Unknown
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:25:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Packets: 149
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 149
+
+ Signal (in dBm)
+  Latest signal: -61
+  Minimum signal: -75
+  Maximum signal: -26
+
+ Total packets: 149
+ Link-type packets: 60
+ Data packets: 89
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 9389
+
+ Manufacturer: AsustekC
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: Unknown
+  First seen: Fri Feb 12 18:21:07 2016
+  Fri Feb 12 18:25:50 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: AES-CCMP
+
+ Packet fragments: 0
+ Packet retries: 3
+
+ Clients: 
+  Client MAC: 34:E2:FD:9B:84:78
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:24:52 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 54:26:96:72:A8:44
+  First seen: Fri Feb 12 18:25:22 2016
+  Last seen: Fri Feb 12 18:25:22 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 52
+
+  Client MAC: 68:B5:99:E3:02:D8
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: HewlettP
+
+  TX data (in bytes): 0
+  TX data (in bytes): 105
+
+  Client MAC: 6C:94:F8:D8:12:B1
+  First seen: Fri Feb 12 18:23:00 2016
+  Last seen: Fri Feb 12 18:23:00 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 0
+  TX data (in bytes): 52
+
+  Client MAC: C8:60:00:95:38:B7
+  First seen: Fri Feb 12 18:21:20 2016
+  Last seen: Fri Feb 12 18:24:52 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: AsustekC
+
+  TX data (in bytes): 8632
+  TX data (in bytes): 0
+
+  Client MAC: C8:69:CD:97:3B:B6
+  First seen: Fri Feb 12 18:21:20 2016
+  Last seen: Fri Feb 12 18:25:07 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 52
+  TX data (in bytes): 152
+
+  Client MAC: DC:9B:9C:2B:76:42
+  First seen: Fri Feb 12 18:22:46 2016
+  Last seen: Fri Feb 12 18:25:06 2016
+  Client type: Wireless
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: AES-CCMP
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 52
+  TX data (in bytes): 76
+
+
+
+ Device MAC: 68:B5:99:E3:02:D8
+ Device phy: IEEE802.11
+ Device name: 68:B5:99:E3:02:D8
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:25:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Packets: 46
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 46
+
+ Signal (in dBm)
+  Latest signal: -61
+  Minimum signal: -61
+  Maximum signal: -53
+
+ Total packets: 46
+ Link-type packets: 1
+ Data packets: 45
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 105
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: 10:5F:06:53:00:D5
+ Device phy: IEEE802.11
+ Device name: Strong
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:25:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Packets: 45
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 45
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -87
+  Maximum signal: -75
+
+ Total packets: 45
+ Link-type packets: 36
+ Data packets: 9
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 1238
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: Strong
+  First seen: Fri Feb 12 18:21:07 2016
+  Fri Feb 12 18:25:50 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 00:10:75:2C:F4:03
+  First seen: Fri Feb 12 18:22:32 2016
+  Last seen: Fri Feb 12 18:24:52 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: SegateTe
+
+  TX data (in bytes): 486
+  TX data (in bytes): 0
+
+  Client MAC: 0C:60:76:72:09:5D
+  First seen: Fri Feb 12 18:21:34 2016
+  Last seen: Fri Feb 12 18:25:22 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: HonHaiPr
+
+  TX data (in bytes): 268
+  TX data (in bytes): 0
+
+  Client MAC: BC:30:7D:87:B1:5C
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:22:46 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: WistronN
+
+  TX data (in bytes): 484
+  TX data (in bytes): 0
+
+
+
+ Device MAC: 34:E2:FD:9B:84:78
+ Device phy: IEEE802.11
+ Device name: 34:E2:FD:9B:84:78
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:24:52 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:24:52 2016
+  Packets: 15
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 15
+
+ Signal (in dBm)
+  Latest signal: -67
+  Minimum signal: -75
+  Maximum signal: -65
+
+ Total packets: 15
+ Link-type packets: 9
+ Data packets: 6
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: A0:A3:E2:29:03:55
+ Device phy: IEEE802.11
+ Device name: CenturyLink5775
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:22:46 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:22:46 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -85
+  Maximum signal: -83
+
+ Total packets: 4
+ Link-type packets: 4
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: CenturyLink5775
+  First seen: Fri Feb 12 18:21:07 2016
+  Fri Feb 12 18:22:46 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 1
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: FC:8F:90:18:D0:8B
+ Device phy: IEEE802.11
+ Device name: FC:8F:90:18:D0:8B
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:25:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:25:50 2016
+  Packets: 8
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 8
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -81
+  Maximum signal: -79
+
+ Total packets: 8
+ Link-type packets: 0
+ Data packets: 8
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 1380
+
+ Manufacturer: SamsungE
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A8:39:44:55:CC:BC
+
+
+ Device MAC: BC:30:7D:87:B1:5C
+ Device phy: IEEE802.11
+ Device name: BC:30:7D:87:B1:5C
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:07 2016
+ Last seen: Fri Feb 12 18:22:46 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:07 2016
+  Last seen: Fri Feb 12 18:22:46 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -87
+  Maximum signal: -77
+
+ Total packets: 4
+ Link-type packets: 0
+ Data packets: 4
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 484
+
+ Manufacturer: WistronN
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 10:5F:06:53:00:D5
+
+
+ Device MAC: 68:B5:99:03:DA:FF
+ Device phy: IEEE802.11
+ Device name: 68:B5:99:03:DA:FF
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:21:08 2016
+ Last seen: Fri Feb 12 18:25:54 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:08 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Packets: 49
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2417
+   Packets: 7
+   Frequency (MHz): 2422
+   Packets: 17
+   Frequency (MHz): 2427
+   Packets: 4
+   Frequency (MHz): 2432
+   Packets: 6
+   Frequency (MHz): 2437
+   Packets: 1
+   Frequency (MHz): 2442
+   Packets: 1
+   Frequency (MHz): 2447
+   Packets: 2
+   Frequency (MHz): 2452
+   Packets: 7
+   Frequency (MHz): 2462
+   Packets: 3
+
+ Signal (in dBm)
+  Latest signal: -89
+  Minimum signal: -91
+  Maximum signal: -83
+
+ Total packets: 49
+ Link-type packets: 49
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: NETGEAR00
+  First seen: Fri Feb 12 18:21:08 2016
+  Fri Feb 12 18:25:54 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 60:02:B4:6E:E8:E0
+ Device phy: IEEE802.11
+ Device name: 60:02:B4:6E:E8:E0
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:11 2016
+ Last seen: Fri Feb 12 18:25:40 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:11 2016
+  Last seen: Fri Feb 12 18:25:40 2016
+  Packets: 29
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 29
+
+ Signal (in dBm)
+  Latest signal: -75
+  Minimum signal: -85
+  Maximum signal: -75
+
+ Total packets: 29
+ Link-type packets: 24
+ Data packets: 5
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 290
+
+ Manufacturer: WistronN
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 20:76:00:0A:7F:64
+
+
+ Device MAC: A0:63:91:45:7F:3F
+ Device phy: IEEE802.11
+ Device name: myqwest9107_2GEXT
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:11 2016
+ Last seen: Fri Feb 12 18:25:54 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:11 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Packets: 6
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 6
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -89
+  Maximum signal: -85
+
+ Total packets: 6
+ Link-type packets: 5
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 604
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: myqwest9107_2GEXT
+  First seen: Fri Feb 12 18:21:11 2016
+  Fri Feb 12 18:25:54 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 2C:B0:5D:70:57:01
+  First seen: Fri Feb 12 18:25:54 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Netgear
+
+  TX data (in bytes): 604
+  TX data (in bytes): 0
+
+
+
+ Device MAC: A0:63:91:A9:E7:75
+ Device phy: IEEE802.11
+ Device name: NETGEAR51
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:14 2016
+ Last seen: Fri Feb 12 18:25:57 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:14 2016
+  Last seen: Fri Feb 12 18:25:57 2016
+  Packets: 77
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 77
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -83
+  Maximum signal: -69
+
+ Total packets: 77
+ Link-type packets: 66
+ Data packets: 11
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 728
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: NETGEAR51
+  First seen: Fri Feb 12 18:21:14 2016
+  Fri Feb 12 18:25:57 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 7
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 04:15:52:CB:34:A1
+  First seen: Fri Feb 12 18:21:42 2016
+  Last seen: Fri Feb 12 18:21:42 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Apple
+
+  TX data (in bytes): 52
+  TX data (in bytes): 0
+
+  Client MAC: 5C:F6:DC:38:37:83
+  First seen: Fri Feb 12 18:22:39 2016
+  Last seen: Fri Feb 12 18:25:43 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: SamsungE
+
+  TX data (in bytes): 140
+  TX data (in bytes): 0
+
+  Client MAC: BC:30:7D:21:13:B6
+  First seen: Fri Feb 12 18:21:28 2016
+  Last seen: Fri Feb 12 18:25:15 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: WistronN
+
+  TX data (in bytes): 378
+  TX data (in bytes): 0
+
+  Client MAC: D8:CB:8A:3C:C6:10
+  First seen: Fri Feb 12 18:21:57 2016
+  Last seen: Fri Feb 12 18:21:57 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Micro-St
+
+  TX data (in bytes): 158
+  TX data (in bytes): 0
+
+
+
+ Device MAC: 00:23:69:8C:68:81
+ Device phy: IEEE802.11
+ Device name: <Hidden SSID>
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:15 2016
+ Last seen: Fri Feb 12 18:25:58 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:15 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Packets: 62
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 62
+
+ Signal (in dBm)
+  Latest signal: -44
+  Minimum signal: -51
+  Maximum signal: -42
+
+ Total packets: 62
+ Link-type packets: 62
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Cisco-Li
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:21:15 2016
+  Fri Feb 12 18:25:58 2016
+  SSID type: Access Point
+  SSID cloaked
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 6C:3B:E5:4A:A5:52
+ Device phy: IEEE802.11
+ Device name: HP-Print-52-Photosmart 5520
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:15 2016
+ Last seen: Fri Feb 12 18:25:44 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:15 2016
+  Last seen: Fri Feb 12 18:25:44 2016
+  Packets: 36
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 36
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -89
+  Maximum signal: -79
+
+ Total packets: 36
+ Link-type packets: 36
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: HewlettP
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: HP-Print-52-Photosmart 5520
+  First seen: Fri Feb 12 18:21:15 2016
+  Fri Feb 12 18:25:44 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 68:7F:74:BD:1E:30
+ Device phy: IEEE802.11
+ Device name: DDWireless
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:15 2016
+ Last seen: Fri Feb 12 18:25:58 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:15 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Packets: 48
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 44
+   Frequency (MHz): 2484
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -85
+  Maximum signal: -75
+
+ Total packets: 48
+ Link-type packets: 43
+ Data packets: 5
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 2746
+
+ Manufacturer: Cisco-Li
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: DDWireless
+  First seen: Fri Feb 12 18:21:15 2016
+  Fri Feb 12 18:25:58 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 3
+
+ Clients: 
+  Client MAC: 00:04:20:F0:FB:C8
+  First seen: Fri Feb 12 18:22:50 2016
+  Last seen: Fri Feb 12 18:22:50 2016
+  Client type: Wireless
+  Observed TX encryption: none
+  Observed RX encryption: none
+
+  Manufacturer: SlimDevi
+
+  TX data (in bytes): 0
+  TX data (in bytes): 0
+
+  Client MAC: 02:0F:B5:02:3D:B3
+  First seen: Fri Feb 12 18:23:22 2016
+  Last seen: Fri Feb 12 18:23:22 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Unknown
+
+  TX data (in bytes): 2080
+  TX data (in bytes): 0
+
+  Client MAC: F0:4D:A2:3A:27:74
+  First seen: Fri Feb 12 18:23:51 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Dell
+
+  TX data (in bytes): 666
+  TX data (in bytes): 0
+
+
+
+ Device MAC: C0:FF:D4:A1:12:A1
+ Device phy: IEEE802.11
+ Device name: DDWireless_2GEXT
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:15 2016
+ Last seen: Fri Feb 12 18:25:58 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:15 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Packets: 18
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 18
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -91
+  Maximum signal: -83
+
+ Total packets: 18
+ Link-type packets: 16
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 1262
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: DDWireless_2GEXT
+  First seen: Fri Feb 12 18:21:15 2016
+  Fri Feb 12 18:25:58 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 60:B6:06:02:3D:B3
+  First seen: Fri Feb 12 18:23:22 2016
+  Last seen: Fri Feb 12 18:23:22 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Phorus
+
+  TX data (in bytes): 1040
+  TX data (in bytes): 0
+
+  Client MAC: F0:4D:A2:3A:27:74
+  First seen: Fri Feb 12 18:23:51 2016
+  Last seen: Fri Feb 12 18:23:51 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Dell
+
+  TX data (in bytes): 222
+  TX data (in bytes): 0
+
+
+
+ Device MAC: C8:60:00:95:38:B7
+ Device phy: IEEE802.11
+ Device name: Unknown_5G
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:15 2016
+ Last seen: Fri Feb 12 18:25:58 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:15 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Packets: 91
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 22
+   Frequency (MHz): 5180
+   Packets: 69
+
+ Signal (in dBm)
+  Latest signal: -48
+  Minimum signal: -57
+  Maximum signal: -43
+
+ Total packets: 91
+ Link-type packets: 69
+ Data packets: 22
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 8632
+
+ Manufacturer: AsustekC
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: Unknown_5G
+  First seen: Fri Feb 12 18:21:15 2016
+  Fri Feb 12 18:25:58 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 36
+  Encryption: WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: C8:69:CD:97:3B:B6
+ Device phy: IEEE802.11
+ Device name: C8:69:CD:97:3B:B6
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:20 2016
+ Last seen: Fri Feb 12 18:25:07 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:20 2016
+  Last seen: Fri Feb 12 18:25:07 2016
+  Packets: 20
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 20
+
+ Signal (in dBm)
+  Latest signal: -26
+  Minimum signal: -51
+  Maximum signal: -26
+
+ Total packets: 20
+ Link-type packets: 14
+ Data packets: 6
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 204
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: A8:39:44:39:27:10
+ Device phy: IEEE802.11
+ Device name: A8:39:44:39:27:10
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:20 2016
+ Last seen: Fri Feb 12 18:25:06 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:20 2016
+  Last seen: Fri Feb 12 18:25:06 2016
+  Packets: 5
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 5
+
+ Signal (in dBm)
+  Latest signal: -77
+  Minimum signal: -81
+  Maximum signal: -77
+
+ Total packets: 5
+ Link-type packets: 0
+ Data packets: 5
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 335
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A8:39:44:55:CC:BC
+
+
+ Device MAC: 20:76:00:0A:7F:64
+ Device phy: IEEE802.11
+ Device name: home
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:24 2016
+ Last seen: Fri Feb 12 18:25:54 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:24 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Packets: 73
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 73
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -91
+  Maximum signal: -73
+
+ Total packets: 73
+ Link-type packets: 60
+ Data packets: 13
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 825
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: home
+  First seen: Fri Feb 12 18:21:24 2016
+  Fri Feb 12 18:25:54 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: TKIP AES-CCMP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 4
+
+ Clients: 
+  Client MAC: 60:02:B4:6E:E8:E0
+  First seen: Fri Feb 12 18:22:36 2016
+  Last seen: Fri Feb 12 18:25:26 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: WistronN
+
+  TX data (in bytes): 290
+  TX data (in bytes): 0
+
+  Client MAC: C0:FF:D4:CB:9D:D1
+  First seen: Fri Feb 12 18:21:24 2016
+  Last seen: Fri Feb 12 18:21:24 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: TKIP
+  Observed RX encryption: none
+
+  Manufacturer: Netgear
+
+  TX data (in bytes): 68
+  TX data (in bytes): 0
+
+
+
+ Device MAC: C0:FF:D4:CB:9D:D1
+ Device phy: IEEE802.11
+ Device name: C0:FF:D4:CB:9D:D1
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:24 2016
+ Last seen: Fri Feb 12 18:21:24 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:24 2016
+  Last seen: Fri Feb 12 18:21:24 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -83
+  Maximum signal: -83
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 68
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 20:76:00:0A:7F:64
+
+
+ Device MAC: BC:30:7D:21:13:B6
+ Device phy: IEEE802.11
+ Device name: BC:30:7D:21:13:B6
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:28 2016
+ Last seen: Fri Feb 12 18:25:15 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:28 2016
+  Last seen: Fri Feb 12 18:25:15 2016
+  Packets: 15
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+   Frequency (MHz): 2442
+   Packets: 14
+
+ Signal (in dBm)
+  Latest signal: -73
+  Minimum signal: -81
+  Maximum signal: -73
+
+ Total packets: 15
+ Link-type packets: 8
+ Data packets: 7
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 378
+
+ Manufacturer: WistronN
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:22:32 2016
+  Fri Feb 12 18:22:32 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A0:63:91:A9:E7:75
+
+
+ Device MAC: 0C:60:76:72:09:5D
+ Device phy: IEEE802.11
+ Device name: 0C:60:76:72:09:5D
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:34 2016
+ Last seen: Fri Feb 12 18:25:22 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:34 2016
+  Last seen: Fri Feb 12 18:25:22 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 3
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -83
+
+ Total packets: 3
+ Link-type packets: 0
+ Data packets: 3
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 268
+
+ Manufacturer: HonHaiPr
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 10:5F:06:53:00:D5
+
+
+ Device MAC: 08:95:2A:B4:15:D2
+ Device phy: IEEE802.11
+ Device name: graham
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:38 2016
+ Last seen: Fri Feb 12 18:24:14 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:38 2016
+  Last seen: Fri Feb 12 18:24:14 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -91
+  Minimum signal: -91
+  Maximum signal: -83
+
+ Total packets: 4
+ Link-type packets: 3
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 96
+
+ Manufacturer: Technico
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: graham
+  First seen: Fri Feb 12 18:21:38 2016
+  Fri Feb 12 18:24:14 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 00:24:14:63:E8:D9
+  First seen: Fri Feb 12 18:21:53 2016
+  Last seen: Fri Feb 12 18:21:53 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: CiscoInc
+
+  TX data (in bytes): 96
+  TX data (in bytes): 0
+
+
+
+ Device MAC: 04:15:52:CB:34:A1
+ Device phy: IEEE802.11
+ Device name: 04:15:52:CB:34:A1
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:42 2016
+ Last seen: Fri Feb 12 18:21:42 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:42 2016
+  Last seen: Fri Feb 12 18:21:42 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -79
+  Maximum signal: -79
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 52
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A0:63:91:A9:E7:75
+
+
+ Device MAC: 00:24:14:63:E8:D9
+ Device phy: IEEE802.11
+ Device name: 00:24:14:63:E8:D9
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:53 2016
+ Last seen: Fri Feb 12 18:21:53 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:53 2016
+  Last seen: Fri Feb 12 18:21:53 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -91
+  Minimum signal: -91
+  Maximum signal: -91
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 96
+
+ Manufacturer: CiscoInc
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 08:95:2A:B4:15:D2
+
+
+ Device MAC: D8:CB:8A:3C:C6:10
+ Device phy: IEEE802.11
+ Device name: D8:CB:8A:3C:C6:10
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:21:57 2016
+ Last seen: Fri Feb 12 18:21:57 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:21:57 2016
+  Last seen: Fri Feb 12 18:21:57 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -81
+  Maximum signal: -81
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 158
+
+ Manufacturer: Micro-St
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A0:63:91:A9:E7:75
+
+
+ Device MAC: 00:10:75:2C:F4:03
+ Device phy: IEEE802.11
+ Device name: 00:10:75:2C:F4:03
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:22:32 2016
+ Last seen: Fri Feb 12 18:24:52 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:22:32 2016
+  Last seen: Fri Feb 12 18:24:52 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -83
+  Minimum signal: -83
+  Maximum signal: -83
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 486
+
+ Manufacturer: SegateTe
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 10:5F:06:53:00:D5
+
+
+ Device MAC: 54:A0:50:D4:72:40
+ Device phy: IEEE802.11
+ Device name: Wise_Gray_Dragon
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:22:36 2016
+ Last seen: Fri Feb 12 18:25:54 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:22:36 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Packets: 18
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 18
+
+ Signal (in dBm)
+  Latest signal: -89
+  Minimum signal: -91
+  Maximum signal: -83
+
+ Total packets: 18
+ Link-type packets: 15
+ Data packets: 3
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 108
+
+ Manufacturer: AsustekC
+
+ 802.11 type:
+  Access point
+  Bridged wired client
+
+ SSIDs
+  ESSID: Wise_Gray_Dragon
+  First seen: Fri Feb 12 18:22:36 2016
+  Fri Feb 12 18:25:54 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: AES-CCMP
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Clients: 
+  Client MAC: 20:E5:2A:EB:FF:33
+  First seen: Fri Feb 12 18:23:46 2016
+  Last seen: Fri Feb 12 18:24:29 2016
+  Client type: Wired (Bridged device)
+  Observed TX encryption: AES-CCMP
+  Observed RX encryption: none
+
+  Manufacturer: Netgear
+
+  TX data (in bytes): 108
+  TX data (in bytes): 0
+
+
+
+ Device MAC: 5C:F6:DC:38:37:83
+ Device phy: IEEE802.11
+ Device name: 5C:F6:DC:38:37:83
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:22:39 2016
+ Last seen: Fri Feb 12 18:25:43 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:22:39 2016
+  Last seen: Fri Feb 12 18:25:43 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2442
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -75
+  Minimum signal: -75
+  Maximum signal: -75
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 140
+
+ Manufacturer: SamsungE
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A0:63:91:A9:E7:75
+
+
+ Device MAC: DC:9B:9C:2B:76:42
+ Device phy: IEEE802.11
+ Device name: DC:9B:9C:2B:76:42
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:22:46 2016
+ Last seen: Fri Feb 12 18:25:06 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:22:46 2016
+  Last seen: Fri Feb 12 18:25:06 2016
+  Packets: 7
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 5
+   Frequency (MHz): 2437
+   Packets: 1
+   Frequency (MHz): 2457
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -49
+  Minimum signal: -55
+  Maximum signal: -47
+
+ Total packets: 7
+ Link-type packets: 3
+ Data packets: 4
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 128
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+  Bridged wired client
+
+ SSIDs
+  ESSID: Unknown
+  First seen: Fri Feb 12 18:24:14 2016
+  Fri Feb 12 18:24:15 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: 00:04:20:F0:FB:C8
+ Device phy: IEEE802.11
+ Device name: 00:04:20:F0:FB:C8
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:22:50 2016
+ Last seen: Fri Feb 12 18:22:50 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:22:50 2016
+  Last seen: Fri Feb 12 18:22:50 2016
+  Packets: 5
+  Frequencies seen:
+   Frequency (MHz): 2484
+   Packets: 5
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -81
+  Maximum signal: -77
+
+ Total packets: 5
+ Link-type packets: 5
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: SlimDevi
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: DDWireless
+  First seen: Fri Feb 12 18:22:50 2016
+  Fri Feb 12 18:22:50 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 68:7F:74:BD:1E:30
+
+
+ Device MAC: 6C:94:F8:D8:12:B1
+ Device phy: IEEE802.11
+ Device name: 6C:94:F8:D8:12:B1
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:00 2016
+ Last seen: Fri Feb 12 18:23:00 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:00 2016
+  Last seen: Fri Feb 12 18:23:00 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -47
+  Minimum signal: -47
+  Maximum signal: -47
+
+ Total packets: 2
+ Link-type packets: 1
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 52
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: 00:26:B8:F3:01:BC
+ Device phy: IEEE802.11
+ Device name: myqwest9107
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:04 2016
+ Last seen: Fri Feb 12 18:24:29 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:04 2016
+  Last seen: Fri Feb 12 18:24:29 2016
+  Packets: 3
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 3
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -91
+  Maximum signal: -85
+
+ Total packets: 3
+ Link-type packets: 3
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: myqwest9107
+  First seen: Fri Feb 12 18:23:04 2016
+  Fri Feb 12 18:24:29 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 6
+  Encryption: WPS WPA WPA-PSK AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 10:40:F3:E8:E9:90
+ Device phy: IEEE802.11
+ Device name: 10:40:F3:E8:E9:90
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:23:18 2016
+ Last seen: Fri Feb 12 18:24:31 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:18 2016
+  Last seen: Fri Feb 12 18:24:31 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2417
+   Packets: 1
+   Frequency (MHz): 2422
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -65
+  Minimum signal: -67
+  Maximum signal: -65
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:23:18 2016
+  Fri Feb 12 18:24:31 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 14:1A:A3:9C:07:8D
+ Device phy: IEEE802.11
+ Device name: 14:1A:A3:9C:07:8D
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:22 2016
+ Last seen: Fri Feb 12 18:24:25 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:22 2016
+  Last seen: Fri Feb 12 18:24:25 2016
+  Packets: 23
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 22
+   Frequency (MHz): 2442
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -89
+  Maximum signal: -79
+
+ Total packets: 23
+ Link-type packets: 1
+ Data packets: 22
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 6420
+
+ Manufacturer: Motorola
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:23:22 2016
+  Fri Feb 12 18:23:22 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A8:39:44:55:CC:BC
+
+
+ Device MAC: 60:B6:06:02:3D:B3
+ Device phy: IEEE802.11
+ Device name: 60:B6:06:02:3D:B3
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:22 2016
+ Last seen: Fri Feb 12 18:23:22 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:22 2016
+  Last seen: Fri Feb 12 18:23:22 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -87
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 1040
+
+ Manufacturer: Phorus
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C0:FF:D4:A1:12:A1
+
+
+ Device MAC: 02:0F:B5:02:3D:B3
+ Device phy: IEEE802.11
+ Device name: 02:0F:B5:02:3D:B3
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:22 2016
+ Last seen: Fri Feb 12 18:23:22 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:22 2016
+  Last seen: Fri Feb 12 18:23:22 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -81
+  Maximum signal: -79
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 2080
+
+ Manufacturer: Unknown
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 68:7F:74:BD:1E:30
+
+
+ Device MAC: 00:00:85:F1:18:DD
+ Device phy: IEEE802.11
+ Device name: 00:00:85:F1:18:DD
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:23:35 2016
+ Last seen: Fri Feb 12 18:23:35 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:35 2016
+  Last seen: Fri Feb 12 18:23:35 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2422
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -91
+  Minimum signal: -91
+  Maximum signal: -91
+
+ Total packets: 1
+ Link-type packets: 1
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Canon
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: myqwest1604
+  First seen: Fri Feb 12 18:23:35 2016
+  Fri Feb 12 18:23:35 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 20:E5:2A:EB:FF:33
+ Device phy: IEEE802.11
+ Device name: 20:E5:2A:EB:FF:33
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:46 2016
+ Last seen: Fri Feb 12 18:24:29 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:46 2016
+  Last seen: Fri Feb 12 18:24:29 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -85
+
+ Total packets: 2
+ Link-type packets: 0
+ Data packets: 2
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 108
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 54:A0:50:D4:72:40
+
+
+ Device MAC: F0:4D:A2:3A:27:74
+ Device phy: IEEE802.11
+ Device name: F0:4D:A2:3A:27:74
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:23:51 2016
+ Last seen: Fri Feb 12 18:25:58 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:23:51 2016
+  Last seen: Fri Feb 12 18:25:58 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -81
+  Minimum signal: -87
+  Maximum signal: -81
+
+ Total packets: 4
+ Link-type packets: 0
+ Data packets: 4
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 888
+
+ Manufacturer: Dell
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: 68:7F:74:BD:1E:30
+
+
+ Device MAC: F8:04:2E:9A:69:CC
+ Device phy: IEEE802.11
+ Device name: F8:04:2E:9A:69:CC
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:24:00 2016
+ Last seen: Fri Feb 12 18:25:03 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:24:00 2016
+  Last seen: Fri Feb 12 18:25:03 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2427
+   Packets: 1
+   Frequency (MHz): 2447
+   Packets: 1
+   Frequency (MHz): 2457
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -87
+  Maximum signal: -83
+
+ Total packets: 4
+ Link-type packets: 4
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: SamsungE
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:24:00 2016
+  Fri Feb 12 18:25:03 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 10:5F:06:4B:5D:45
+ Device phy: IEEE802.11
+ Device name: CenturyLink0350
+ Device type: AP
+ Basic device type:
+  AP (Central network controller)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:24:04 2016
+ Last seen: Fri Feb 12 18:25:44 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:24:04 2016
+  Last seen: Fri Feb 12 18:25:44 2016
+  Packets: 4
+  Frequencies seen:
+   Frequency (MHz): 2462
+   Packets: 4
+
+ Signal (in dBm)
+  Latest signal: -91
+  Minimum signal: -95
+  Maximum signal: -87
+
+ Total packets: 4
+ Link-type packets: 4
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Actionte
+
+ 802.11 type:
+  Access point
+
+ SSIDs
+  ESSID: CenturyLink0350
+  First seen: Fri Feb 12 18:24:04 2016
+  Fri Feb 12 18:25:44 2016
+  SSID type: Access Point
+  Beacon rate: 10
+  Advertised channel: 11
+  Encryption: WPS WPA WPA-PSK TKIP AES-CCMP
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 1C:3E:84:69:45:5E
+ Device phy: IEEE802.11
+ Device name: 1C:3E:84:69:45:5E
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:24:10 2016
+ Last seen: Fri Feb 12 18:24:10 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:24:10 2016
+  Last seen: Fri Feb 12 18:24:10 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -79
+  Minimum signal: -79
+  Maximum signal: -79
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 52
+
+ Manufacturer: HonHaiPr
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A8:39:44:55:CC:BC
+
+
+ Device MAC: 28:6A:BA:1D:68:EF
+ Device phy: IEEE802.11
+ Device name: 28:6A:BA:1D:68:EF
+ Device type: Client
+ Basic device type:
+  AP (Central network controller)
+  Client (Network client)
+
+ Basic device encryption:
+  None (No detected encryption)
+
+ First seen: Fri Feb 12 18:24:18 2016
+ Last seen: Fri Feb 12 18:25:03 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:24:18 2016
+  Last seen: Fri Feb 12 18:25:03 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2447
+   Packets: 1
+   Frequency (MHz): 2462
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -87
+  Minimum signal: -93
+  Maximum signal: -87
+
+ Total packets: 2
+ Link-type packets: 2
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 0
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ SSIDs
+  ESSID: 
+  First seen: Fri Feb 12 18:24:18 2016
+  Fri Feb 12 18:25:03 2016
+  SSID type: Client Probe Request
+  Encryption: none
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+
+ Device MAC: 54:26:96:72:A8:44
+ Device phy: IEEE802.11
+ Device name: 54:26:96:72:A8:44
+ Device type: Client
+ Basic device type:
+  Client (Network client)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:25:22 2016
+ Last seen: Fri Feb 12 18:25:22 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:25:22 2016
+  Last seen: Fri Feb 12 18:25:22 2016
+  Packets: 2
+  Frequencies seen:
+   Frequency (MHz): 2412
+   Packets: 2
+
+ Signal (in dBm)
+  Latest signal: -51
+  Minimum signal: -51
+  Maximum signal: -51
+
+ Total packets: 2
+ Link-type packets: 1
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 52
+
+ Manufacturer: Apple
+
+ 802.11 type:
+  Wireless client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: C8:60:00:95:38:B6
+
+
+ Device MAC: 2C:B0:5D:70:57:01
+ Device phy: IEEE802.11
+ Device name: 2C:B0:5D:70:57:01
+ Device type: Wired
+ Basic device type:
+  Wired (Bridged wired device)
+
+ Basic device encryption:
+  L2 encrypted (Link layer encryption)
+  L3 encrypted (L3+ encryption)
+
+ First seen: Fri Feb 12 18:25:54 2016
+ Last seen: Fri Feb 12 18:25:54 2016
+
+ Seen by capture sources:
+  UUID: 49f0c36e-d1df-11e5-8d5b-dc04bb23e201>
+  First seen: Fri Feb 12 18:25:54 2016
+  Last seen: Fri Feb 12 18:25:54 2016
+  Packets: 1
+  Frequencies seen:
+   Frequency (MHz): 2437
+   Packets: 1
+
+ Signal (in dBm)
+  Latest signal: -85
+  Minimum signal: -85
+  Maximum signal: -85
+
+ Total packets: 1
+ Link-type packets: 0
+ Data packets: 1
+ Filtered packets: 0
+ Error packets: 0
+ Data (in bytes): 604
+
+ Manufacturer: Netgear
+
+ 802.11 type:
+  Bridged wired client
+
+ Observed TX encryption: none
+ Observed RX encryption: none
+
+ Packet fragments: 0
+ Packet retries: 0
+
+ Last BSSID: A0:63:91:45:7F:3F
+
+
+

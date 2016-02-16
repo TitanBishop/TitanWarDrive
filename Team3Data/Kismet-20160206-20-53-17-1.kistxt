@@ -1,0 +1,33 @@
+Version: 2012-GIT-R0
+
+Server: kali
+
+Log name: Kismet
+
+Start time: Sat Feb  6 20:53:17 2016
+End time: Sat Feb  6 20:54:46 2016
+
+Capture sources:
+ UUID: 8ef8e35c-cd3d-11e5-9efa-dc04bb23e201
+ Definition: wlan0
+ Name: wlan0
+ Interface: wlan0mon
+ Type: rt2800usb
+ Packets: 0
+ Error packets: 0
+ Channels: 1,5,9,13,40,52,5310,5520,2,6,10,14,44,54,64,5540,3,7,11,36,46,56,5500,5550,4,8,12,38,48,60,5510,5560
+ Channel hopping: true
+
+Total devices: 0
+
+Phy types:
+ Phy name: IEEE802.11
+ Devices: 0
+ Packets: 0
+ Data packets: 0
+ Filtered packets: 0
+ Error packets: 0
+
+GPS device: tcp://localhost:2947
+GPS type: gpsd
+

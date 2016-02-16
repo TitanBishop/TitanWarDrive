@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+<k:run xmlns:k="http://www.kismetwireless.net/xml"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.kismetwireless.net/xml kismet.xsd"
+
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211">
+
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://xmlns.myexample.com/version3"
+targetNamespace="http://www.kismetwireless.net/xml"
+xmlns:common="http://www.kismetwireless.net/xml/common"
+xmlns:device="http://www.kismetwireless.net/xml/device"
+xmlns:gps="http://www.kismetwireless.net/xml/gps"
+xmlns:run="http://www.kismetwireless.net/xml/run"
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211"
+elementFormDefault="unqualified"
+attributeFromDefault="unqualified">
+<xs:import namespace="http://www.kismetwireless.net/xml/common" schemaLocation="http://www.kismetwireless.net/xml/common.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/device" schemaLocation="http://www.kismetwireless.net/xml/device.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/gps" schemaLocation="http://www.kismetwireless.net/xml/gps.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/run" schemaLocation="http://www.kismetwireless.net/xml/run.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/phy80211" schemaLocation="http://www.kismetwireless.net/xml/phy80211.xsd"/>
+<xs:element name="run"/>
+</xs:schema>
+<version>2012-GIT-R0</version>
+<server>kali</server>
+<logname>Kismet</logname>
+<startTime>Wed Feb 10 19:29:02 2016</startTime>
+<endTime>Wed Feb 10 19:29:21 2016</endTime>
+<captureSources>
+<captureSource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<definition>wlan0</definition>
+<name>wlan0</name>
+<interface>wlan0mon</interface>
+<type>rt2800usb</type>
+<packets>157</packets>
+<errorPackets>18</errorPackets>
+<channels>1,5,9,13,40,52,5310,5520,2,6,10,14,44,54,64,5540,3,7,11,36,46,56,5500,5550,4,8,12,38,48,60,5510,5560</channels>
+<channelhop>true</channelhop>
+</captureSource>
+</captureSources>
+<totalDevices>13</totalDevices>
+<phyTypes>
+<phyType>
+<name>IEEE802.11</name>
+<devices>13</devices>
+<packets>139</packets>
+<packetData>30</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>18</packetError>
+</phyType>
+</phyTypes>
+<gpsDevices>
+<gpsDevice>
+<device>tcp://localhost:2947</device>
+<type>gpsd</type>
+</gpsDevice>
+</gpsDevices>
+<devices>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>10:5F:06:53:00:D5</deviceMac>
+<name>Strong</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<packets>7</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="7"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>0.000000</latitude>
+<longitude>0.000000</longitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>7</packets>
+<packetLink>7</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:04 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:19 2016</lastTime>
+<type>Access Point</type>
+<essid>Strong</essid>
+<beaconRate>10</beaconRate>
+<channel>1</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:60:00:95:38:B6</deviceMac>
+<name>Unknown</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<packets>10</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="9"/>
+<frequency mhz="2417" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723605</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.928400</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723602</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-59</lastSignal>
+<minSignal>-59</minSignal>
+<maxSignal>-55</maxSignal>
+</signalLevel>
+<packets>10</packets>
+<packetLink>8</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>285</dataBytes>
+<manufacturer>AsustekC</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:04 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:19 2016</lastTime>
+<type>Access Point</type>
+<essid>Unknown</essid>
+<beaconRate>10</beaconRate>
+<channel>1</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<clients>
+<client>
+<mac>C8:60:00:95:38:B7</mac>
+<firstTime>Wed Feb 10 19:29:19 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:19 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>AsustekC</manufacturer>
+<txDatabytes>285</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:00:85:F1:18:DD</deviceMac>
+<name>00:00:85:F1:18:DD</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:15 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:04 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:15 2016</lastSeen>
+<packets>5</packets>
+<frequencySeen>
+<frequency mhz="2417" packets="1"/>
+<frequency mhz="2422" packets="1"/>
+<frequency mhz="2427" packets="1"/>
+<frequency mhz="2432" packets="1"/>
+<frequency mhz="2452" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659170</longitude>
+<altitude>319.349900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723602</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723610</latitude>
+<longitude>-93.659164</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>0.000000</latitude>
+<longitude>0.000000</longitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-93</lastSignal>
+<minSignal>-93</minSignal>
+<maxSignal>-89</maxSignal>
+</signalLevel>
+<packets>5</packets>
+<packetLink>5</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Canon</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:04 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:15 2016</lastTime>
+<type>Client Probe Request</type>
+<essid>myqwest1604</essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:B5:99:03:DA:FF</deviceMac>
+<name>68:B5:99:03:DA:FF</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:05 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:05 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:05 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:05 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2452" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723610</latitude>
+<longitude>-93.659164</longitude>
+<altitude>320.500000</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723610</latitude>
+<longitude>-93.659164</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723610</latitude>
+<longitude>-93.659164</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723610</latitude>
+<longitude>-93.659164</longitude>
+<altitude>320.500000</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-87</lastSignal>
+<minSignal>-87</minSignal>
+<maxSignal>-87</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>2</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>HewlettP</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:05 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:05 2016</lastTime>
+<type>Client Probe Request</type>
+<essid>NETGEAR00</essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>20:76:00:0A:7F:64</deviceMac>
+<name>home</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:08 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:08 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:08 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:08 2016</lastSeen>
+<packets>38</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="38"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-79</lastSignal>
+<minSignal>-83</minSignal>
+<maxSignal>-75</maxSignal>
+</signalLevel>
+<packets>38</packets>
+<packetLink>10</packetLink>
+<packetData>28</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>40990</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+<type>Wired Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:08 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:08 2016</lastTime>
+<type>Access Point</type>
+<essid>home</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>TKIP AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>1</packetRetries>
+<clients>
+<client>
+<mac>60:02:B4:6E:E8:E0</mac>
+<firstTime>Wed Feb 10 19:29:08 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:08 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>WistronN</manufacturer>
+<txDatabytes>58</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>60:02:B4:6E:E8:E0</deviceMac>
+<name>60:02:B4:6E:E8:E0</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:08 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:08 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:08 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:08 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-79</lastSignal>
+<minSignal>-79</minSignal>
+<maxSignal>-79</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>58</dataBytes>
+<manufacturer>WistronN</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>20:76:00:0A:7F:64</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>A0:63:91:A9:E7:75</deviceMac>
+<name>NETGEAR51</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<packets>4</packets>
+<frequencySeen>
+<frequency mhz="2442" packets="3"/>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-81</lastSignal>
+<minSignal>-81</minSignal>
+<maxSignal>-77</maxSignal>
+</signalLevel>
+<packets>4</packets>
+<packetLink>4</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Netgear</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:12 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:12 2016</lastTime>
+<type>Access Point</type>
+<essid>NETGEAR51</essid>
+<beaconRate>10</beaconRate>
+<channel>7</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:23:69:8C:68:81</deviceMac>
+<name>&lt;Hidden SSID&gt;</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:13 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:13 2016</lastSeen>
+<packets>3</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="3"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-51</lastSignal>
+<minSignal>-51</minSignal>
+<maxSignal>-51</maxSignal>
+</signalLevel>
+<packets>3</packets>
+<packetLink>3</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:12 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:13 2016</lastTime>
+<type>Access Point</type>
+<essid></essid>
+<cloaked>true</cloaked>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C0:FF:D4:A1:12:A1</deviceMac>
+<name>DDWireless_2GEXT</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-89</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-89</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Netgear</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:12 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:12 2016</lastTime>
+<type>Access Point</type>
+<essid>DDWireless_2GEXT</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:7F:74:BD:1E:30</deviceMac>
+<name>DDWireless</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:12 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:12 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-77</lastSignal>
+<minSignal>-77</minSignal>
+<maxSignal>-77</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:12 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:12 2016</lastTime>
+<type>Access Point</type>
+<essid>DDWireless</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>6C:3B:E5:4A:A5:52</deviceMac>
+<name>HP-Print-52-Photosmart 5520</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:13 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:13 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:13 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:13 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-91</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-91</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>HewlettP</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:13 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:13 2016</lastTime>
+<type>Access Point</type>
+<essid>HP-Print-52-Photosmart 5520</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:60:00:95:38:B7</deviceMac>
+<name>Unknown_5G</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:13 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:13 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<packets>6</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="2"/>
+<frequency mhz="5180" packets="4"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-59</lastSignal>
+<minSignal>-59</minSignal>
+<maxSignal>-46</maxSignal>
+</signalLevel>
+<packets>6</packets>
+<packetLink>4</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>285</dataBytes>
+<manufacturer>AsustekC</manufacturer>
+<types>
+<type>Access Point</type>
+<type>Wired Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Wed Feb 10 19:29:13 2016</firstTime>
+<lastTime>Wed Feb 10 19:29:13 2016</lastTime>
+<type>Access Point</type>
+<essid>Unknown_5G</essid>
+<beaconRate>10</beaconRate>
+<channel>36</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:69:CD:61:00:5D</deviceMac>
+<name>C8:69:CD:61:00:5D</name>
+<commonTypes>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Wed Feb 10 19:29:19 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>736ef696-d056-11e5-9466-dc04bb23e201</uuid>
+<firstSeen>Wed Feb 10 19:29:19 2016</firstSeen>
+<lastSeen>Wed Feb 10 19:29:19 2016</lastSeen>
+<packets>7</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="7"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<gpsAverage>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899900</altitude>
+</gpsAverage>
+<gpsMinimum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMinimum>
+<gpsMaximum>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+</gpsMaximum>
+<gpsPeaksignal>
+<latitude>41.723606</latitude>
+<longitude>-93.659172</longitude>
+<altitude>318.899994</altitude>
+</gpsPeaksignal>
+<signalLevel type="dbm">
+<lastSignal>-65</lastSignal>
+<minSignal>-67</minSignal>
+<maxSignal>-65</maxSignal>
+</signalLevel>
+<packets>7</packets>
+<packetLink>7</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Apple</manufacturer>
+</device>
+</devices>
+</k:run>

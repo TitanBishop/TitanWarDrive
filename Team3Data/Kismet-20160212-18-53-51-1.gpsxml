@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE gps-run SYSTEM "http://kismetwireless.net/kismet-gps-2.9.1.dtd">
+
+<gps-run gps-version="5" start-time="Fri Feb 12 18:53:51 2016">
+
+    <network-file>/var/log/kismet/Kismet-20160212-18-53-51-1.netxml</network-file>
+
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321238" time-usec="803016" lat="41.723515" lon="-93.659012" spd="0.000000" heading="4.740000" fix="3" alt="281.000000"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321239" time-usec="930477" lat="41.723515" lon="-93.659004" spd="0.000000" heading="0.000000" fix="3" alt="280.591003"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321240" time-usec="933807" lat="41.723515" lon="-93.659004" spd="0.000000" heading="0.000000" fix="3" alt="280.591003"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321241" time-usec="961310" lat="41.723515" lon="-93.659004" spd="0.000000" heading="0.000000" fix="3" alt="280.591003"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321243" time-usec="22632" lat="41.723492" lon="-93.659058" spd="0.398000" heading="23.952000" fix="3" alt="273.143005"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321244" time-usec="216974" lat="41.723446" lon="-93.659119" spd="0.249000" heading="19.945999" fix="3" alt="262.335999"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321245" time-usec="283085" lat="41.723469" lon="-93.659119" spd="0.241000" heading="352.388611" fix="3" alt="263.588013"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321246" time-usec="377781" lat="41.723446" lon="-93.659119" spd="0.305000" heading="243.767303" fix="3" alt="262.335999"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321247" time-usec="473883" lat="41.723438" lon="-93.659103" spd="0.067000" heading="339.039703" fix="3" alt="264.442993"/>
+    <gps-point bssid="GP:SD:TR:AC:KL:OG" time-sec="1455321248" time-usec="519239" lat="41.723442" lon="-93.659103" spd="0.074000" heading="347.630005" fix="3" alt="265.854004"/>
+</gps-run>

@@ -1,0 +1,2130 @@
+<?xml version="1.0"?>
+<k:run xmlns:k="http://www.kismetwireless.net/xml"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.kismetwireless.net/xml kismet.xsd"
+
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211">
+
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://xmlns.myexample.com/version3"
+targetNamespace="http://www.kismetwireless.net/xml"
+xmlns:common="http://www.kismetwireless.net/xml/common"
+xmlns:device="http://www.kismetwireless.net/xml/device"
+xmlns:gps="http://www.kismetwireless.net/xml/gps"
+xmlns:run="http://www.kismetwireless.net/xml/run"
+xmlns:phy80211="http://www.kismetwireless.net/xml/phy80211"
+elementFormDefault="unqualified"
+attributeFromDefault="unqualified">
+<xs:import namespace="http://www.kismetwireless.net/xml/common" schemaLocation="http://www.kismetwireless.net/xml/common.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/device" schemaLocation="http://www.kismetwireless.net/xml/device.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/gps" schemaLocation="http://www.kismetwireless.net/xml/gps.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/run" schemaLocation="http://www.kismetwireless.net/xml/run.xsd"/>
+<xs:import namespace="http://www.kismetwireless.net/xml/phy80211" schemaLocation="http://www.kismetwireless.net/xml/phy80211.xsd"/>
+<xs:element name="run"/>
+</xs:schema>
+<version>2012-GIT-R0</version>
+<server>kali</server>
+<logname>Kismet</logname>
+<startTime>Mon Feb  8 19:57:26 2016</startTime>
+<endTime>Mon Feb  8 19:59:54 2016</endTime>
+<captureSources>
+<captureSource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<definition>wlan0</definition>
+<name>wlan0</name>
+<interface>wlan0mon</interface>
+<type>rt2800usb</type>
+<packets>2553</packets>
+<errorPackets>103</errorPackets>
+<channels>1,5,9,13,40,52,5310,5520,2,6,10,14,44,54,64,5540,3,7,11,36,46,56,5500,5550,4,8,12,38,48,60,5510,5560</channels>
+<channelhop>true</channelhop>
+</captureSource>
+</captureSources>
+<totalDevices>37</totalDevices>
+<phyTypes>
+<phyType>
+<name>IEEE802.11</name>
+<devices>37</devices>
+<packets>2450</packets>
+<packetData>594</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>103</packetError>
+</phyType>
+</phyTypes>
+<gpsDevices>
+<gpsDevice>
+<device>tcp://localhost:2947</device>
+<type>gpsd</type>
+</gpsDevice>
+</gpsDevices>
+<devices>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:60:00:95:38:B6</deviceMac>
+<name>Unknown</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:28 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:28 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<packets>656</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="656"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-42</lastSignal>
+<minSignal>-65</minSignal>
+<maxSignal>-40</maxSignal>
+</signalLevel>
+<packets>656</packets>
+<packetLink>105</packetLink>
+<packetData>551</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>527102</dataBytes>
+<manufacturer>AsustekC</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:28 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:51 2016</lastTime>
+<type>Access Point</type>
+<essid>Unknown</essid>
+<beaconRate>10</beaconRate>
+<channel>1</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>6</packetRetries>
+<clients>
+<client>
+<mac>9C:E6:35:2F:C2:F6</mac>
+<firstTime>Mon Feb  8 19:57:28 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:51 2016</lastTime>
+<type>Wireless</type>
+<txEncryption>none</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<manufacturer>Nintendo</manufacturer>
+<txDatabytes>0</txDatabytes>
+<rxDatabytes>9280</rxDatabytes>
+</client>
+<client>
+<mac>B8:E8:56:C7:B4:A2</mac>
+<firstTime>Mon Feb  8 19:59:51 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:51 2016</lastTime>
+<type>Wireless</type>
+<txEncryption>none</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>0</txDatabytes>
+<rxDatabytes>145</rxDatabytes>
+</client>
+<client>
+<mac>C8:60:00:95:38:B7</mac>
+<firstTime>Mon Feb  8 19:58:13 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:51 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>AsustekC</manufacturer>
+<txDatabytes>513165</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>C8:69:CD:61:00:5D</mac>
+<firstTime>Mon Feb  8 19:59:09 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:09 2016</lastTime>
+<type>Wireless</type>
+<txEncryption>none</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>0</txDatabytes>
+<rxDatabytes>128</rxDatabytes>
+</client>
+<client>
+<mac>CC:20:E8:2F:64:03</mac>
+<firstTime>Mon Feb  8 19:58:13 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:41 2016</lastTime>
+<type>Wireless</type>
+<txEncryption>none</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>0</txDatabytes>
+<rxDatabytes>4384</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>9C:E6:35:2F:C2:F6</deviceMac>
+<name>9C:E6:35:2F:C2:F6</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:28 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:28 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<packets>276</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="276"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-55</lastSignal>
+<minSignal>-57</minSignal>
+<maxSignal>-51</maxSignal>
+</signalLevel>
+<packets>276</packets>
+<packetLink>125</packetLink>
+<packetData>151</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>9280</dataBytes>
+<manufacturer>Nintendo</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:B5:99:03:DA:FF</deviceMac>
+<name>68:B5:99:03:DA:FF</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:32 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:19 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:32 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:19 2016</lastSeen>
+<packets>18</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="2"/>
+<frequency mhz="2417" packets="8"/>
+<frequency mhz="2422" packets="3"/>
+<frequency mhz="2442" packets="1"/>
+<frequency mhz="2447" packets="2"/>
+<frequency mhz="2452" packets="1"/>
+<frequency mhz="2457" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-87</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-85</maxSignal>
+</signalLevel>
+<packets>18</packets>
+<packetLink>18</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>HewlettP</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:32 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:19 2016</lastTime>
+<type>Client Probe Request</type>
+<essid>NETGEAR00</essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:26:B8:F3:01:BC</deviceMac>
+<name>myqwest9107</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<packets>9</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="9"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-93</lastSignal>
+<minSignal>-93</minSignal>
+<maxSignal>-89</maxSignal>
+</signalLevel>
+<packets>9</packets>
+<packetLink>9</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:26 2016</lastTime>
+<type>Access Point</type>
+<essid>myqwest9107</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>1</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>20:76:00:0A:7F:64</deviceMac>
+<name>home</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:41 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:41 2016</lastSeen>
+<packets>22</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="22"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-77</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-75</maxSignal>
+</signalLevel>
+<packets>22</packets>
+<packetLink>21</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>58</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:41 2016</lastTime>
+<type>Access Point</type>
+<essid>home</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>1</packetRetries>
+<clients>
+<client>
+<mac>60:02:B4:6E:E8:E0</mac>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:57:33 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>WistronN</manufacturer>
+<txDatabytes>58</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>08:95:2A:B4:15:D2</deviceMac>
+<name>graham</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:41 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:41 2016</lastSeen>
+<packets>18</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="18"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-73</maxSignal>
+</signalLevel>
+<packets>18</packets>
+<packetLink>12</packetLink>
+<packetData>6</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>576</dataBytes>
+<manufacturer>Technico</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:41 2016</lastTime>
+<type>Access Point</type>
+<essid>graham</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<clients>
+<client>
+<mac>00:24:14:63:E8:D9</mac>
+<firstTime>Mon Feb  8 19:58:02 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:26 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>CiscoInc</manufacturer>
+<txDatabytes>576</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>60:02:B4:6E:E8:E0</deviceMac>
+<name>60:02:B4:6E:E8:E0</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:02 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:02 2016</lastSeen>
+<packets>3</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="3"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-75</lastSignal>
+<minSignal>-77</minSignal>
+<maxSignal>-75</maxSignal>
+</signalLevel>
+<packets>3</packets>
+<packetLink>2</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>58</dataBytes>
+<manufacturer>WistronN</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>20:76:00:0A:7F:64</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>FC:8F:90:18:D0:8B</deviceMac>
+<name>FC:8F:90:18:D0:8B</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:17 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:17 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-77</lastSignal>
+<minSignal>-77</minSignal>
+<maxSignal>-77</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>0</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>468</dataBytes>
+<manufacturer>SamsungE</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>A8:39:44:55:CC:BC</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>A8:39:44:55:CC:BC</deviceMac>
+<name>myqwest4724</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<packets>18</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="18"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-79</lastSignal>
+<minSignal>-83</minSignal>
+<maxSignal>-69</maxSignal>
+</signalLevel>
+<packets>18</packets>
+<packetLink>14</packetLink>
+<packetData>4</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>1278</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:48 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:26 2016</lastTime>
+<type>Access Point</type>
+<essid>myqwest4724</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<clients>
+<client>
+<mac>A8:39:44:39:27:10</mac>
+<firstTime>Mon Feb  8 19:58:45 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:45 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Actionte</manufacturer>
+<txDatabytes>576</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>FC:8F:90:18:D0:8B</mac>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:17 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>SamsungE</manufacturer>
+<txDatabytes>468</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>BC:30:7D:87:B1:5C</deviceMac>
+<name>BC:30:7D:87:B1:5C</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<packets>12</packets>
+<frequencySeen>
+<frequency mhz="2457" packets="1"/>
+<frequency mhz="2462" packets="11"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-83</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>12</packets>
+<packetLink>0</packetLink>
+<packetData>12</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>4213</dataBytes>
+<manufacturer>WistronN</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>10:5F:06:53:00:D5</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>10:5F:06:53:00:D5</deviceMac>
+<name>Strong</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<packets>31</packets>
+<frequencySeen>
+<frequency mhz="2457" packets="2"/>
+<frequency mhz="2462" packets="29"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-83</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-81</maxSignal>
+</signalLevel>
+<packets>31</packets>
+<packetLink>15</packetLink>
+<packetData>16</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>4654</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Access Point</type>
+<essid>Strong</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>TKIP AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<clients>
+<client>
+<mac>00:10:75:2C:F4:03</mac>
+<firstTime>Mon Feb  8 19:57:52 2016</firstTime>
+<lastTime>Mon Feb  8 19:57:52 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>SegateTe</manufacturer>
+<txDatabytes>231</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>10:5F:06:53:00:D0</mac>
+<firstTime>Mon Feb  8 19:59:16 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:16 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Actionte</manufacturer>
+<txDatabytes>152</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>BC:30:7D:87:B1:5C</mac>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>WistronN</manufacturer>
+<txDatabytes>4213</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:BE:19:73:79:70</deviceMac>
+<name>dlink-7970</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:31 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:33 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:31 2016</lastSeen>
+<packets>3</packets>
+<frequencySeen>
+<frequency mhz="2457" packets="3"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-91</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-89</maxSignal>
+</signalLevel>
+<packets>3</packets>
+<packetLink>3</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>D-LinkIn</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:33 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:31 2016</lastTime>
+<type>Access Point</type>
+<essid>dlink-7970</essid>
+<beaconRate>10</beaconRate>
+<channel>10</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>A0:63:91:A9:E7:75</deviceMac>
+<name>NETGEAR51</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:36 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:36 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<packets>43</packets>
+<frequencySeen>
+<frequency mhz="2442" packets="42"/>
+<frequency mhz="2447" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-79</lastSignal>
+<minSignal>-81</minSignal>
+<maxSignal>-67</maxSignal>
+</signalLevel>
+<packets>43</packets>
+<packetLink>43</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Netgear</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:36 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Access Point</type>
+<essid>NETGEAR51</essid>
+<beaconRate>10</beaconRate>
+<channel>7</channel>
+<encryption>WPS WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C0:FF:D4:A1:12:A1</deviceMac>
+<name>DDWireless_2GEXT</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>34</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="34"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-81</maxSignal>
+</signalLevel>
+<packets>34</packets>
+<packetLink>31</packetLink>
+<packetData>3</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>3120</dataBytes>
+<manufacturer>Netgear</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Access Point</type>
+<essid>DDWireless_2GEXT</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<clients>
+<client>
+<mac>60:B6:06:02:3D:B3</mac>
+<firstTime>Mon Feb  8 19:58:21 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:16 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Phorus</manufacturer>
+<txDatabytes>3120</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:7F:74:BD:1E:30</deviceMac>
+<name>DDWireless</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>122</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="122"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-81</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-69</maxSignal>
+</signalLevel>
+<packets>122</packets>
+<packetLink>111</packetLink>
+<packetData>11</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>2686</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Access Point</type>
+<type>Wired Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Access Point</type>
+<essid>DDWireless</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>2</packetRetries>
+<clients>
+<client>
+<mac>02:0F:B5:02:3D:B3</mac>
+<firstTime>Mon Feb  8 19:58:48 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:16 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Unknown</manufacturer>
+<txDatabytes>2080</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>02:0F:B5:C5:E6:C7</mac>
+<firstTime>Mon Feb  8 19:59:45 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Wireless</type>
+<txEncryption>none</txEncryption>
+<rxEncryption>AES-CCMP</rxEncryption>
+<manufacturer>Unknown</manufacturer>
+<txDatabytes>0</txDatabytes>
+<rxDatabytes>152</rxDatabytes>
+</client>
+<client>
+<mac>68:64:4B:4B:F3:B9</mac>
+<firstTime>Mon Feb  8 19:59:30 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>398</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>68:7F:74:BD:1E:2E</mac>
+<firstTime>Mon Feb  8 19:59:45 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Cisco-Li</manufacturer>
+<txDatabytes>56</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>02:0F:B5:C5:E6:C7</deviceMac>
+<name>02:0F:B5:C5:E6:C7</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>60</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="60"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-81</maxSignal>
+</signalLevel>
+<packets>60</packets>
+<packetLink>58</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>152</dataBytes>
+<manufacturer>Unknown</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>68:7F:74:BD:1E:30</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:23:69:8C:68:81</deviceMac>
+<name>&lt;Hidden SSID&gt;</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<packets>12</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="12"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-47</lastSignal>
+<minSignal>-53</minSignal>
+<maxSignal>-44</maxSignal>
+</signalLevel>
+<packets>12</packets>
+<packetLink>12</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:30 2016</lastTime>
+<type>Access Point</type>
+<essid></essid>
+<cloaked>true</cloaked>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPS WPA WPA-PSK TKIP AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>6C:3B:E5:4A:A5:52</deviceMac>
+<name>HP-Print-52-Photosmart 5520</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>15</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="15"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-79</lastSignal>
+<minSignal>-83</minSignal>
+<maxSignal>-79</maxSignal>
+</signalLevel>
+<packets>15</packets>
+<packetLink>15</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>HewlettP</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Access Point</type>
+<essid>HP-Print-52-Photosmart 5520</essid>
+<beaconRate>10</beaconRate>
+<channel>11</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:60:00:95:38:B7</deviceMac>
+<name>Unknown_5G</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:37 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<packets>408</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="375"/>
+<frequency mhz="5180" packets="33"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-51</lastSignal>
+<minSignal>-59</minSignal>
+<maxSignal>-41</maxSignal>
+</signalLevel>
+<packets>408</packets>
+<packetLink>30</packetLink>
+<packetData>378</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>513398</dataBytes>
+<manufacturer>AsustekC</manufacturer>
+<types>
+<type>Access Point</type>
+<type>Wired Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:57:37 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Access Point</type>
+<essid>Unknown_5G</essid>
+<beaconRate>10</beaconRate>
+<channel>36</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+<clients>
+<client>
+<mac>78:9F:70:A1:96:A8</mac>
+<firstTime>Mon Feb  8 19:59:45 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:45 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>52</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>AC:BC:32:B8:38:BF</mac>
+<firstTime>Mon Feb  8 19:58:06 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:06 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>93</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+<client>
+<mac>CC:20:E8:2F:64:03</mac>
+<firstTime>Mon Feb  8 19:58:35 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:35 2016</lastTime>
+<type>Wired / Bridged</type>
+<txEncryption>AES-CCMP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<manufacturer>Apple</manufacturer>
+<txDatabytes>88</txDatabytes>
+<rxDatabytes>0</rxDatabytes>
+</client>
+</clients>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:10:75:2C:F4:03</deviceMac>
+<name>00:10:75:2C:F4:03</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:57:52 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:57:52 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:57:52 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:57:52 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-85</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>231</dataBytes>
+<manufacturer>SegateTe</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>10:5F:06:53:00:D5</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>00:24:14:63:E8:D9</deviceMac>
+<name>00:24:14:63:E8:D9</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:02 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:02 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:26 2016</lastSeen>
+<packets>6</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="6"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-87</lastSignal>
+<minSignal>-87</minSignal>
+<maxSignal>-73</maxSignal>
+</signalLevel>
+<packets>6</packets>
+<packetLink>0</packetLink>
+<packetData>6</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>576</dataBytes>
+<manufacturer>CiscoInc</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>08:95:2A:B4:15:D2</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>26:B7:C5:BE:22:4F</deviceMac>
+<name>26:B7:C5:BE:22:4F</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:02 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:02 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:02 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:02 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2457" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-55</lastSignal>
+<minSignal>-55</minSignal>
+<maxSignal>-51</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>2</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Unknown</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:58:02 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:02 2016</lastTime>
+<type>Client Probe Request</type>
+<essid></essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>AC:BC:32:B8:38:BF</deviceMac>
+<name>AC:BC:32:B8:38:BF</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:06 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:06 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:06 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:06 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="5180" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-45</lastSignal>
+<minSignal>-45</minSignal>
+<maxSignal>-45</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>93</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B7</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>CC:20:E8:2F:64:03</deviceMac>
+<name>CC:20:E8:2F:64:03</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:13 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:42 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:13 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:42 2016</lastSeen>
+<packets>32</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="30"/>
+<frequency mhz="5180" packets="1"/>
+<frequency mhz="5220" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-37</lastSignal>
+<minSignal>-43</minSignal>
+<maxSignal>-37</maxSignal>
+</signalLevel>
+<packets>32</packets>
+<packetLink>14</packetLink>
+<packetData>18</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>4472</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wireless Client</type>
+<type>Wired Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:59:42 2016</firstTime>
+<lastTime>Mon Feb  8 19:59:42 2016</lastTime>
+<type>Client Probe Request</type>
+<essid>Unknown</essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>A0:63:91:45:7F:3F</deviceMac>
+<name>A0:63:91:45:7F:3F</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:17 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:17 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:17 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:17 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-89</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-89</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>58</dataBytes>
+<manufacturer>Netgear</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>TKIP</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>60:B6:06:02:3D:B3</deviceMac>
+<name>60:B6:06:02:3D:B3</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:21 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:21 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<packets>3</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="3"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-87</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-87</maxSignal>
+</signalLevel>
+<packets>3</packets>
+<packetLink>0</packetLink>
+<packetData>3</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>3120</dataBytes>
+<manufacturer>Phorus</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C0:FF:D4:A1:12:A1</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>10:40:F3:E8:E9:90</deviceMac>
+<name>10:40:F3:E8:E9:90</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:42 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:42 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:42 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:42 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="5200" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-50</lastSignal>
+<minSignal>-50</minSignal>
+<maxSignal>-50</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:58:42 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:42 2016</lastTime>
+<type>Client Probe Request</type>
+<essid></essid>
+<encryption>none</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>A8:39:44:39:27:10</deviceMac>
+<name>A8:39:44:39:27:10</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:45 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-73</lastSignal>
+<minSignal>-73</minSignal>
+<maxSignal>-73</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>576</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>A8:39:44:55:CC:BC</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>BC:30:7D:21:13:B6</deviceMac>
+<name>BC:30:7D:21:13:B6</name>
+<commonTypes>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>none</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:48 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:48 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:48 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:48 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2442" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>2</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>WistronN</manufacturer>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>02:0F:B5:02:3D:B3</deviceMac>
+<name>02:0F:B5:02:3D:B3</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:48 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:48 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<packets>3</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="3"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-83</lastSignal>
+<minSignal>-87</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>3</packets>
+<packetLink>1</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>2080</dataBytes>
+<manufacturer>Unknown</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>68:7F:74:BD:1E:30</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>54:A0:50:D4:72:40</deviceMac>
+<name>Wise_Gray_Dragon</name>
+<classifiedType>AP</classifiedType>
+<commonTypes>
+<commonType>ap</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:58:58 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:58 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:58:58 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:58:58 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2437" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-91</lastSignal>
+<minSignal>-91</minSignal>
+<maxSignal>-91</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>1</packetLink>
+<packetData>0</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>0</dataBytes>
+<manufacturer>AsustekC</manufacturer>
+<types>
+<type>Access Point</type>
+</types>
+<ssids>
+<ssid>
+<firstTime>Mon Feb  8 19:58:58 2016</firstTime>
+<lastTime>Mon Feb  8 19:58:58 2016</lastTime>
+<type>Access Point</type>
+<essid>Wise_Gray_Dragon</essid>
+<beaconRate>10</beaconRate>
+<channel>6</channel>
+<encryption>WPA WPA-PSK AES-CCMP</encryption></ssid>
+</ssids>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>C8:69:CD:61:00:5D</deviceMac>
+<name>C8:69:CD:61:00:5D</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:09 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:09 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:09 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:09 2016</lastSeen>
+<packets>4</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="4"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-65</lastSignal>
+<minSignal>-65</minSignal>
+<maxSignal>-65</maxSignal>
+</signalLevel>
+<packets>4</packets>
+<packetLink>2</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>128</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>10:5F:06:53:00:D0</deviceMac>
+<name>10:5F:06:53:00:D0</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:16 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:16 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:16 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-83</lastSignal>
+<minSignal>-89</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>0</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>152</dataBytes>
+<manufacturer>Actionte</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>10:5F:06:53:00:D5</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:64:4B:4B:F3:B9</deviceMac>
+<name>68:64:4B:4B:F3:B9</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:30 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:30 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:30 2016</lastSeen>
+<packets>2</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="2"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-85</lastSignal>
+<minSignal>-85</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>2</packets>
+<packetLink>0</packetLink>
+<packetData>2</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>398</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>68:7F:74:BD:1E:30</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>68:7F:74:BD:1E:2E</deviceMac>
+<name>68:7F:74:BD:1E:2E</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="2462" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-83</lastSignal>
+<minSignal>-83</minSignal>
+<maxSignal>-83</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>56</dataBytes>
+<manufacturer>Cisco-Li</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>68:7F:74:BD:1E:30</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>78:9F:70:A1:96:A8</deviceMac>
+<name>78:9F:70:A1:96:A8</name>
+<classifiedType>Wired</classifiedType>
+<commonTypes>
+<commonType>wired</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:45 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:45 2016</lastSeen>
+<packets>1</packets>
+<frequencySeen>
+<frequency mhz="5180" packets="1"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-43</lastSignal>
+<minSignal>-43</minSignal>
+<maxSignal>-43</maxSignal>
+</signalLevel>
+<packets>1</packets>
+<packetLink>0</packetLink>
+<packetData>1</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>52</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wired Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B7</lastBssid>
+</device>
+<device xsi:type="phy80211:phy80211device" phy="phy80211">
+<deviceMac>B8:E8:56:C7:B4:A2</deviceMac>
+<name>B8:E8:56:C7:B4:A2</name>
+<classifiedType>Client</classifiedType>
+<commonTypes>
+<commonType>client</commonType>
+</commonTypes>
+<commonCryptTypes>
+<commonCrypt>L2 encrypted</commonCrypt>
+<commonCrypt>L3 encrypted</commonCrypt>
+</commonCryptTypes>
+<firstSeen>Mon Feb  8 19:59:51 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<seenBySources>
+<seenBySource>
+<uuid>1653f252-cec8-11e5-8b03-dc04bb23e201</uuid>
+<firstSeen>Mon Feb  8 19:59:51 2016</firstSeen>
+<lastSeen>Mon Feb  8 19:59:51 2016</lastSeen>
+<packets>7</packets>
+<frequencySeen>
+<frequency mhz="2412" packets="7"/>
+</frequencySeen>
+</seenBySource>
+</seenBySources>
+<signalLevel type="dbm">
+<lastSignal>-42</lastSignal>
+<minSignal>-44</minSignal>
+<maxSignal>-42</maxSignal>
+</signalLevel>
+<packets>7</packets>
+<packetLink>1</packetLink>
+<packetData>6</packetData>
+<packetFiltered>0</packetFiltered>
+<packetError>0</packetError>
+<dataBytes>145</dataBytes>
+<manufacturer>Apple</manufacturer>
+<types>
+<type>Wireless Client</type>
+</types>
+<txEncryption>none</txEncryption>
+<rxEncryption>none</rxEncryption>
+<packetFragments>0</packetFragments>
+<packetRetries>0</packetRetries>
+<lastBssid>C8:60:00:95:38:B6</lastBssid>
+</device>
+</devices>
+</k:run>
